@@ -1,15 +1,17 @@
-﻿Log file open, 10/01/17 15:20:42
+﻿Log file open, 10/01/17 15:49:12
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Bowcaster
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1853660037) SRandInit(1853660037).
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.169981
+LogInit: Display: RandInit(1587761481) SRandInit(1587761481).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.122736
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -107,541 +109,745 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
 LogInit: Command line: -EpicPortal 
-LogInit: Base directory: D:/Program Files/UE_4.17/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.01-19.20.43:029][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.01-19.20.43:029][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.01-19.20.43:056][  0]LogInit: Computer: MSI
-[2017.10.01-19.20.43:056][  0]LogInit: User: aidan
-[2017.10.01-19.20.43:056][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.01-19.20.43:056][  0]LogInit: High frequency timer resolution =2.531249 MHz
-[2017.10.01-19.20.43:057][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.10.01-19.20.43:058][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.01-19.20.43:058][  0]LogMemory: Process Physical Memory: 278.78 MB used, 278.78 MB peak
-[2017.10.01-19.20.43:058][  0]LogMemory: Process Virtual Memory: 282.57 MB used, 282.57 MB peak
-[2017.10.01-19.20.43:058][  0]LogMemory: Physical Memory: 11215.38 MB used,  5044.44 MB free, 16259.82 MB total
-[2017.10.01-19.20.43:058][  0]LogMemory: Virtual Memory: 677.22 MB used,  5044.44 MB free, 134217728.00 MB total
-[2017.10.01-19.20.43:770][  0]LogInit: Using OS detected language (en-US).
-[2017.10.01-19.20.43:770][  0]LogInit: Using OS detected locale (en-CA).
-[2017.10.01-19.20.43:773][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.10.01-19.20.44:501][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.01-19.20.45:139][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2017.10.01-19.20.45:139][  0]LogD3D11RHI:       2019/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.10.01-19.20.45:146][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2017.10.01-19.20.45:146][  0]LogD3D11RHI:       128/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.10.01-19.20.45:148][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.10.01-19.20.45:148][  0]LogD3D11RHI:       0/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.10.01-19.20.45:148][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.01-19.20.45:153][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.01-19.20.45:153][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2017.10.01-19.20.45:153][  0]LogWindows: EnumDisplayDevices:
-[2017.10.01-19.20.45:154][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2017.10.01-19.20.45:154][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.10.01-19.20.45:154][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.10.01-19.20.45:154][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.10.01-19.20.45:154][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2017.10.01-19.20.45:154][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.10.01-19.20.45:154][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.10.01-19.20.45:154][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.01-19.20.45:762][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.01-19.20.45:829][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.10.01-19.20.45:832][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Intermediate/Shaders/WorkingDirectory/1980/).
-[2017.10.01-19.20.45:833][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aidan/AppData/Local/Temp/UnrealShaderWorkingDir/6BC695194246023B506DE3AA261CC9B6/'.
-[2017.10.01-19.20.45:833][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.10.01-19.20.46:744][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.01-19.20.46:797][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.10.01-19.20.46:837][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.01-19.20.46:876][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.10.01-19.20.46:915][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.10.01-19.20.46:955][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.01-19.20.47:011][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.01-19.20.47:049][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.01-19.20.47:082][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.10.01-19.20.47:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.10.01-19.20.47:158][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.01-19.20.47:197][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.01-19.20.47:234][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.01-19.20.47:273][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.01-19.20.47:311][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.01-19.20.47:402][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.01-19.20.47:403][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.01-19.20.47:429][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.10.01-19.20.47:505][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.10.01-19.20.47:540][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.10.01-19.20.47:609][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.01-19.20.47:660][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.01-19.20.47:698][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.01-19.20.47:738][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.10.01-19.20.47:738][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.10.01-19.20.48:103][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.10.01-19.20.48:187][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/aidan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.01-19.20.48:187][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/aidan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.10.01-19.20.48:187][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.01-19.20.48:187][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.01-19.20.48:187][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.01-19.20.48:187][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.01-19.20.48:206][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.01-19.20.48:219][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aidan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.01-19.20.48:230][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.01-19.20.48:230][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.01-19.20.48:231][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.01-19.20.48:231][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.01-19.20.48:516][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
-[2017.10.01-19.20.48:625][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.01-19.20.48:748][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.01-19.20.49:021][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.01-19.20.49:049][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.01-19.20.49:049][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.01-19.20.49:049][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.10.01-19.20.49:049][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.10.01-19.20.49:049][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.10.01-19.20.49:371][  0]LogNetVersion: Bowcaster , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4119434037)
-[2017.10.01-19.20.49:553][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.040435 seconds
-[2017.10.01-19.20.49:559][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.10.01-19.20.49:559][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.10.01-19.20.49:559][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.01-19.20.49:601][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.01-19.20.51:825][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.01-19.20.51:855][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.01-19.20.52:334][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.01-19.20.52:656][  0]SourceControl: Source control is disabled
-[2017.10.01-19.20.52:656][  0]SourceControl: Source control is disabled
-[2017.10.01-19.20.52:723][  0]SourceControl: Source control is disabled
-[2017.10.01-19.20.52:769][  0]SourceControl: Source control is disabled
-[2017.10.01-19.20.53:237][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.01-19.20.53:437][  0]LogOcInput: OculusInput pre-init called
-[2017.10.01-19.20.53:655][  0]LogEngine: Initializing Engine...
-[2017.10.01-19.20.53:657][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.01-19.20.53:872][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.01-19.20.53:872][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.01-19.20.53:964][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.01-19.20.53:979][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2017.10.01-19.20.54:028][  0]LogInit: FAudioDevice initialized.
-[2017.10.01-19.20.54:122][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/aidan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.01-19.20.54:148][  0]LogInit: Texture streaming: Enabled
-[2017.10.01-19.20.54:227][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.01-19.20.54:381][  0]LogInit: Transaction tracking system initialized
-[2017.10.01-19.20.54:601][  0]BlueprintLog: New page: Editor Load
-[2017.10.01-19.20.55:225][  0]LocalizationService: Localization service is disabled
-[2017.10.01-19.20.55:748][  0]LogConsoleResponse: Display: 
-[2017.10.01-19.20.55:913][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.01-19.20.55:913][  0]LogFileCache: Scanning file cache for directory 'D:/OneDrive/UofT Projects/Unreal/Bowcaster/Content/' took 0.01s
-[2017.10.01-19.20.55:913][  0]LogCook: Display: Mobile HDR setting 1
-[2017.10.01-19.20.55:913][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.10.01-19.20.56:641][  0]SourceControl: Source control is disabled
-[2017.10.01-19.20.56:641][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.01-19.20.56:642][  0]LightingResults: New page: Lighting Build
-[2017.10.01-19.20.56:669][  0]MapCheck: New page: Map Check
-[2017.10.01-19.20.56:670][  0]LightingResults: New page: Lighting Build
-[2017.10.01-19.20.56:852][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.10.01-19.20.56:857][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.01-19.20.56:870][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.01-19.20.56:906][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.062ms to complete.
-[2017.10.01-19.20.56:906][  0]LogFileHelpers: Loading map 'Template_Default' took 0.265
-[2017.10.01-19.20.56:990][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2017.10.01-19.20.57:074][  0]LogCollectionManager: Loaded 0 collections in 0.000823 seconds
-[2017.10.01-19.20.57:145][  0]LogFileCache: Scanning file cache for directory 'D:/OneDrive/UofT Projects/Unreal/Bowcaster/Saved/Collections/' took 0.01s
-[2017.10.01-19.20.57:145][  0]LogFileCache: Scanning file cache for directory 'D:/OneDrive/UofT Projects/Unreal/Bowcaster/Content/Developers/aidan/Collections/' took 0.01s
-[2017.10.01-19.20.57:145][  0]LogFileCache: Scanning file cache for directory 'D:/OneDrive/UofT Projects/Unreal/Bowcaster/Content/Collections/' took 0.01s
-[2017.10.01-19.20.57:145][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.10.01-19.20.57:155][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2386 classes and 500 folders.
-[2017.10.01-19.20.57:201][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2017.10.01-19.20.57:236][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.10.01-19.20.57:266][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.10.01-19.20.57:306][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.01-19.20.57:309][  0]LogSlate: Took 0.000445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.01-19.20.57:316][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.01-19.20.57:429][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
-[2017.10.01-19.20.57:625][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.10.01-19.20.57:625][  0]LogLoad: (Engine Initialization) Total time: 15.94 seconds
-[2017.10.01-19.20.57:625][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.10.01-19.20.57:625][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.10.01-19.20.57:625][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.10.01-19.20.57:662][  0]LogAssetRegistry: Asset discovery search completed in 9.1685 seconds
-[2017.10.01-19.20.57:664][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.10.01-19.20.57:664][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
-[2017.10.01-19.20.57:667][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.10.01-19.21.12:122][594]LightingResults: New page: Lighting Build
-[2017.10.01-19.21.12:122][594]MapCheck: New page: Map Check
-[2017.10.01-19.21.12:123][594]LightingResults: New page: Lighting Build
-[2017.10.01-19.21.12:133][594]LogAIModule: Creating AISystem for world Untitled
-[2017.10.01-19.21.12:135][594]LoadErrors: New page: New Map
-[2017.10.01-19.21.25:426][302]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2017.10.01-19.21.37:339][957]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
-[2017.10.01-19.21.42:209][245]LogEditorViewport: Clicking Background
-[2017.10.01-19.21.50:667][567]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.01-19.22.39:115][235]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.01-19.22.39:210][235]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\OneDrive\UofT Projects\BaseModel.FBX)
-[2017.10.01-19.22.39:330][235]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.10.01-19.22.39:330][235]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2017.10.01-19.22.39:330][235]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2017.10.01-19.22.39:330][235]LogFbx: ItemName: Model, ItemCount : 1
-[2017.10.01-19.22.39:330][235]LogFbx: ItemName: Geometry, ItemCount : 1
-[2017.10.01-19.22.39:386][235]LogFbx: Loading FBX Scene from D:\OneDrive\UofT Projects\BaseModel.FBX
-[2017.10.01-19.22.39:419][235]LogFbx: FBX Scene Loaded Succesfully
-[2017.10.01-19.22.53:776][235]LogFbx: Loading FBX Scene from D:\OneDrive\UofT Projects\BaseModel.FBX
-[2017.10.01-19.22.53:789][235]LogFbx: FBX Scene Loaded Succesfully
-[2017.10.01-19.22.53:813][235]LogStaticMesh: Building static mesh BaseModel...
-[2017.10.01-19.22.53:916][235]LogStaticMesh: Built static mesh [0.10s] /Game/Art/Geometry/BaseModel.BaseModel
-[2017.10.01-19.22.53:976][235]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2017.10.01-19.22.58:094][347]LogActorFactory: Actor Factory created BaseModel
-[2017.10.01-19.22.59:271][415]LogActorFactory: Actor Factory created BaseModel
-[2017.10.01-19.23.03:690][677]LogEditorViewport: Clicking Background
-[2017.10.01-19.23.06:815][864]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
-[2017.10.01-19.23.11:936][168]LogEditorViewport: Clicking Background
-[2017.10.01-19.23.16:603][428]MapCheck: New page: Map Check
-[2017.10.01-19.23.16:712][428]Cmd: MAP REBUILD ALLVISIBLE
-[2017.10.01-19.23.16:715][428]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.10.01-19.23.16:926][428]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.10.01-19.23.17:392][428]TextureStreamingBuild: Display: Compiling optional shaders took 0.493 seconds.
-[2017.10.01-19.23.17:402][428]LogLevel: Display: Export Material TexCoord Scales took 0.010 seconds.
-[2017.10.01-19.23.17:421][428]TextureStreamingBuild: Display: Build Texture Streaming took 0.009 seconds.
-[2017.10.01-19.23.17:430][428]LightingResults: New page: Lighting Build - Oct 1, 2017, 11:23:17 AM
-[2017.10.01-19.23.17:478][428]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.10.01-19.23.17:541][428]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.10.01-19.23.17:552][428]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.10.01-19.23.18:087][428]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.10.01-19.23.18:087][428]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1980
-[2017.10.01-19.23.20:704][428]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.10.01-19.23.20:746][428]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.10.01-19.23.20:746][428]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.10.01-19.23.20:746][428]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.10.01-19.23.20:746][428]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.10.01-19.23.20:746][428]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.10.01-19.23.21:080][428]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.10.01-19.23.21:080][428]MapCheck: New page: Untitled_2 - Oct 1, 2017, 11:23:21 AM
-[2017.10.01-19.23.21:098][428]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
-[2017.10.01-19.23.21:134][428]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 53.766ms to complete.
-[2017.10.01-19.23.21:156][428]LogEditorBuildUtils: Build time 0:04
-[2017.10.01-19.23.22:578][440]Job has failed! Job executable didn't exit cleanly. Exit code: -1066598274
-[2017.10.01-19.23.22:686][440]LogStaticLightingSystem: Warning: Failed to build lighting!!! Lighting build failed.
-[2017.10.01-19.23.27:712][440]DumpUnbuiltLightIteractions
-[2017.10.01-19.23.27:712][440]Lights with unbuilt interactions: 1
-[2017.10.01-19.23.27:712][440]    Light DirectionalLight_1
-[2017.10.01-19.23.27:712][440]
-[2017.10.01-19.23.27:712][440]Primitives with unbuilt interactions: 1
-[2017.10.01-19.23.27:712][440]    Primitive StaticMeshComponent /Temp/Untitled_2.Untitled:PersistentLevel.BaseModel_2.StaticMeshComponent0
-[2017.10.01-19.23.27:906][441]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.10.01-19.23.27:906][441]MapCheck: New page: Untitled_2 - Oct 1, 2017, 11:23:27 AM
-[2017.10.01-19.23.27:931][441]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
-[2017.10.01-19.23.27:968][441]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 61.2ms to complete.
-[2017.10.01-19.23.31:687][527]LogEditorViewport: Clicking Background
-[2017.10.01-19.23.35:797][586]MapCheck: New page: Map Check
-[2017.10.01-19.23.35:849][586]Cmd: MAP REBUILD ALLVISIBLE
-[2017.10.01-19.23.35:849][586]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.10.01-19.23.35:971][586]LightingResults: New page: Lighting Build - Oct 1, 2017, 11:23:35 AM
-[2017.10.01-19.23.36:057][586]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.10.01-19.23.36:064][586]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.10.01-19.23.36:064][586]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.10.01-19.23.36:064][586]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.10.01-19.23.36:064][586]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1980
-[2017.10.01-19.23.40:691][586]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.10.01-19.23.40:691][586]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.10.01-19.23.40:691][586]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.10.01-19.23.40:691][586]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.10.01-19.23.40:691][586]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.10.01-19.23.40:691][586]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.10.01-19.23.40:821][586]LogEditorBuildUtils: Build time 0:05
-[2017.10.01-19.23.42:272][609]LightingResults: Warning: BaseModel Object has overlapping UVs.
-[2017.10.01-19.23.42:272][609]LightingResults: BaseModel Lightmap UV are overlapping by 33.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.01-19.23.42:281][610]Job is a success!
-[2017.10.01-19.23.42:666][611]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
-[2017.10.01-19.23.42:666][611]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
-[2017.10.01-19.23.42:666][611]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2017.10.01-19.23.42:666][611]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2017.10.01-19.23.42:666][611]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 64X64)
-[2017.10.01-19.23.42:666][611]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 64X8)
-[2017.10.01-19.23.42:800][611]Lightmass on MSI: 1.26 sec total, 126 ms importing, 28 ms setup, 271 ms photons, 788 ms processing, 0 ms extra exporting [7/7 mappings]. Threads: 5.36 sec total, 248 ms processing.
-[2017.10.01-19.23.42:945][611]LogStaticLightingSystem: Illumination: 6.82 sec (16 ms encoding lightmaps, 4 ms encoding shadowmaps)
-[2017.10.01-19.23.42:945][611]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.10.01-19.23.42:945][611]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.10.01-19.23.43:641][611]DumpUnbuiltLightIteractions
-[2017.10.01-19.23.43:642][611]Lights with unbuilt interactions: 0
-[2017.10.01-19.23.43:642][611]
-[2017.10.01-19.23.43:642][611]Primitives with unbuilt interactions: 0
-[2017.10.01-19.23.43:658][612]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.10.01-19.23.43:658][612]MapCheck: New page: Untitled_2 - Oct 1, 2017, 11:23:43 AM
-[2017.10.01-19.23.43:804][612]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 146.592ms to complete.
-[2017.10.01-19.24.41:824][960]LogEditorViewport: Clicking Background
-[2017.10.01-19.24.57:423][800]LogEditor: Attempting to add actor of class 'PaperCharacter' to level at -100.00,-120.00,120.00
-[2017.10.01-19.24.58:763][871]LogEditor: Attempting to add actor of class 'PaperCharacter' to level at -100.00,-120.00,120.00
-[2017.10.01-19.25.06:923][343]Cmd: DELETE
-[2017.10.01-19.25.06:923][343]Cmd: ACTOR DELETE
-[2017.10.01-19.25.06:934][343]LogEditorActor: Deleted Actor: PaperCharacter
-[2017.10.01-19.25.06:966][343]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2017.10.01-19.25.10:031][431]LogEditor: Attempting to add actor of class 'ArchVisCharacter' to level at -200.00,-110.00,310.00
-[2017.10.01-19.25.11:105][478]LogEditor: Attempting to add actor of class 'ArchVisCharacter' to level at -200.00,-110.00,310.00
-[2017.10.01-19.25.16:728][808]Cmd: DELETE
-[2017.10.01-19.25.16:728][808]Cmd: ACTOR DELETE
-[2017.10.01-19.25.16:729][808]LogEditorActor: Deleted Actor: ArchVisCharacter
-[2017.10.01-19.25.16:741][808]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2017.10.01-19.25.45:140][285]LogEditorViewport: Clicking Background
-[2017.10.01-19.27.24:256][ 56]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\OneDrive\UofT Projects\Base World.FBX)
-[2017.10.01-19.27.24:271][ 56]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.10.01-19.27.24:271][ 56]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2017.10.01-19.27.24:271][ 56]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2017.10.01-19.27.24:271][ 56]LogFbx: ItemName: Model, ItemCount : 5
-[2017.10.01-19.27.24:271][ 56]LogFbx: ItemName: Geometry, ItemCount : 5
-[2017.10.01-19.27.24:278][ 56]LogFbx: Loading FBX Scene from D:\OneDrive\UofT Projects\Base World.FBX
-[2017.10.01-19.27.24:329][ 56]LogFbx: FBX Scene Loaded Succesfully
-[2017.10.01-19.27.34:818][ 56]LogFbx: Loading FBX Scene from D:\OneDrive\UofT Projects\Base World.FBX
-[2017.10.01-19.27.34:829][ 56]LogFbx: FBX Scene Loaded Succesfully
-[2017.10.01-19.27.34:838][ 56]LogFbx: Warning: Triangulating static mesh Sphere001
-[2017.10.01-19.27.34:943][ 56]LogStaticMesh: Building static mesh Base_World_Sphere001...
-[2017.10.01-19.27.34:948][ 56]LogStaticMesh: Built static mesh [0.01s] /Game/Art/Geometry/Base_World_Sphere001.Base_World_Sphere001
-[2017.10.01-19.27.34:955][ 56]LogFbx: Warning: Triangulating static mesh Box003
-[2017.10.01-19.27.34:957][ 56]LogStaticMesh: Building static mesh Base_World_Box003...
-[2017.10.01-19.27.34:960][ 56]LogStaticMesh: Built static mesh [0.00s] /Game/Art/Geometry/Base_World_Box003.Base_World_Box003
-[2017.10.01-19.27.34:965][ 56]LogFbx: Warning: Triangulating static mesh Sphere002
-[2017.10.01-19.27.35:006][ 56]LogStaticMesh: Building static mesh Base_World_Sphere002...
-[2017.10.01-19.27.35:011][ 56]LogStaticMesh: Built static mesh [0.01s] /Game/Art/Geometry/Base_World_Sphere002.Base_World_Sphere002
-[2017.10.01-19.27.35:018][ 56]LogFbx: Warning: Triangulating static mesh Torus001
-[2017.10.01-19.27.35:088][ 56]LogStaticMesh: Building static mesh Base_World_Torus001...
-[2017.10.01-19.27.35:095][ 56]LogStaticMesh: Built static mesh [0.01s] /Game/Art/Geometry/Base_World_Torus001.Base_World_Torus001
-[2017.10.01-19.27.35:104][ 56]LogStaticMesh: Building static mesh Base_World_Cylinder002...
-[2017.10.01-19.27.35:105][ 56]LogStaticMesh: Built static mesh [0.00s] /Game/Art/Geometry/Base_World_Cylinder002.Base_World_Cylinder002
-[2017.10.01-19.27.35:113][ 56]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2017.10.01-19.27.47:656][403]LogActorFactory: Actor Factory created Base_World_Sphere001
-[2017.10.01-19.27.49:681][524]LogActorFactory: Actor Factory created Base_World_Sphere001
-[2017.10.01-19.28.22:589][291]LogActorFactory: Actor Factory created Base_World_Sphere002
-[2017.10.01-19.28.23:609][351]LogActorFactory: Actor Factory created Base_World_Sphere002
-[2017.10.01-19.28.47:670][697]LogActorFactory: Actor Factory created Base_World_Torus001
-[2017.10.01-19.28.48:677][756]LogActorFactory: Actor Factory created Base_World_Torus001
-[2017.10.01-19.28.50:646][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Sphere002)
-[2017.10.01-19.28.52:558][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Torus001)
-[2017.10.01-19.29.06:516][380]LogActorFactory: Actor Factory created Base_World_Box003
-[2017.10.01-19.29.07:108][414]LogActorFactory: Actor Factory created Base_World_Box003
-[2017.10.01-19.29.10:749][629]Cmd: DELETE
-[2017.10.01-19.29.10:749][629]Cmd: ACTOR DELETE
-[2017.10.01-19.29.10:750][629]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.10.01-19.29.10:760][629]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.10.01-19.29.44:346][  8]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0006 seconds. Added 1 classes and 0 folders.
-[2017.10.01-19.29.44:348][  8]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.29.44:434][  8]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.29.44:481][  8]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.10.01-19.29.45:660][ 26]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.10.01-19.29.45:660][ 26]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.10.01-19.29.45:660][ 26]MaterialEditorStats: Texture samplers: 1/16
-[2017.10.01-19.29.49:420][108]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.29.50:327][123]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.10.01-19.29.50:327][123]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.10.01-19.29.50:327][123]MaterialEditorStats: Texture samplers: 1/16
-[2017.10.01-19.30.02:937][355]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.30.02:987][355]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.30.04:091][374]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.10.01-19.30.04:091][374]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.10.01-19.30.04:091][374]MaterialEditorStats: Texture samplers: 1/16
-[2017.10.01-19.30.06:907][424]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.30.08:660][448]MaterialEditorStats: Base pass shader: 79 instructions
-[2017.10.01-19.30.08:660][448]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.10.01-19.30.08:660][448]MaterialEditorStats: Texture samplers: 1/16
-[2017.10.01-19.30.11:003][488]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
-[2017.10.01-19.30.19:537][654]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.30.21:193][684]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.10.01-19.30.21:194][684]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.10.01-19.30.21:194][684]MaterialEditorStats: Texture samplers: 1/16
-[2017.10.01-19.30.46:359][218]LogMaterialEditor: Applying material Glass
-[2017.10.01-19.30.46:866][218]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.30.46:969][218]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.30.47:060][218]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.30.47:115][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass, compiling. 
-[2017.10.01-19.30.48:464][218]TextureStreamingBuild: Display: Compiling optional shaders took 1.356 seconds.
-[2017.10.01-19.30.57:020][512]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2017.10.01-19.30.57:108][512]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2017.10.01-19.30.57:135][512]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2017.10.01-19.30.58:826][539]MaterialEditorStats: Base pass shader: 78 instructions
-[2017.10.01-19.30.58:826][539]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.10.01-19.30.58:826][539]MaterialEditorStats: Texture samplers: 1/16
-[2017.10.01-19.31.08:378][699]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2017.10.01-19.31.08:457][699]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2017.10.01-19.31.10:053][722]MaterialEditorStats: Base pass shader: 44 instructions
-[2017.10.01-19.31.10:053][722]MaterialEditorStats: Vertex shader: 122 instructions
-[2017.10.01-19.31.10:053][722]MaterialEditorStats: Texture samplers: 4/16
-[2017.10.01-19.31.12:502][763]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2017.10.01-19.31.14:123][786]MaterialEditorStats: Base pass shader: 48 instructions
-[2017.10.01-19.31.14:123][786]MaterialEditorStats: Vertex shader: 122 instructions
-[2017.10.01-19.31.14:123][786]MaterialEditorStats: Texture samplers: 4/16
-[2017.10.01-19.31.32:702][203]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2017.10.01-19.31.32:719][203]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.10.01-19.31.34:684][230]MaterialEditorStats: Base pass shader: 48 instructions
-[2017.10.01-19.31.34:684][230]MaterialEditorStats: Vertex shader: 122 instructions
-[2017.10.01-19.31.34:684][230]MaterialEditorStats: Texture samplers: 4/16
-[2017.10.01-19.31.36:684][261]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2017.10.01-19.31.36:703][261]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.10.01-19.31.38:404][286]MaterialEditorStats: Base pass shader: 48 instructions
-[2017.10.01-19.31.38:404][286]MaterialEditorStats: Vertex shader: 122 instructions
-[2017.10.01-19.31.38:404][286]MaterialEditorStats: Texture samplers: 4/16
-[2017.10.01-19.31.41:988][333]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2017.10.01-19.31.42:014][333]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.10.01-19.31.43:236][350]LogMaterialEditor: Applying material Glass
-[2017.10.01-19.31.43:852][350]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2017.10.01-19.31.43:931][350]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.31.43:967][350]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.31.44:013][350]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass, compiling. 
-[2017.10.01-19.31.45:184][350]TextureStreamingBuild: Display: Compiling optional shaders took 1.179 seconds.
-[2017.10.01-19.31.51:565][666]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2017.10.01-19.31.51:637][666]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2017.10.01-19.31.51:656][666]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2017.10.01-19.31.51:703][666]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.10.01-19.31.53:350][689]MaterialEditorStats: Base pass shader: 49 instructions
-[2017.10.01-19.31.53:350][689]MaterialEditorStats: Vertex shader: 122 instructions
-[2017.10.01-19.31.53:350][689]MaterialEditorStats: Texture samplers: 4/16
-[2017.10.01-19.31.59:629][827]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2017.10.01-19.32.01:283][856]MaterialEditorStats: Base pass shader: 45 instructions
-[2017.10.01-19.32.01:283][856]MaterialEditorStats: Vertex shader: 122 instructions
-[2017.10.01-19.32.01:283][856]MaterialEditorStats: Texture samplers: 4/16
-[2017.10.01-19.32.08:440][955]LogMaterialEditor: Applying material Glass
-[2017.10.01-19.32.08:938][955]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2017.10.01-19.32.09:007][955]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.32.09:039][955]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.32.09:089][955]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass, compiling. 
-[2017.10.01-19.32.10:252][955]TextureStreamingBuild: Display: Compiling optional shaders took 1.171 seconds.
-[2017.10.01-19.32.13:033][  0]MaterialEditorStats: Base pass shader: 45 instructions
-[2017.10.01-19.32.13:033][  0]MaterialEditorStats: Vertex shader: 122 instructions
-[2017.10.01-19.32.13:033][  0]MaterialEditorStats: Texture samplers: 4/16
-[2017.10.01-19.32.38:752][419]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2017.10.01-19.32.38:774][419]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.10.01-19.32.39:883][436]LogMaterialEditor: Applying material Glass
-[2017.10.01-19.32.40:603][436]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2017.10.01-19.32.40:672][436]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.32.40:706][436]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.32.40:754][436]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass, compiling. 
-[2017.10.01-19.32.41:935][436]TextureStreamingBuild: Display: Compiling optional shaders took 1.190 seconds.
-[2017.10.01-19.32.44:804][479]MaterialEditorStats: Base pass shader: 45 instructions
-[2017.10.01-19.32.44:804][479]MaterialEditorStats: Vertex shader: 122 instructions
-[2017.10.01-19.32.44:804][479]MaterialEditorStats: Texture samplers: 4/16
-[2017.10.01-19.32.46:525][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Sphere002)
-[2017.10.01-19.32.49:841][729]LogEditorViewport: Clicking Background
-[2017.10.01-19.33.19:023][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Sphere001)
-[2017.10.01-19.33.20:174][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseModel)
-[2017.10.01-19.33.41:145][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Sphere002)
-[2017.10.01-19.33.43:561][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Sphere001)
-[2017.10.01-19.33.43:942][587]Cmd: SELECT NONE
-[2017.10.01-19.33.59:869][297]MapCheck: New page: Map Check
-[2017.10.01-19.33.59:905][297]Cmd: MAP REBUILD ALLVISIBLE
-[2017.10.01-19.33.59:906][297]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.10.01-19.33.59:914][297]LightingResults: New page: Lighting Build - Oct 1, 2017, 11:33:59 AM
-[2017.10.01-19.33.59:921][297]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.10.01-19.33.59:924][297]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.10.01-19.33.59:924][297]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.10.01-19.33.59:927][297]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.10.01-19.33.59:927][297]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1980
-[2017.10.01-19.34.04:441][297]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.10.01-19.34.04:442][297]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.10.01-19.34.04:442][297]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.10.01-19.34.04:442][297]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.10.01-19.34.04:442][297]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.10.01-19.34.04:442][297]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.10.01-19.34.04:772][297]LogEditorBuildUtils: Build time 0:04
-[2017.10.01-19.34.04:800][297]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling. 
-[2017.10.01-19.34.04:825][297]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling. 
-[2017.10.01-19.34.06:860][324]LightingResults: Warning: BaseModel Object has overlapping UVs.
-[2017.10.01-19.34.06:860][324]LightingResults: BaseModel Lightmap UV are overlapping by 33.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.01-19.34.06:933][326]Job is a success!
-[2017.10.01-19.34.07:166][327]LogMaterial: Warning: Material /Game/Art/Materials/Glass.Glass needed to have new flag set bUsedWithStaticLighting !
-[2017.10.01-19.34.07:169][327]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.34.07:389][327]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
-[2017.10.01-19.34.07:389][327]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
-[2017.10.01-19.34.07:389][327]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2017.10.01-19.34.07:389][327]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2017.10.01-19.34.07:389][327]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 64X8)
-[2017.10.01-19.34.07:389][327]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 256X64)
-[2017.10.01-19.34.07:537][327]Lightmass on MSI: 1.48 sec total, 123 ms importing, 25 ms setup, 313 ms photons, 974 ms processing, 0 ms extra exporting [10/10 mappings]. Threads: 6.65 sec total, 966 ms processing.
-[2017.10.01-19.34.07:745][327]LogStaticLightingSystem: Illumination: 7.65 sec (45 ms encoding lightmaps, 15 ms encoding shadowmaps)
-[2017.10.01-19.34.07:745][327]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.10.01-19.34.07:745][327]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.10.01-19.34.08:459][327]DumpUnbuiltLightIteractions
-[2017.10.01-19.34.08:459][327]Lights with unbuilt interactions: 0
-[2017.10.01-19.34.08:459][327]
-[2017.10.01-19.34.08:460][327]Primitives with unbuilt interactions: 0
-[2017.10.01-19.34.08:476][328]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.10.01-19.34.08:476][328]MapCheck: New page: Untitled_2 - Oct 1, 2017, 11:34:08 AM
-[2017.10.01-19.34.08:629][328]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 152.84ms to complete.
-[2017.10.01-19.34.23:848][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Sphere001)
-[2017.10.01-19.34.41:757][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Sphere002)
-[2017.10.01-19.34.50:073][358]MapCheck: New page: Map Check
-[2017.10.01-19.34.50:103][358]Cmd: MAP REBUILD ALLVISIBLE
-[2017.10.01-19.34.50:103][358]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.10.01-19.34.50:110][358]LightingResults: New page: Lighting Build - Oct 1, 2017, 11:34:50 AM
-[2017.10.01-19.34.50:118][358]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.10.01-19.34.50:120][358]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.10.01-19.34.50:120][358]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.10.01-19.34.50:121][358]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.10.01-19.34.50:121][358]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1980
-[2017.10.01-19.34.54:635][358]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.10.01-19.34.54:636][358]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.10.01-19.34.54:636][358]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.10.01-19.34.54:636][358]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.10.01-19.34.54:636][358]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.10.01-19.34.54:636][358]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.10.01-19.34.54:822][358]LogEditorBuildUtils: Build time 0:04
-[2017.10.01-19.34.54:835][358]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling. 
-[2017.10.01-19.34.54:846][358]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling. 
-[2017.10.01-19.34.57:324][395]LightingResults: Warning: BaseModel Object has overlapping UVs.
-[2017.10.01-19.34.57:324][395]LightingResults: BaseModel Lightmap UV are overlapping by 33.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.01-19.34.58:810][428]Job is a success!
-[2017.10.01-19.34.59:412][429]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
-[2017.10.01-19.34.59:413][429]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
-[2017.10.01-19.34.59:413][429]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2017.10.01-19.34.59:413][429]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2017.10.01-19.34.59:517][429]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 64X8)
-[2017.10.01-19.34.59:517][429]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X256)
-[2017.10.01-19.34.59:620][429]Lightmass on MSI: 3.54 sec total, 124 ms importing, 26 ms setup, 718 ms photons, 2.61 sec processing, 0 ms extra exporting [10/10 mappings]. Threads: 18.1 sec total, 3.83 sec processing.
-[2017.10.01-19.34.59:812][429]LogStaticLightingSystem: Illumination: 9.56 sec (314 ms encoding lightmaps, 59 ms encoding shadowmaps)
-[2017.10.01-19.34.59:812][429]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.10.01-19.34.59:812][429]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.10.01-19.35.00:644][429]DumpUnbuiltLightIteractions
-[2017.10.01-19.35.00:644][429]Lights with unbuilt interactions: 0
-[2017.10.01-19.35.00:644][429]
-[2017.10.01-19.35.00:644][429]Primitives with unbuilt interactions: 0
-[2017.10.01-19.35.00:663][430]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.10.01-19.35.00:663][430]MapCheck: New page: Untitled_2 - Oct 1, 2017, 11:35:00 AM
-[2017.10.01-19.35.00:823][430]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 160.138ms to complete.
-[2017.10.01-19.35.06:919][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Sphere002)
-[2017.10.01-19.35.07:278][679]Cmd: SELECT NONE
-[2017.10.01-19.35.21:876][533]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.35.21:954][533]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.35.21:976][533]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2017.10.01-19.35.22:018][533]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.10.01-19.35.24:058][564]MaterialEditorStats: Base pass shader: 45 instructions
-[2017.10.01-19.35.24:058][564]MaterialEditorStats: Vertex shader: 122 instructions
-[2017.10.01-19.35.24:058][564]MaterialEditorStats: Texture samplers: 4/16
-[2017.10.01-19.36.26:316][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BowCaster" FILE="../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Levels/BowCaster.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.01-19.36.26:363][126]LogSavePackage: Save=25.66ms
-[2017.10.01-19.36.26:363][126]LogSavePackage: Moving '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Saved/BowCaster3E654AC244179CB61FC8DFBE0926DDAA.tmp' to '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Levels/BowCaster.umap'
-[2017.10.01-19.36.26:366][126]LogSavePackage: Display: Finished SavePackage ../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Levels/BowCaster.umap
-[2017.10.01-19.36.26:399][126]LogFileHelpers: Saving map 'BowCaster' took 0.951
-[2017.10.01-19.36.26:403][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BowCaster_BuiltData" FILE="../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset" SILENT=true
-[2017.10.01-19.36.26:497][126]LogSavePackage: Save=90.80ms
-[2017.10.01-19.36.26:497][126]LogSavePackage: Moving '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Saved/BowCaster_BuiltData42B6AF9D42217ADF41AE09851562FEE7.tmp' to '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset'
-[2017.10.01-19.36.26:498][126]LogSavePackage: Display: Finished SavePackage ../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset
-[2017.10.01-19.36.26:524][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Geometry/BaseModel" FILE="../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/BaseModel.uasset" SILENT=true
-[2017.10.01-19.36.26:541][126]LogSavePackage: Save=14.67ms
-[2017.10.01-19.36.26:541][126]LogSavePackage: Moving '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Saved/BaseModelAB4E2DFB43E6B7D183A179B8E8149D27.tmp' to '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/BaseModel.uasset'
-[2017.10.01-19.36.26:542][126]LogSavePackage: Display: Finished SavePackage ../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/BaseModel.uasset
-[2017.10.01-19.36.26:560][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Materials/Glass" FILE="../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Materials/Glass.uasset" SILENT=true
-[2017.10.01-19.36.26:577][126]LogSavePackage: Save=14.97ms
-[2017.10.01-19.36.26:577][126]LogSavePackage: Moving '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Saved/Glass3C4EE74C4C11B7199FE098AA1C83717B.tmp' to '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Materials/Glass.uasset'
-[2017.10.01-19.36.26:578][126]LogSavePackage: Display: Finished SavePackage ../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Materials/Glass.uasset
-[2017.10.01-19.36.26:596][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Geometry/Base_World_Sphere001" FILE="../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Sphere001.uasset" SILENT=true
-[2017.10.01-19.36.26:613][126]LogSavePackage: Save=14.51ms
-[2017.10.01-19.36.26:613][126]LogSavePackage: Moving '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Saved/Base_World_Sphere001ABDD5B9F40A32221B580F890E83B2510.tmp' to '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Sphere001.uasset'
-[2017.10.01-19.36.26:615][126]LogSavePackage: Display: Finished SavePackage ../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Sphere001.uasset
-[2017.10.01-19.36.26:634][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Geometry/Base_World_Box003" FILE="../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Box003.uasset" SILENT=true
-[2017.10.01-19.36.26:652][126]LogSavePackage: Save=16.11ms
-[2017.10.01-19.36.26:652][126]LogSavePackage: Moving '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Saved/Base_World_Box0032F3A83594233803F55B6AEAFE17E3E99.tmp' to '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Box003.uasset'
-[2017.10.01-19.36.26:654][126]LogSavePackage: Display: Finished SavePackage ../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Box003.uasset
-[2017.10.01-19.36.26:673][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Geometry/Base_World_Sphere002" FILE="../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Sphere002.uasset" SILENT=true
-[2017.10.01-19.36.26:693][126]LogSavePackage: Save=18.96ms
-[2017.10.01-19.36.26:693][126]LogSavePackage: Moving '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Saved/Base_World_Sphere0023F89C5084FAFB2603537AF84EC51F763.tmp' to '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Sphere002.uasset'
-[2017.10.01-19.36.26:695][126]LogSavePackage: Display: Finished SavePackage ../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Sphere002.uasset
-[2017.10.01-19.36.26:715][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Geometry/Base_World_Torus001" FILE="../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Torus001.uasset" SILENT=true
-[2017.10.01-19.36.26:734][126]LogSavePackage: Save=15.84ms
-[2017.10.01-19.36.26:734][126]LogSavePackage: Moving '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Saved/Base_World_Torus00195F21F4F4500AD6F8E4BA9B6E3DA174A.tmp' to '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Torus001.uasset'
-[2017.10.01-19.36.26:736][126]LogSavePackage: Display: Finished SavePackage ../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Torus001.uasset
-[2017.10.01-19.36.26:754][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Geometry/Base_World_Cylinder002" FILE="../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Cylinder002.uasset" SILENT=true
-[2017.10.01-19.36.26:771][126]LogSavePackage: Save=14.91ms
-[2017.10.01-19.36.26:771][126]LogSavePackage: Moving '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Saved/Base_World_Cylinder002D127EA6840CDE25FE38D2E86AF4D49C5.tmp' to '../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Cylinder002.uasset'
-[2017.10.01-19.36.26:773][126]LogSavePackage: Display: Finished SavePackage ../../../../../OneDrive/UofT Projects/Unreal/Bowcaster/Content/Art/Geometry/Base_World_Cylinder002.uasset
+[2017.10.01-19.49.12:744][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.01-19.49.12:744][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.01-19.49.12:763][  0]LogInit: Computer: DESKTOP-JT6PUOV
+[2017.10.01-19.49.12:763][  0]LogInit: User: Timothy
+[2017.10.01-19.49.12:763][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.10.01-19.49.12:763][  0]LogInit: High frequency timer resolution =2.533203 MHz
+[2017.10.01-19.49.12:763][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2017.10.01-19.49.12:763][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.01-19.49.12:763][  0]LogMemory: Process Physical Memory: 277.46 MB used, 277.46 MB peak
+[2017.10.01-19.49.12:763][  0]LogMemory: Process Virtual Memory: 275.63 MB used, 275.63 MB peak
+[2017.10.01-19.49.12:763][  0]LogMemory: Physical Memory: 6806.30 MB used,  1072.46 MB free, 7878.77 MB total
+[2017.10.01-19.49.12:763][  0]LogMemory: Virtual Memory: 666.73 MB used,  1072.46 MB free, 134217728.00 MB total
+[2017.10.01-19.49.12:972][  0]LogInit: Using OS detected language (en-US).
+[2017.10.01-19.49.12:972][  0]LogInit: Using OS detected locale (en-CA).
+[2017.10.01-19.49.12:976][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.01-19.49.13:820][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.01-19.49.13:826][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.10.01-19.49.13:826][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.10.01-19.49.13:828][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.01-19.49.13:828][  0]LogD3D11RHI:       0/0/3939 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.01-19.49.13:828][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.01-19.49.13:837][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.01-19.49.13:837][  0]LogD3D11RHI:     GPU DeviceId: 0x416 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.01-19.49.13:837][  0]LogWindows: EnumDisplayDevices:
+[2017.10.01-19.49.13:837][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.10.01-19.49.13:837][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.01-19.49.13:837][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.01-19.49.13:837][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.10.01-19.49.13:838][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4600
+[2017.10.01-19.49.13:838][  0]LogD3D11RHI:   Driver Version: 20.19.15.4531 (internal:20.19.15.4531, unified:20.19.15.4531)
+[2017.10.01-19.49.13:838][  0]LogD3D11RHI:      Driver Date: 9-29-2016
+[2017.10.01-19.49.13:838][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
+[2017.10.01-19.49.13:842][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.01-19.49.13:848][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.10.01-19.49.13:849][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Intermediate/Shaders/WorkingDirectory/1660/).
+[2017.10.01-19.49.13:849][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Timothy/AppData/Local/Temp/UnrealShaderWorkingDir/794DD8D04AECCA88AAF6AFB0EDC61963/'.
+[2017.10.01-19.49.13:849][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.01-19.49.14:887][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.01-19.49.14:940][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.01-19.49.14:992][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.01-19.49.15:046][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.01-19.49.15:100][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.01-19.49.15:156][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.01-19.49.15:214][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.01-19.49.15:266][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.01-19.49.15:311][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.01-19.49.15:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.01-19.49.15:415][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.01-19.49.15:468][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.01-19.49.15:524][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.01-19.49.15:576][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.01-19.49.15:629][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.01-19.49.15:736][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.01-19.49.15:736][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.01-19.49.15:779][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.01-19.49.15:877][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.01-19.49.15:907][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.01-19.49.15:958][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.01-19.49.16:010][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.01-19.49.16:062][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.01-19.49.16:112][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.01-19.49.16:112][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.01-19.49.16:639][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.01-19.49.16:749][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/Timothy/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.01-19.49.16:749][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Timothy/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.01-19.49.16:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.01-19.49.16:749][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.01-19.49.16:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.01-19.49.16:749][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.01-19.49.16:768][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.01-19.49.16:780][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Timothy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.01-19.49.16:791][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.01-19.49.16:792][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.01-19.49.16:792][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.01-19.49.16:793][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.01-19.49.17:082][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2017.10.01-19.49.17:240][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.01-19.49.17:416][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.01-19.49.17:815][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.01-19.49.17:868][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.01-19.49.17:868][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.01-19.49.17:868][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.01-19.49.17:868][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.01-19.49.17:868][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.01-19.49.18:295][  0]LogNetVersion: Bowcaster , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4119434037)
+[2017.10.01-19.49.18:576][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.073480 seconds
+[2017.10.01-19.49.18:586][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.01-19.49.18:586][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.01-19.49.18:586][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.01-19.49.18:668][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.01-19.49.21:896][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.01-19.49.21:938][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.01-19.49.22:617][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.01-19.49.23:157][  0]SourceControl: Source control is disabled
+[2017.10.01-19.49.23:157][  0]SourceControl: Source control is disabled
+[2017.10.01-19.49.23:218][  0]SourceControl: Source control is disabled
+[2017.10.01-19.49.23:270][  0]SourceControl: Source control is disabled
+[2017.10.01-19.49.23:947][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.01-19.49.24:232][  0]LogOcInput: OculusInput pre-init called
+[2017.10.01-19.49.24:524][  0]LogEngine: Initializing Engine...
+[2017.10.01-19.49.24:525][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.01-19.49.24:833][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.01-19.49.24:833][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.01-19.49.24:972][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.01-19.49.24:979][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.01-19.49.25:001][  0]LogInit: FAudioDevice initialized.
+[2017.10.01-19.49.25:096][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/Timothy/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.01-19.49.25:112][  0]LogInit: Texture streaming: Enabled
+[2017.10.01-19.49.25:241][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.01-19.49.25:508][  0]LogInit: Transaction tracking system initialized
+[2017.10.01-19.49.25:848][  0]BlueprintLog: New page: Editor Load
+[2017.10.01-19.49.26:833][  0]LocalizationService: Localization service is disabled
+[2017.10.01-19.49.27:557][  0]LogConsoleResponse: Display: 
+[2017.10.01-19.49.27:803][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/' took 0.02s
+[2017.10.01-19.49.27:803][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.01-19.49.27:803][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.01-19.49.27:803][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.01-19.49.28:967][  0]SourceControl: Source control is disabled
+[2017.10.01-19.49.28:967][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.01-19.49.28:967][  0]LightingResults: New page: Lighting Build
+[2017.10.01-19.49.29:013][  0]MapCheck: New page: Map Check
+[2017.10.01-19.49.29:013][  0]LightingResults: New page: Lighting Build
+[2017.10.01-19.49.29:215][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.01-19.49.29:221][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.01-19.49.29:244][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.01-19.49.29:296][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.264ms to complete.
+[2017.10.01-19.49.29:296][  0]LogFileHelpers: Loading map 'Template_Default' took 0.330
+[2017.10.01-19.49.29:360][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.01-19.49.29:360][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.01-19.49.29:531][  0]LogCollectionManager: Loaded 0 collections in 0.001837 seconds
+[2017.10.01-19.49.29:629][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/Collections/' took 0.01s
+[2017.10.01-19.49.29:629][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Developers/Timothy/Collections/' took 0.01s
+[2017.10.01-19.49.29:629][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Collections/' took 0.01s
+[2017.10.01-19.49.29:629][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.01-19.49.29:641][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2386 classes and 500 folders.
+[2017.10.01-19.49.29:713][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.01-19.49.30:117][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.01-19.49.30:171][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.01-19.49.30:240][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.01-19.49.30:243][  0]LogSlate: Took 0.000474 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.01-19.49.30:262][  0]LogSlate: Took 0.006972 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.01-19.49.30:438][  0]LogRenderer: Reallocating scene render targets to support 1004x464 Format 10 NumSamples 1 (Frame:1).
+[2017.10.01-19.49.31:051][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.01-19.49.31:051][  0]LogLoad: (Engine Initialization) Total time: 20.29 seconds
+[2017.10.01-19.49.31:051][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.01-19.49.31:051][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.01-19.49.31:094][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.01-19.49.31:114][  0]LogSlate: Took 0.006029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.01-19.49.31:136][  1]LogAssetRegistry: Asset discovery search completed in 14.0755 seconds
+[2017.10.01-19.49.31:138][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.01-19.49.31:138][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2017.10.01-19.49.47:590][391]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.01-19.49.47:668][391]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.10.01-19.49.47:668][391]LogStaticMesh: Building static mesh Base_World_Torus001...
+[2017.10.01-19.49.47:686][391]LogStaticMesh: Built static mesh [0.02s] /Game/Art/Geometry/Base_World_Torus001.Base_World_Torus001
+[2017.10.01-19.49.47:693][391]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.10.01-19.49.47:693][391]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.10.01-19.49.47:693][391]LogStaticMesh: Building static mesh BaseModel...
+[2017.10.01-19.49.47:789][391]LogStaticMesh: Built static mesh [0.10s] /Game/Art/Geometry/BaseModel.BaseModel
+[2017.10.01-19.49.47:795][391]LogStaticMesh: Building static mesh Base_World_Sphere002...
+[2017.10.01-19.49.47:804][391]LogStaticMesh: Built static mesh [0.01s] /Game/Art/Geometry/Base_World_Sphere002.Base_World_Sphere002
+[2017.10.01-19.49.47:809][391]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2017.10.01-19.49.47:903][391]LogStaticMesh: Building static mesh Base_World_Sphere001...
+[2017.10.01-19.49.47:911][391]LogStaticMesh: Built static mesh [0.01s] /Game/Art/Geometry/Base_World_Sphere001.Base_World_Sphere001
+[2017.10.01-19.49.48:237][391]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.10.01-19.49.48:237][391]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X256)
+[2017.10.01-19.49.48:237][391]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 64X8)
+[2017.10.01-19.49.48:239][391]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.01-19.49.48:247][391]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.01-19.49.48:276][391]Cmd: MAP LOAD FILE="../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.01-19.49.48:276][391]LightingResults: New page: Lighting Build
+[2017.10.01-19.49.48:278][391]LoadErrors: New page: Loading map: BowCaster.umap
+[2017.10.01-19.49.48:279][391]MapCheck: New page: Map Check
+[2017.10.01-19.49.48:279][391]LightingResults: New page: Lighting Build
+[2017.10.01-19.49.48:317][391]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.01-19.49.48:362][391]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.01-19.49.48:451][391]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 88.047ms to complete.
+[2017.10.01-19.49.48:452][391]LogFileHelpers: Loading map 'BowCaster' took 0.179
+[2017.10.01-19.50.04:588][763]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Base_World_Sphere002)
+[2017.10.01-19.50.06:330][784]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Base_World_Sphere002)
+[2017.10.01-19.50.42:840][652]LogActorFactory: Actor Factory created Cube
+[2017.10.01-19.50.43:505][667]LogActorFactory: Actor Factory created Cube
+[2017.10.01-19.51.30:894][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Sphere002)
+[2017.10.01-19.51.33:430][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.01-19.51.41:580][699]LogActorFactory: Actor Factory created Cube
+[2017.10.01-19.51.45:447][796]LogActorFactory: Actor Factory created Cube
+[2017.10.01-19.51.46:408][821]Cmd: TRANSACTION UNDO
+[2017.10.01-19.51.46:408][821]LogEditorTransaction: Undo Create Actors
+[2017.10.01-19.51.46:555][821]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.01-19.52.06:405][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.01-19.52.12:885][486]Cmd: EDIT COPY
+[2017.10.01-19.52.13:105][489]Cmd: EDIT PASTE
+[2017.10.01-19.52.15:239][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.10.01-19.52.17:445][591]Cmd: EDIT COPY
+[2017.10.01-19.52.18:107][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.10.01-19.52.18:344][611]Cmd: EDIT COPY
+[2017.10.01-19.52.18:672][619]Cmd: EDIT PASTE
+[2017.10.01-19.53.10:340][875]MapCheck: New page: Map Check
+[2017.10.01-19.53.10:411][875]Cmd: MAP REBUILD ALLVISIBLE
+[2017.10.01-19.53.10:411][875]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.10.01-19.53.10:535][875]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.10.01-19.53.10:547][875]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass, compiling. 
+[2017.10.01-19.53.10:560][875]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.10.01-19.53.11:175][875]TextureStreamingBuild: Display: Compiling optional shaders took 0.650 seconds.
+[2017.10.01-19.53.11:178][875]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2017.10.01-19.53.11:189][875]TextureStreamingBuild: Display: Build Texture Streaming took 0.009 seconds.
+[2017.10.01-19.53.11:203][875]LightingResults: New page: Lighting Build - Oct 1, 2017, 11:53:11 AM
+[2017.10.01-19.53.11:278][875]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.01-19.53.11:358][875]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.01-19.53.11:383][875]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.01-19.53.12:453][875]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.01-19.53.12:453][875]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1660
+[2017.10.01-19.53.15:667][875]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.10.01-19.53.15:668][875]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.01-19.53.15:668][875]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.01-19.53.15:669][875]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.01-19.53.15:669][875]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.01-19.53.15:669][875]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.01-19.53.15:981][875]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.10.01-19.53.15:981][875]MapCheck: New page: BowCaster - Oct 1, 2017, 11:53:15 AM
+[2017.10.01-19.53.15:985][875]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2017.10.01-19.53.16:057][875]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 76.366ms to complete.
+[2017.10.01-19.53.16:080][875]LogEditorBuildUtils: Build time 0:05
+[2017.10.01-19.53.16:118][875]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.10.01-19.53.16:127][875]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.10.01-19.53.16:234][876]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling. 
+[2017.10.01-19.53.16:271][876]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling. 
+[2017.10.01-19.53.16:328][877]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2017.10.01-19.53.16:338][877]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2017.10.01-19.53.23:100][962]LightingResults: Warning: BaseModel Object has overlapping UVs.
+[2017.10.01-19.53.23:100][962]LightingResults: BaseModel Lightmap UV are overlapping by 33.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.01-19.53.29:247][113]Job is a success!
+[2017.10.01-19.53.30:166][114]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.10.01-19.53.30:166][114]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.10.01-19.53.30:166][114]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.10.01-19.53.30:166][114]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.10.01-19.53.30:305][114]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X256)
+[2017.10.01-19.53.30:305][114]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 64X8)
+[2017.10.01-19.53.30:358][114]Lightmass on DESKTOP-JT6PUOV: 10.3 sec total, 369 ms importing, 83 ms setup, 1.49 sec photons, 8.38 sec processing, 0 ms extra exporting [13/13 mappings]. Threads: 33.4 sec total, 14.3 sec processing.
+[2017.10.01-19.53.30:392][114]LogStaticLightingSystem: Illumination: 19.0 sec (688 ms encoding lightmaps, 128 ms encoding shadowmaps)
+[2017.10.01-19.53.30:392][114]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.10.01-19.53.30:392][114]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.10.01-19.53.30:684][114]DumpUnbuiltLightIteractions
+[2017.10.01-19.53.30:684][114]Lights with unbuilt interactions: 0
+[2017.10.01-19.53.30:684][114]
+[2017.10.01-19.53.30:684][114]Primitives with unbuilt interactions: 0
+[2017.10.01-19.53.30:696][115]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.10.01-19.53.30:696][115]MapCheck: New page: BowCaster - Oct 1, 2017, 11:53:30 AM
+[2017.10.01-19.53.30:780][115]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.107ms to complete.
+[2017.10.01-19.53.48:864][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.01-19.53.50:106][611]Cmd: EDIT COPY
+[2017.10.01-19.53.50:312][614]Cmd: EDIT PASTE
+[2017.10.01-19.54.05:642][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.01-19.54.06:476][  2]Cmd: EDIT COPY
+[2017.10.01-19.54.06:669][  6]Cmd: EDIT PASTE
+[2017.10.01-19.54.18:401][291]MapCheck: New page: Map Check
+[2017.10.01-19.54.18:483][291]Cmd: MAP REBUILD ALLVISIBLE
+[2017.10.01-19.54.18:484][291]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.10.01-19.54.18:536][291]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.10.01-19.54.18:546][291]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass, compiling. 
+[2017.10.01-19.54.18:555][291]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.10.01-19.54.19:236][291]TextureStreamingBuild: Display: Compiling optional shaders took 0.706 seconds.
+[2017.10.01-19.54.19:236][291]LogLevel: Display: Export Material TexCoord Scales took 0.001 seconds.
+[2017.10.01-19.54.19:241][291]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2017.10.01-19.54.19:255][291]LightingResults: New page: Lighting Build - Oct 1, 2017, 11:54:19 AM
+[2017.10.01-19.54.19:264][291]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.01-19.54.19:266][291]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.01-19.54.19:266][291]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.01-19.54.19:267][291]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.01-19.54.19:267][291]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1660
+[2017.10.01-19.54.23:897][291]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.10.01-19.54.23:897][291]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.01-19.54.23:897][291]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.01-19.54.23:897][291]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.01-19.54.23:897][291]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.01-19.54.23:897][291]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.01-19.54.23:990][291]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.10.01-19.54.23:990][291]MapCheck: New page: BowCaster - Oct 1, 2017, 11:54:23 AM
+[2017.10.01-19.54.23:991][291]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2017.10.01-19.54.24:043][291]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 52.599ms to complete.
+[2017.10.01-19.54.24:066][291]LogEditorBuildUtils: Build time 0:05
+[2017.10.01-19.54.27:420][364]LightingResults: Warning: BaseModel Object has overlapping UVs.
+[2017.10.01-19.54.27:420][364]LightingResults: BaseModel Lightmap UV are overlapping by 33.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.01-19.54.32:063][473]Job is a success!
+[2017.10.01-19.54.32:873][474]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.10.01-19.54.32:873][474]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.10.01-19.54.32:873][474]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.10.01-19.54.32:873][474]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.10.01-19.54.33:000][474]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X256)
+[2017.10.01-19.54.33:000][474]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 64X8)
+[2017.10.01-19.54.33:037][474]Lightmass on DESKTOP-JT6PUOV: 8.24 sec total, 216 ms importing, 61 ms setup, 1.24 sec photons, 6.68 sec processing, 0 ms extra exporting [15/15 mappings]. Threads: 26.6 sec total, 11.2 sec processing.
+[2017.10.01-19.54.33:046][474]LogStaticLightingSystem: Illumination: 13.7 sec (611 ms encoding lightmaps, 121 ms encoding shadowmaps)
+[2017.10.01-19.54.33:046][474]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.10.01-19.54.33:046][474]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.10.01-19.54.33:904][474]DumpUnbuiltLightIteractions
+[2017.10.01-19.54.33:904][474]Lights with unbuilt interactions: 0
+[2017.10.01-19.54.33:904][474]
+[2017.10.01-19.54.33:904][474]Primitives with unbuilt interactions: 0
+[2017.10.01-19.54.33:913][475]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.10.01-19.54.33:913][475]MapCheck: New page: BowCaster - Oct 1, 2017, 11:54:33 AM
+[2017.10.01-19.54.33:979][475]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.982ms to complete.
+[2017.10.01-19.54.38:567][587]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.01-19.54.38:651][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.01-19.54.38:655][587]PIE: New page: PIE session: BowCaster (Oct 1, 2017, 11:54:38 AM)
+[2017.10.01-19.54.38:656][587]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.01-19.54.38:660][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004445s)
+[2017.10.01-19.54.38:660][587]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.01-19.54.38:661][587]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2017.10.01-19.54.38:662][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.006823s)
+[2017.10.01-19.54.38:682][587]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.01-19.54.38:695][587]LogInit: FAudioDevice initialized.
+[2017.10.01-19.54.38:741][587]LogLoad: Game class is 'GameModeBase'
+[2017.10.01-19.54.38:753][587]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.01-15.54.38
+[2017.10.01-19.54.38:754][587]LogWorld: Bringing up level for play took: 0.002550
+[2017.10.01-19.54.38:822][587]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.10.01-19.54.38:830][587]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.646
+[2017.10.01-19.56.15:591][741]SourceControl: On branch master
+[2017.10.01-19.56.15:591][741]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.10.01-19.56.15:591][741]SourceControl: Changes not staged for commit:
+[2017.10.01-19.56.15:591][741]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.10.01-19.56.15:591][741]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.10.01-19.56.15:591][741]SourceControl: 	modified:   Bowcaster/Intermediate/CachedAssetRegistry.bin
+[2017.10.01-19.56.15:591][741]SourceControl: 	modified:   Bowcaster/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.10.01-19.56.15:591][741]SourceControl: 	modified:   Bowcaster/Saved/Logs/Bowcaster.log
+[2017.10.01-19.56.15:592][741]SourceControl: Untracked files:
+[2017.10.01-19.56.15:592][741]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.10.01-19.56.15:592][741]SourceControl: 	Bowcaster/Intermediate/AssetRegistryCache/311563bb.bin
+[2017.10.01-19.56.15:592][741]SourceControl: 	Bowcaster/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.10.01-19.56.15:592][741]SourceControl: 	Bowcaster/Saved/Config/CrashReportClient/UE4CC-Windows-7020A3454A6B43CB219B6C959D83FCFF/
+[2017.10.01-19.56.15:592][741]SourceControl: 	Bowcaster/Saved/Logs/Bowcaster-backup-2017.10.01-15.49.12.log
+[2017.10.01-19.56.15:592][741]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.10.01-19.56.15:920][747]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/BasicShapeMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/BasicShapeMaterial.uasset' is outside repository
+[2017.10.01-19.56.31:703][163]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.10.01-19.56.31:892][163]EditorErrors: Warning: No assets to check in!
+[2017.10.01-19.56.40:326][349]LogSavePackage: Save=36.43ms
+[2017.10.01-19.56.40:326][349]LogSavePackage: Moving '../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/BowCaster14B08B23414C9ED772A46091816EC815.tmp' to '../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap'
+[2017.10.01-19.56.40:334][349]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap
+[2017.10.01-19.56.40:456][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BowCaster_BuiltData" FILE="../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset" SILENT=true
+[2017.10.01-19.56.40:666][349]LogSavePackage: Save=199.19ms
+[2017.10.01-19.56.40:666][349]LogSavePackage: Moving '../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/BowCaster_BuiltData863A850A4B45B382BC5D728290BC38D9.tmp' to '../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset'
+[2017.10.01-19.56.40:671][349]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset
+[2017.10.01-19.56.43:268][416]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.10.01-19.57.30:368][416]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.10.01-19.57.30:423][416]SourceControl: [master b4e9b0d] BOXES FOR BOXES (testing)
+[2017.10.01-19.57.30:423][416]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2017.10.01-19.57.30:423][416]SourceControl:  rewrite Bowcaster/Content/Levels/BowCaster_BuiltData.uasset (78%)
+[2017.10.01-19.57.30:429][416]SourceControl: Commited [master b4e9b0d] BOXES FOR BOXES (testing).
+[2017.10.01-19.58.22:504][715]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.10.01-19.58.22:663][715]EditorErrors: Warning: No assets to check in!
+[2017.10.01-20.02.58:914][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.10.01-20.02.59:826][103]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.10.01-20.02.59:907][103]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.10.01-20.03.04:676][227]LogRenderer: Reallocating scene render targets to support 1004x756 Format 10 NumSamples 1 (Frame:8728).
+[2017.10.01-20.03.06:352][258]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Base_World_Sphere002)
+[2017.10.01-20.03.23:465][556]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2017.10.01-20.03.23:524][556]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.10.01-20.03.23:567][556]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.10.01-20.03.23:636][556]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.10.01-20.03.23:697][556]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2017.10.01-20.03.23:795][556]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.10.01-20.03.23:835][556]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.10.01-20.03.23:880][556]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.10.01-20.03.23:930][556]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.10.01-20.03.23:997][556]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2017.10.01-20.03.24:046][556]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.10.01-20.03.24:099][556]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.10.01-20.03.24:139][556]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.10.01-20.03.25:696][577]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.10.01-20.03.25:703][577]LogTexture: Display: Building textures: Texture2D_3 (G8, 128X128)
+[2017.10.01-20.03.42:871][900]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/MobileResources/HUD/AnalogHat.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/MobileResources/HUD/AnalogHat.uasset' is outside repository
+[2017.10.01-20.06.47:078][129]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.10.01-20.07.07:665][388]LogSlate: Took 0.011314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.01-20.07.43:031][596]LogSavePackage: Save=56.80ms
+[2017.10.01-20.07.43:031][596]LogSavePackage: Moving '../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/BowCaster_Auto192B13D8B4C6AA74CC8821BB33633A173.tmp' to '../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto1.umap'
+[2017.10.01-20.07.43:034][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto1.umap
+[2017.10.01-20.07.43:038][596]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.127
+[2017.10.01-20.07.43:038][596]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.127
+[2017.10.01-20.07.43:042][596]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/InGameHUD] ([1] browsable assets)...
+[2017.10.01-20.07.43:042][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/InGameHUD]
+[2017.10.01-20.07.43:070][596]LogSavePackage: Save=24.57ms
+[2017.10.01-20.07.43:070][596]LogSavePackage: Moving '../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/InGameHUD_Auto151A34D0D49CC0C8912A253B70D3F2C6D.tmp' to '../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/InGameHUD_Auto1.uasset'
+[2017.10.01-20.07.43:072][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/InGameHUD_Auto1.uasset
+[2017.10.01-20.07.43:072][596]LogFileHelpers: Auto-saving content packages took 0.033
+[2017.10.01-20.08.38:619][968]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.01-20.11.05:538][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Sphere001)
+[2017.10.01-20.13.55:820][  4]LogSlate: Took 0.006763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.01-20.16.25:741][934]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/UMG/Editor/Transient.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/UMG/Editor/Transient.uasset' is outside repository
+[2017.10.01-20.16.31:556][ 50]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_1' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:557][ 50]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_1' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:562][ 50]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_3' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:607][ 51]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_5' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:612][ 51]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_7' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:648][ 52]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_9' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:654][ 52]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_11' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:692][ 53]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_13' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:727][ 54]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_15' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:760][ 55]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_17' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:813][ 56]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_19' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:861][ 57]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_21' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:864][ 57]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_23' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:909][ 58]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_25' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:912][ 58]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_27' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:958][ 59]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_29' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:960][ 59]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_31' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.31:965][ 59]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_33' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:008][ 60]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_35' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:010][ 60]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_37' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:058][ 61]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_39' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:061][ 61]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_41' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:107][ 62]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_43' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:110][ 62]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_45' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:157][ 63]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_47' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:160][ 63]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_49' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:207][ 64]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_51' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:211][ 64]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_53' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:258][ 65]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_55' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:261][ 65]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_57' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:306][ 66]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_59' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:309][ 66]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_61' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:355][ 67]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_63' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:357][ 67]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_65' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:361][ 67]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_67' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:406][ 68]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_69' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:453][ 69]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_71' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:500][ 70]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_73' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:503][ 70]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_75' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:548][ 71]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_77' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:552][ 71]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_79' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:602][ 72]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_81' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:654][ 73]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_83' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:703][ 74]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_85' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:750][ 75]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_87' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:755][ 75]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_89' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:800][ 76]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_91' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:803][ 76]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_93' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:852][ 77]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_95' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:905][ 78]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_97' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.32:954][ 79]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_99' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:005][ 80]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_101' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:054][ 81]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_103' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:058][ 81]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_105' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:102][ 82]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_107' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:105][ 82]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_109' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:153][ 83]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_111' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:204][ 84]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_113' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:207][ 84]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_115' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:254][ 85]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_117' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:307][ 86]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_119' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:357][ 87]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_121' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:409][ 88]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_123' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:458][ 89]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_125' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:506][ 90]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_127' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:555][ 91]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_129' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:603][ 92]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_131' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:653][ 93]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_133' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:700][ 94]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_135' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:747][ 95]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_137' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:750][ 95]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_139' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:802][ 96]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_141' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:854][ 97]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_143' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:858][ 97]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_145' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:903][ 98]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_147' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:906][ 98]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_149' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.33:953][ 99]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_151' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:002][100]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_153' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:005][100]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_155' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:056][101]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_157' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:109][102]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_159' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:157][103]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_161' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:205][104]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_163' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:208][104]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_165' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:256][105]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_167' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:259][105]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_169' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:309][106]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_171' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:315][106]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_173' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:363][107]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_175' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:367][107]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_177' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:412][108]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_179' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:416][108]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_181' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:461][109]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_183' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:464][109]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_185' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:510][110]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_187' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:514][110]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_189' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:560][111]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_191' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:563][111]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_193' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:607][112]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_195' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:610][112]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_197' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:657][113]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_199' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:661][113]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_201' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:704][114]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_203' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:707][114]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_205' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:756][115]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_207' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:758][115]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_209' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:763][115]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_211' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:813][116]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_213' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:817][116]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_215' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:864][117]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_217' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:868][117]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_219' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:914][118]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_221' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:916][118]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_223' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:922][118]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_225' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:962][119]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_227' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.34:966][119]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_229' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:013][120]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_231' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:018][120]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_233' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:062][121]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_235' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:066][121]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_237' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:112][122]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_239' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:114][122]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_241' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:162][123]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_243' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:170][123]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_245' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:215][124]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_247' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:218][124]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_249' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:225][124]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_251' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:270][125]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_253' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:273][125]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_255' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:317][126]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_257' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:321][126]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_259' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:367][127]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_261' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:370][127]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_263' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:415][128]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_265' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:419][128]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_267' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:464][129]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_269' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:468][129]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_271' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:513][130]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_273' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:517][130]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_275' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:522][130]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_277' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:564][131]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_279' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:568][131]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_281' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:614][132]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_283' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:618][132]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_285' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:664][133]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_287' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:668][133]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_289' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:675][133]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_291' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:717][134]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_293' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:722][134]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_295' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:727][134]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_297' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:730][134]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_299' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:768][135]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_301' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:771][135]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_303' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:777][135]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_305' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:818][136]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_307' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:867][137]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_309' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:914][138]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_311' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:917][138]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_313' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.35:963][139]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_315' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.36:012][140]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_317' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.36:060][141]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_319' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.36:113][142]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_321' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.16.36:164][143]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_323' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:122][953]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_1' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:124][953]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_327' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:127][953]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_329' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:133][953]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_331' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:173][954]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_333' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:176][954]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_335' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:216][955]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_337' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:218][955]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_339' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:224][955]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_341' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:255][956]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_343' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:260][956]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_345' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:296][957]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_347' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:299][957]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_349' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:335][958]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_351' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:338][958]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_353' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:342][958]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_355' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:378][959]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_357' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:383][959]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_359' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:428][960]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_361' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:431][960]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_363' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:480][961]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_365' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:484][961]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_367' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:530][962]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_369' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:534][962]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_371' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:580][963]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_373' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:583][963]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_375' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:630][964]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_377' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:632][964]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_379' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:638][964]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_381' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:680][965]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_383' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:686][965]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_385' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:733][966]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_387' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:781][967]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_389' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:785][967]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_391' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:831][968]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_393' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:836][968]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_395' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:880][969]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_397' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:883][969]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_399' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:931][970]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_401' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:934][970]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_403' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:985][971]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_405' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.17:988][971]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_407' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.18:038][972]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_409' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.18:086][973]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_411' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.18:089][973]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_413' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.18:094][973]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_415' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.18:136][974]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_417' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.18:140][974]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_419' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.18:186][975]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_421' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.18:191][975]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_423' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.18:238][976]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_425' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.18:243][976]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_427' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.18:295][977]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_429' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:088][206]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_1' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:090][206]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_433' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:095][206]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_435' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:138][207]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_437' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:142][207]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_439' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:177][208]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_441' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:182][208]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_443' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:220][209]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_445' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:223][209]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_447' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:259][210]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_449' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:265][210]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_451' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:301][211]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_453' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:303][211]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_455' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:343][212]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_457' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:345][212]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_459' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:351][212]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_461' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:393][213]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_463' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:396][213]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_465' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:402][213]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_467' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:444][214]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_469' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:448][214]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_471' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:494][215]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_473' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:497][215]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_475' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:542][216]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_477' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:547][216]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_479' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:591][217]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_481' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:593][217]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_483' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:599][217]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_485' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:639][218]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_487' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:642][218]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_489' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:691][219]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_491' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:697][219]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_493' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:740][220]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_495' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:742][220]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_497' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:747][220]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_499' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:789][221]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_501' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:793][221]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_503' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:844][222]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_505' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.30:847][222]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_507' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:389][270]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_1' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:391][270]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_511' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:396][270]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_513' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:435][271]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_515' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:438][271]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_517' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:471][272]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_519' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:473][272]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_521' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:478][272]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_523' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:514][273]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_525' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:517][273]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_527' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:552][274]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_529' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:556][274]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_531' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:593][275]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_533' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:595][275]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_535' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:648][276]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_537' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:655][276]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_539' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:701][277]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_541' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:705][277]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_543' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:751][278]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_545' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:756][278]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_547' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:800][279]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_549' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:803][279]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_551' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:807][279]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_553' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:850][280]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_555' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:853][280]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_557' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:904][281]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_559' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:906][281]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_561' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:912][281]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_563' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:954][282]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_565' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.33:957][282]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_567' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.34:004][283]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_569' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.34:006][283]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_571' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.34:010][283]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_573' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.34:052][284]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_575' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.34:055][284]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_577' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.34:101][285]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_579' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.34:104][285]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_581' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.34:150][286]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_583' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.34:200][287]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_585' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.17.34:246][288]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.CanvasPanel_587' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.01-20.18.19:828][764]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.032
+[2017.10.01-20.18.19:831][764]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD/InGameHUD] ([1] browsable assets)...
+[2017.10.01-20.18.19:831][764]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD/InGameHUD]
+[2017.10.01-20.18.19:852][764]LogSavePackage: Save=18.33ms
+[2017.10.01-20.18.19:852][764]LogSavePackage: Moving '../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/InGameHUD_Auto246A4E2CF49DBAE54E2DE6BAF94548D78.tmp' to '../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/HUD/InGameHUD_Auto2.uasset'
+[2017.10.01-20.18.19:854][764]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/HUD/InGameHUD_Auto2.uasset
+[2017.10.01-20.18.19:854][764]LogFileHelpers: Auto-saving content packages took 0.025
+[2017.10.01-20.20.41:762][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/InGameHUD" FILE="../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/HUD/InGameHUD.uasset" SILENT=true
+[2017.10.01-20.20.41:791][ 72]LogSavePackage: Save=23.49ms
+[2017.10.01-20.20.41:791][ 72]LogSavePackage: Moving '../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/InGameHUD0149C8B54C4641C1A8D43680B245D841.tmp' to '../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/HUD/InGameHUD.uasset'
+[2017.10.01-20.20.41:802][ 72]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/HUD/InGameHUD.uasset
+[2017.10.01-20.20.42:693][ 89]BlueprintLog: New page: Compile InGameHUD
+[2017.10.01-20.20.44:186][117]BlueprintLog: New page: Compile InGameHUD
+[2017.10.01-20.22.29:542][289]BlueprintLog: New page: Compile InGameHUD
+[2017.10.01-20.23.23:966][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Sphere002)
+[2017.10.01-20.23.24:737][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Sphere002)
+[2017.10.01-20.24.20:873][ 96]SourceControl: On branch master
+[2017.10.01-20.24.20:873][ 96]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.10.01-20.24.20:873][ 96]SourceControl: Changes to be committed:
+[2017.10.01-20.24.20:873][ 96]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.10.01-20.24.20:873][ 96]SourceControl: 	new file:   Bowcaster/Content/HUD/InGameHUD.uasset
+[2017.10.01-20.24.20:873][ 96]SourceControl: Changes not staged for commit:
+[2017.10.01-20.24.20:873][ 96]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.10.01-20.24.20:873][ 96]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.10.01-20.24.20:873][ 96]SourceControl: 	modified:   Bowcaster/Intermediate/CachedAssetRegistry.bin
+[2017.10.01-20.24.20:873][ 96]SourceControl: 	modified:   Bowcaster/Saved/Autosaves/PackageRestoreData.json
+[2017.10.01-20.24.20:873][ 96]SourceControl: 	modified:   Bowcaster/Saved/Config/Windows/Editor.ini
+[2017.10.01-20.24.20:873][ 96]SourceControl: 	modified:   Bowcaster/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.10.01-20.24.20:873][ 96]SourceControl: 	modified:   Bowcaster/Saved/Logs/Bowcaster.log
+[2017.10.01-20.24.20:873][ 96]SourceControl: Untracked files:
+[2017.10.01-20.24.20:873][ 96]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.10.01-20.24.20:873][ 96]SourceControl: 	Bowcaster/Intermediate/AssetRegistryCache/311563bb.bin
+[2017.10.01-20.24.20:873][ 96]SourceControl: 	Bowcaster/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.10.01-20.24.20:873][ 96]SourceControl: 	Bowcaster/Saved/Autosaves/Game/
+[2017.10.01-20.24.20:873][ 96]SourceControl: 	Bowcaster/Saved/Backup/
+[2017.10.01-20.24.20:873][ 96]SourceControl: 	Bowcaster/Saved/Config/CrashReportClient/UE4CC-Windows-7020A3454A6B43CB219B6C959D83FCFF/
+[2017.10.01-20.24.20:873][ 96]SourceControl: 	Bowcaster/Saved/Config/Windows/SourceControlSettings.ini
+[2017.10.01-20.24.20:873][ 96]SourceControl: 	Bowcaster/Saved/Logs/Bowcaster-backup-2017.10.01-15.49.12.log
+[2017.10.01-20.24.21:098][ 96]LogMetaData: Removing '/Game/Blueprints/Player.Player:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Player.PackageMetaData'
+[2017.10.01-20.24.21:098][ 96]LogMetaData: Removing '/Game/Blueprints/Player.SKEL_Player_C:UserConstructionScript' ref from Metadata '/Game/Player.PackageMetaData'
+[2017.10.01-20.24.21:098][ 96]LogMetaData: Removing '/Game/Blueprints/Player.SKEL_Player_C' ref from Metadata '/Game/Player.PackageMetaData'
+[2017.10.01-20.24.21:098][ 96]LogMetaData: Removing '/Game/Blueprints/Player.Player_C:UserConstructionScript' ref from Metadata '/Game/Player.PackageMetaData'
+[2017.10.01-20.24.21:098][ 96]LogMetaData: Removing '/Game/Blueprints/Player.Player_C' ref from Metadata '/Game/Player.PackageMetaData'
+[2017.10.01-20.24.21:098][ 96]LogMetaData: Removing '/Game/Blueprints/Player.Player:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Player.PackageMetaData'
+[2017.10.01-20.24.21:098][ 96]LogMetaData: Removing '/Game/Blueprints/Player.Player:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Player.PackageMetaData'
+[2017.10.01-20.24.21:098][ 96]LogMetaData: Removing '/Game/Blueprints/Player.Player:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Player.PackageMetaData'
+[2017.10.01-20.24.21:120][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Blueprints/Player.uasset" SILENT=true
+[2017.10.01-20.24.21:145][ 96]LogSavePackage: Save=21.66ms
+[2017.10.01-20.24.21:145][ 96]LogSavePackage: Moving '../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/PlayerE26E72234707301975D33E98108099F0.tmp' to '../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Blueprints/Player.uasset'
+[2017.10.01-20.24.21:149][ 96]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Blueprints/Player.uasset
+[2017.10.01-20.27.31:501][521]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository
+[2017.10.01-20.27.31:501][521]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMeshes/AnimTreeEd_PreviewFloor.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMeshes/AnimTreeEd_PreviewFloor.uasset' is outside repository
+[2017.10.01-20.27.31:501][521]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMeshes/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMeshes/BackgroundCube.uasset' is outside repository
+[2017.10.01-20.27.31:501][521]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository
+[2017.10.01-20.27.34:919][549]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBoxMesh.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBoxMesh.uasset' is outside repository
+[2017.10.01-20.27.34:919][549]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset' is outside repository
