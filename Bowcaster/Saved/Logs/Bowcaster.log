@@ -1,4 +1,4 @@
-﻿Log file open, 10/02/17 17:03:07
+﻿Log file open, 10/03/17 15:06:47
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,9 +7,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Bowcaster
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-103504003) SRandInit(-103504003).
+LogInit: Display: RandInit(-932594454) SRandInit(-932594454).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.252999
+LogStats: Stats thread started at 0.192837
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -111,234 +111,1455 @@ LogInit: Base directory: D:/Program Files/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.02-21.03.08:378][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.02-21.03.08:378][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.02-21.03.08:456][  0]LogInit: Computer: MSI
-[2017.10.02-21.03.08:456][  0]LogInit: User: aidan
-[2017.10.02-21.03.08:456][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.02-21.03.08:456][  0]LogInit: High frequency timer resolution =2.531249 MHz
-[2017.10.02-21.03.08:456][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.10.02-21.03.08:456][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.02-21.03.08:456][  0]LogMemory: Process Physical Memory: 279.37 MB used, 279.37 MB peak
-[2017.10.02-21.03.08:456][  0]LogMemory: Process Virtual Memory: 282.58 MB used, 282.58 MB peak
-[2017.10.02-21.03.08:456][  0]LogMemory: Physical Memory: 7300.35 MB used,  8959.47 MB free, 16259.82 MB total
-[2017.10.02-21.03.08:456][  0]LogMemory: Virtual Memory: 677.22 MB used,  8959.47 MB free, 134217728.00 MB total
-[2017.10.02-21.03.09:832][  0]LogInit: Using OS detected language (en-US).
-[2017.10.02-21.03.09:832][  0]LogInit: Using OS detected locale (en-CA).
-[2017.10.02-21.03.09:929][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.10.02-21.03.13:841][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.02-21.03.14:565][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2017.10.02-21.03.14:565][  0]LogD3D11RHI:       2019/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.10.02-21.03.14:573][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2017.10.02-21.03.14:573][  0]LogD3D11RHI:       128/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.10.02-21.03.14:574][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.10.02-21.03.14:574][  0]LogD3D11RHI:       0/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.10.02-21.03.14:574][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.02-21.03.14:579][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.02-21.03.14:579][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2017.10.02-21.03.14:579][  0]LogWindows: EnumDisplayDevices:
-[2017.10.02-21.03.14:579][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2017.10.02-21.03.14:580][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:1)
-[2017.10.02-21.03.14:580][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.10.02-21.03.14:580][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.10.02-21.03.14:580][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2017.10.02-21.03.14:580][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.10.02-21.03.14:580][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.10.02-21.03.14:580][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.02-21.03.15:213][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.02-21.03.15:271][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.10.02-21.03.15:273][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Intermediate/Shaders/WorkingDirectory/14036/).
-[2017.10.02-21.03.15:273][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aidan/AppData/Local/Temp/UnrealShaderWorkingDir/758EC7814A5DD73539F5F8A477F96580/'.
-[2017.10.02-21.03.15:273][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.10.02-21.03.18:200][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.02-21.03.18:237][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.10.02-21.03.18:275][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.02-21.03.18:315][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.10.02-21.03.18:356][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.10.02-21.03.18:410][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.02-21.03.18:455][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.02-21.03.18:493][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.02-21.03.18:525][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.10.02-21.03.18:571][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.10.02-21.03.18:670][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.02-21.03.18:730][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.02-21.03.18:768][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.02-21.03.18:805][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.02-21.03.18:842][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.02-21.03.18:979][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.02-21.03.18:979][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.02-21.03.19:032][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.10.02-21.03.19:210][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.10.02-21.03.19:282][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.10.02-21.03.19:340][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.02-21.03.19:383][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.02-21.03.19:421][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.02-21.03.19:467][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.10.02-21.03.19:467][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.10.02-21.03.20:890][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.10.02-21.03.21:094][  0]LogDerivedDataCache: Loaded boot cache 0.20s 93MB C:/Users/aidan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.02-21.03.21:094][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/aidan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.10.02-21.03.21:094][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.02-21.03.21:095][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.02-21.03.21:095][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.02-21.03.21:095][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.02-21.03.21:211][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.02-21.03.21:224][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aidan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.02-21.03.21:256][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.02-21.03.21:257][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.02-21.03.21:287][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.02-21.03.21:287][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.02-21.03.26:518][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
-[2017.10.02-21.03.26:636][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.02-21.03.26:919][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.02-21.03.27:361][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.02-21.03.27:390][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.02-21.03.27:390][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.02-21.03.27:390][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.10.02-21.03.27:390][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.10.02-21.03.27:390][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.10.02-21.03.27:939][  0]LogNetVersion: Bowcaster , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4119434037)
-[2017.10.02-21.03.28:254][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.065234 seconds
-[2017.10.02-21.03.28:260][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.10.02-21.03.28:261][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.10.02-21.03.28:261][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.02-21.03.28:306][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.02-21.03.32:741][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.02-21.03.32:772][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.02-21.03.33:333][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.02-21.03.33:645][  0]SourceControl: Source control is disabled
-[2017.10.02-21.03.34:254][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.02-21.03.34:421][  0]LogOcInput: OculusInput pre-init called
-[2017.10.02-21.03.34:647][  0]LogEngine: Initializing Engine...
-[2017.10.02-21.03.34:649][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.02-21.03.34:866][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.02-21.03.34:866][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.02-21.03.34:980][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.02-21.03.35:028][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2017.10.02-21.03.35:213][  0]LogInit: FAudioDevice initialized.
-[2017.10.02-21.03.35:346][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/aidan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.02-21.03.35:356][  0]LogInit: Texture streaming: Enabled
-[2017.10.02-21.03.35:441][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.02-21.03.35:621][  0]LogInit: Transaction tracking system initialized
-[2017.10.02-21.03.35:862][  0]BlueprintLog: New page: Editor Load
-[2017.10.02-21.03.36:535][  0]LocalizationService: Localization service is disabled
-[2017.10.02-21.03.37:315][  0]LogConsoleResponse: Display: 
-[2017.10.02-21.03.37:479][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.02-21.03.37:479][  0]LogCook: Display: Mobile HDR setting 1
-[2017.10.02-21.03.37:479][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.10.02-21.03.37:739][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/' took 0.02s
-[2017.10.02-21.03.38:481][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.02-21.03.38:482][  0]LightingResults: New page: Lighting Build
-[2017.10.02-21.03.38:510][  0]MapCheck: New page: Map Check
-[2017.10.02-21.03.38:510][  0]LightingResults: New page: Lighting Build
-[2017.10.02-21.03.38:689][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.10.02-21.03.38:694][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.02-21.03.38:705][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.02-21.03.38:741][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35.073ms to complete.
-[2017.10.02-21.03.38:741][  0]LogFileHelpers: Loading map 'Template_Default' took 0.260
-[2017.10.02-21.03.39:011][  0]LogCollectionManager: Loaded 0 collections in 0.000934 seconds
-[2017.10.02-21.03.39:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Collections/' took 0.01s
-[2017.10.02-21.03.39:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Developers/aidan/Collections/' took 0.01s
-[2017.10.02-21.03.39:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Collections/' took 0.01s
-[2017.10.02-21.03.39:127][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.10.02-21.03.39:138][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2386 classes and 500 folders.
-[2017.10.02-21.03.39:188][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.10.02-21.03.39:576][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.10.02-21.03.39:624][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.10.02-21.03.39:655][  0]LogSlate: Took 0.005866 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.02-21.03.39:662][  0]LogSlate: Took 0.004344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.02-21.03.39:674][  0]LogSlate: Took 0.004840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.02-21.03.39:790][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
-[2017.10.02-21.03.40:022][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.10.02-21.03.40:023][  0]LogLoad: (Engine Initialization) Total time: 36.22 seconds
-[2017.10.02-21.03.40:023][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.10.02-21.03.40:023][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.10.02-21.03.40:023][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.10.02-21.03.40:401][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.10.02-21.03.40:491][  0]LogSlate: Took 0.007837 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.02-21.03.41:380][  3]LogAssetRegistry: Asset discovery search completed in 14.8844 seconds
-[2017.10.02-21.03.41:386][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.10.02-21.03.41:386][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000165 seconds (updated 0 objects)
-[2017.10.02-21.03.48:121][ 46]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.02-21.03.48:488][ 46]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2017.10.02-21.03.48:488][ 46]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2017.10.02-21.03.48:488][ 46]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 64X8)
-[2017.10.02-21.03.48:488][ 46]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X256)
-[2017.10.02-21.03.48:488][ 46]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2017.10.02-21.03.48:488][ 46]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2017.10.02-21.03.48:513][ 46]LogAIModule: Creating AISystem for world BowCaster
-[2017.10.02-21.03.48:529][ 46]Cmd: MAP LOAD FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.02-21.03.48:529][ 46]LightingResults: New page: Lighting Build
-[2017.10.02-21.03.48:530][ 46]LoadErrors: New page: Loading map: BowCaster.umap
-[2017.10.02-21.03.48:530][ 46]MapCheck: New page: Map Check
-[2017.10.02-21.03.48:530][ 46]LightingResults: New page: Lighting Build
-[2017.10.02-21.03.48:546][ 46]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.02-21.03.48:576][ 46]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.02-21.03.48:612][ 46]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35.064ms to complete.
-[2017.10.02-21.03.48:612][ 46]LogFileHelpers: Loading map 'BowCaster' took 0.084
-[2017.10.02-21.03.52:362][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Sphere002)
-[2017.10.02-21.03.52:653][280]Cmd: DELETE
-[2017.10.02-21.03.52:653][280]Cmd: ACTOR DELETE
-[2017.10.02-21.03.52:657][280]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.10.02-21.03.52:666][280]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2017.10.02-21.03.53:453][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Torus001)
-[2017.10.02-21.03.53:597][333]Cmd: DELETE
-[2017.10.02-21.03.53:597][333]Cmd: ACTOR DELETE
-[2017.10.02-21.03.53:597][333]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.10.02-21.03.53:605][333]LogEditorActor: Deleted 1 Actors (0.009 secs)
-[2017.10.02-21.03.54:213][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Base_World_Sphere001)
-[2017.10.02-21.03.54:403][378]Cmd: DELETE
-[2017.10.02-21.03.54:404][378]Cmd: ACTOR DELETE
-[2017.10.02-21.03.54:404][378]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.10.02-21.03.54:415][378]LogEditorActor: Deleted 1 Actors (0.012 secs)
-[2017.10.02-21.04.28:394][881]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\OneDrive\UofT Projects\Export\Forcefield_01.FBX)
-[2017.10.02-21.04.28:413][881]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.10.02-21.04.28:413][881]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2017.10.02-21.04.28:413][881]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2017.10.02-21.04.28:413][881]LogFbx: ItemName: Model, ItemCount : 1
-[2017.10.02-21.04.28:413][881]LogFbx: ItemName: Geometry, ItemCount : 1
-[2017.10.02-21.04.28:423][881]LogFbx: Loading FBX Scene from D:\OneDrive\UofT Projects\Export\Forcefield_01.FBX
-[2017.10.02-21.04.28:433][881]LogFbx: FBX Scene Loaded Succesfully
-[2017.10.02-21.04.55:069][881]LogFbx: Loading FBX Scene from D:\OneDrive\UofT Projects\Export\Forcefield_01.FBX
-[2017.10.02-21.04.55:076][881]LogFbx: FBX Scene Loaded Succesfully
-[2017.10.02-21.04.55:076][881]LogFbx: Warning: Triangulating static mesh Sphere003
-[2017.10.02-21.04.55:117][881]LogStaticMesh: Building static mesh Forcefield_01...
-[2017.10.02-21.04.55:125][881]LogStaticMesh: Built static mesh [0.01s] /Game/Art/Geometry/Forcefield_01.Forcefield_01
-[2017.10.02-21.04.55:136][881]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2017.10.02-21.04.59:443][928]LogActorFactory: Actor Factory created Forcefield_01
-[2017.10.02-21.05.00:968][ 16]LogActorFactory: Actor Factory created Forcefield_01
-[2017.10.02-21.05.05:260][270]Cmd: DELETE
-[2017.10.02-21.05.05:260][270]Cmd: ACTOR DELETE
-[2017.10.02-21.05.05:261][270]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.10.02-21.05.05:277][270]LogEditorActor: Deleted 1 Actors (0.017 secs)
-[2017.10.02-21.05.26:027][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Materials/Forcefield" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Forcefield.uasset" SILENT=true
-[2017.10.02-21.05.26:044][831]LogSavePackage: Save=14.08ms
-[2017.10.02-21.05.26:044][831]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/ForcefieldE184EF924A62944CAE05BDA785FF1085.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Forcefield.uasset'
-[2017.10.02-21.05.26:046][831]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Forcefield.uasset
-[2017.10.02-21.05.26:050][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Materials/Glass" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Glass.uasset" SILENT=true
-[2017.10.02-21.05.26:064][831]LogSavePackage: Save=4.59ms
-[2017.10.02-21.05.26:064][831]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Glass6F6FB9B44D04F7EC9FF7A4AF8C2A27E8.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Glass.uasset'
-[2017.10.02-21.05.26:068][831]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Glass.uasset
-[2017.10.02-21.05.34:009][ 60]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.02-21.05.34:691][ 60]LogRenderer: Reallocating scene render targets to support 1144x708 Format 10 NumSamples 1 (Frame:1).
-[2017.10.02-21.05.59:281][247]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.02-21.06.04:884][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Geometry/Forcefield_01" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset" SILENT=true
-[2017.10.02-21.06.04:902][270]LogSavePackage: Save=15.39ms
-[2017.10.02-21.06.04:902][270]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_01BD578E01417DE670BE17E7B3735C38BA.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset'
-[2017.10.02-21.06.04:906][270]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset
-[2017.10.02-21.06.15:440][339]LogActorFactory: Actor Factory created Forcefield_01
-[2017.10.02-21.06.16:364][391]LogActorFactory: Actor Factory created Forcefield_01
-[2017.10.02-21.06.40:296][334]Cmd: TRANSACTION UNDO
-[2017.10.02-21.06.40:296][334]LogEditorTransaction: Undo Rotate Actors
-[2017.10.02-21.06.57:688][185]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.10.02-21.06.58:236][216]Cmd: SELECT NONE
-[2017.10.02-21.07.06:894][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
-[2017.10.02-21.07.18:485][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
-[2017.10.02-21.07.19:378][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_2)
-[2017.10.02-21.07.21:978][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
-[2017.10.02-21.07.22:691][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_2)
-[2017.10.02-21.07.30:734][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BowCaster" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.02-21.07.30:787][459]LogSavePackage: Save=34.48ms
-[2017.10.02-21.07.30:787][459]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/BowCaster3DDB4B154692D648E7C8949492B3B3DC.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap'
-[2017.10.02-21.07.30:791][459]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap
-[2017.10.02-21.07.30:821][459]LogFileHelpers: Saving map 'BowCaster' took 0.129
+[2017.10.03-19.06.47:840][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.03-19.06.47:840][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.03-19.06.47:916][  0]LogInit: Computer: MSI
+[2017.10.03-19.06.47:916][  0]LogInit: User: aidan
+[2017.10.03-19.06.47:916][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.03-19.06.47:916][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2017.10.03-19.06.47:916][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.03-19.06.47:916][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.03-19.06.47:916][  0]LogMemory: Process Physical Memory: 279.52 MB used, 279.52 MB peak
+[2017.10.03-19.06.47:916][  0]LogMemory: Process Virtual Memory: 282.68 MB used, 282.68 MB peak
+[2017.10.03-19.06.47:916][  0]LogMemory: Physical Memory: 7063.51 MB used,  9196.31 MB free, 16259.82 MB total
+[2017.10.03-19.06.47:916][  0]LogMemory: Virtual Memory: 677.22 MB used,  9196.31 MB free, 134217728.00 MB total
+[2017.10.03-19.06.48:663][  0]LogInit: Using OS detected language (en-US).
+[2017.10.03-19.06.48:663][  0]LogInit: Using OS detected locale (en-CA).
+[2017.10.03-19.06.48:716][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.03-19.06.51:525][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.03-19.06.52:213][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.10.03-19.06.52:213][  0]LogD3D11RHI:       2019/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.03-19.06.52:220][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.10.03-19.06.52:220][  0]LogD3D11RHI:       128/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.03-19.06.52:221][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.03-19.06.52:221][  0]LogD3D11RHI:       0/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.03-19.06.52:221][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.03-19.06.52:227][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.03-19.06.52:227][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.10.03-19.06.52:227][  0]LogWindows: EnumDisplayDevices:
+[2017.10.03-19.06.52:227][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.10.03-19.06.52:227][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2017.10.03-19.06.52:227][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.03-19.06.52:227][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.03-19.06.52:227][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.10.03-19.06.52:227][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.03-19.06.52:227][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.03-19.06.52:227][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.03-19.06.52:850][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.03-19.06.52:907][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.03-19.06.52:907][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Intermediate/Shaders/WorkingDirectory/12636/).
+[2017.10.03-19.06.52:908][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aidan/AppData/Local/Temp/UnrealShaderWorkingDir/F95F22E247B407A21EF3ED9AAE9B5723/'.
+[2017.10.03-19.06.52:908][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.03-19.06.55:240][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.03-19.06.55:280][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.03-19.06.55:318][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.03-19.06.55:355][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.03-19.06.55:398][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.03-19.06.55:436][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.03-19.06.55:475][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.03-19.06.55:512][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.03-19.06.55:543][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.03-19.06.55:584][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.03-19.06.55:621][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.03-19.06.55:660][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.03-19.06.55:697][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.03-19.06.55:734][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.03-19.06.55:771][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.03-19.06.55:848][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.03-19.06.55:848][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.03-19.06.55:877][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.03-19.06.55:974][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.03-19.06.56:040][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.03-19.06.56:100][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.03-19.06.56:137][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.03-19.06.56:176][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.03-19.06.56:216][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.03-19.06.56:216][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.03-19.06.56:896][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.03-19.06.56:975][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/aidan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.03-19.06.56:975][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/aidan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.03-19.06.56:976][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.03-19.06.56:976][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.03-19.06.56:976][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.03-19.06.56:976][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.03-19.06.57:015][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.03-19.06.57:028][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aidan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.03-19.06.57:047][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.03-19.06.57:048][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.03-19.06.57:076][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.03-19.06.57:076][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.03-19.06.59:584][  0]LogAssetRegistry: FAssetRegistry took 0.0399 seconds to start up
+[2017.10.03-19.06.59:694][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.03-19.06.59:984][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.03-19.07.00:329][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.03-19.07.00:398][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.03-19.07.00:398][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.03-19.07.00:398][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.03-19.07.00:398][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.03-19.07.00:398][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.03-19.07.01:089][  0]LogNetVersion: Bowcaster , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4119434037)
+[2017.10.03-19.07.01:491][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.064538 seconds
+[2017.10.03-19.07.01:497][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.03-19.07.01:497][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.03-19.07.01:497][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.03-19.07.01:538][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.03-19.07.05:767][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.03-19.07.05:822][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.03-19.07.06:767][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.03-19.07.07:194][  0]SourceControl: Source control is disabled
+[2017.10.03-19.07.07:736][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.03-19.07.07:928][  0]LogOcInput: OculusInput pre-init called
+[2017.10.03-19.07.08:362][  0]LogEngine: Initializing Engine...
+[2017.10.03-19.07.08:365][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.03-19.07.08:753][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.03-19.07.08:753][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.03-19.07.08:839][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.03-19.07.08:865][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.10.03-19.07.09:158][  0]LogInit: FAudioDevice initialized.
+[2017.10.03-19.07.09:245][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/aidan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.03-19.07.09:260][  0]LogInit: Texture streaming: Enabled
+[2017.10.03-19.07.09:343][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.03-19.07.09:514][  0]LogInit: Transaction tracking system initialized
+[2017.10.03-19.07.09:756][  0]BlueprintLog: New page: Editor Load
+[2017.10.03-19.07.10:415][  0]LocalizationService: Localization service is disabled
+[2017.10.03-19.07.10:946][  0]LogConsoleResponse: Display: 
+[2017.10.03-19.07.11:297][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.03-19.07.11:298][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.03-19.07.11:298][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.03-19.07.11:859][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/' took 0.01s
+[2017.10.03-19.07.12:135][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-19.07.12:138][  0]LightingResults: New page: Lighting Build
+[2017.10.03-19.07.12:167][  0]MapCheck: New page: Map Check
+[2017.10.03-19.07.12:168][  0]LightingResults: New page: Lighting Build
+[2017.10.03-19.07.12:394][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.03-19.07.12:404][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-19.07.12:416][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-19.07.12:450][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 34.637ms to complete.
+[2017.10.03-19.07.12:450][  0]LogFileHelpers: Loading map 'Template_Default' took 0.316
+[2017.10.03-19.07.12:644][  0]LogCollectionManager: Loaded 0 collections in 0.001026 seconds
+[2017.10.03-19.07.12:717][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Collections/' took 0.01s
+[2017.10.03-19.07.12:717][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Developers/aidan/Collections/' took 0.01s
+[2017.10.03-19.07.12:717][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Collections/' took 0.01s
+[2017.10.03-19.07.12:717][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.03-19.07.12:726][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2386 classes and 500 folders.
+[2017.10.03-19.07.12:772][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.03-19.07.13:094][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.03-19.07.13:125][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.03-19.07.13:155][  0]LogSlate: Took 0.006974 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.03-19.07.13:163][  0]LogSlate: Took 0.004523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.03-19.07.13:175][  0]LogSlate: Took 0.004905 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.03-19.07.13:322][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2017.10.03-19.07.13:587][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.10.03-19.07.13:588][  0]LogLoad: (Engine Initialization) Total time: 28.72 seconds
+[2017.10.03-19.07.13:588][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.03-19.07.13:588][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.03-19.07.13:588][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.03-19.07.13:627][  0]LogAssetRegistry: Asset discovery search completed in 14.0648 seconds
+[2017.10.03-19.07.13:628][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.03-19.07.13:628][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2017.10.03-19.07.13:631][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.03-19.07.13:682][  0]LogSlate: Took 0.003891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-19.07.20:069][266]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-19.07.20:282][266]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.03-19.07.20:303][266]Cmd: MAP LOAD FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-19.07.20:303][266]LightingResults: New page: Lighting Build
+[2017.10.03-19.07.20:304][266]LoadErrors: New page: Loading map: BowCaster.umap
+[2017.10.03-19.07.20:305][266]MapCheck: New page: Map Check
+[2017.10.03-19.07.20:305][266]LightingResults: New page: Lighting Build
+[2017.10.03-19.07.20:324][266]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-19.07.20:354][266]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-19.07.20:390][266]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.22ms to complete.
+[2017.10.03-19.07.20:390][266]LogFileHelpers: Loading map 'BowCaster' took 0.089
+[2017.10.03-19.08.19:707][883]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.10.03-19.08.19:819][883]LogEditorActor: Deleted 1 Actors (0.112 secs)
+[2017.10.03-19.13.45:243][353]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Export/Forcefield_01.FBX]
+[2017.10.03-19.13.45:341][353]LogFbx: Loading FBX Scene from D:/OneDrive/UofT Projects/Export/Forcefield_01.FBX
+[2017.10.03-19.13.45:348][353]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.03-19.13.45:352][353]LogFbx: Warning: Triangulating static mesh Sphere003
+[2017.10.03-19.13.45:474][353]LogStaticMesh: Building static mesh Forcefield_01...
+[2017.10.03-19.13.45:480][353]LogStaticMesh: Built static mesh [0.01s] /Game/Art/Geometry/Forcefield_01.Forcefield_01
+[2017.10.03-19.13.45:492][353]LogEditorFactories: -- imported successfully
+[2017.10.03-19.13.45:496][353]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.03-19.13.45:518][353]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-19.14.12:278][607]LogActorFactory: Actor Factory created Forcefield_01
+[2017.10.03-19.14.16:273][842]LogActorFactory: Actor Factory created Forcefield_01
+[2017.10.03-19.14.51:719][905]LogEditorViewport: Clicking Background
+[2017.10.03-19.14.57:146][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_3)
+[2017.10.03-19.15.43:679][464]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.03-19.16.00:143][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.03-19.16.03:815][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sky_01)
+[2017.10.03-19.16.53:347][851]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0010 seconds. Added 1 classes and 0 folders.
+[2017.10.03-19.16.53:350][851]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.16.53:451][851]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.16.53:465][851]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.16.53:808][851]LogSlate: Took 0.296107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.03-19.16.56:085][859]LogRenderer: Reallocating scene render targets to support 964x452 Format 10 NumSamples 1 (Frame:9).
+[2017.10.03-19.16.56:116][859]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.03-19.16.56:116][859]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.03-19.16.56:116][859]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.03-19.17.38:185][ 82]LogSavePackage: Save=37.53ms
+[2017.10.03-19.17.38:185][ 82]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/BowCaster_Auto1126D21FC4F1CBC19142AFCB8D66977A9.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto1.umap'
+[2017.10.03-19.17.38:187][ 82]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto1.umap
+[2017.10.03-19.17.38:309][ 82]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.349
+[2017.10.03-19.17.38:309][ 82]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.349
+[2017.10.03-19.17.38:479][ 82]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Materials/Sky] ([1] browsable assets)...
+[2017.10.03-19.17.38:665][ 82]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Materials/Sky.Sky]
+[2017.10.03-19.17.38:665][ 82]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Materials/Sky]
+[2017.10.03-19.17.38:665][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Materials/Sky" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Sky_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.03-19.17.38:684][ 82]LogSavePackage: Save=16.16ms
+[2017.10.03-19.17.38:684][ 82]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Sky_Auto1E6ED4C854B15D29D5F693FAA326E6D58.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Sky_Auto1.uasset'
+[2017.10.03-19.17.38:685][ 82]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Sky_Auto1.uasset
+[2017.10.03-19.17.38:686][ 82]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Geometry/Forcefield_01] ([1] browsable assets)...
+[2017.10.03-19.17.38:859][ 82]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/Geometry/Forcefield_01.Forcefield_01]
+[2017.10.03-19.17.38:859][ 82]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Geometry/Forcefield_01]
+[2017.10.03-19.17.38:884][ 82]LogSavePackage: Save=16.95ms
+[2017.10.03-19.17.38:884][ 82]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_01_Auto10C1B53344250D0E86D75E5A8E96962A1.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Geometry/Forcefield_01_Auto1.uasset'
+[2017.10.03-19.17.38:886][ 82]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Geometry/Forcefield_01_Auto1.uasset
+[2017.10.03-19.17.38:886][ 82]LogFileHelpers: Auto-saving content packages took 0.407
+[2017.10.03-19.17.54:686][127]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Test\Stars Mask.tga)
+[2017.10.03-19.17.54:888][127]LogTexture: Display: Building textures: Stars_Mask (BGRA8, 3564X2005)
+[2017.10.03-19.17.55:694][127]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Test\Stars.tga)
+[2017.10.03-19.17.55:876][127]LogTexture: Display: Building textures: Stars (BGRA8, 3564X2005)
+[2017.10.03-19.17.56:714][127]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Test\Stars Alpha.tga)
+[2017.10.03-19.17.56:875][127]LogTexture: Display: Building textures: Stars_Alpha (BGRA8, 3564X2005)
+[2017.10.03-19.18.13:730][189]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2017.10.03-19.18.17:811][214]LogTexture: Display: Building textures: Stars_Alpha (BGRA8, 3564X2005)
+[2017.10.03-19.18.26:283][262]LogTexture: Display: Building textures: Stars_Mask (BGRA8, 3564X2005)
+[2017.10.03-19.18.32:326][294]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.18.32:351][294]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.03-19.18.32:386][294]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.03-19.18.33:735][302]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.03-19.18.33:735][302]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.03-19.18.33:735][302]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.03-19.18.38:807][328]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.18.38:824][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.03-19.18.40:604][341]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.03-19.18.40:604][341]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.18.40:604][341]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.03-19.18.40:604][341]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.18.45:149][374]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.18.46:360][381]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.03-19.18.46:360][381]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.18.46:361][381]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.03-19.18.46:361][381]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.18.48:439][391]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.18.50:980][405]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.03-19.18.50:980][405]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.18.50:980][405]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.03-19.18.50:980][405]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.18.52:558][415]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.18.53:693][423]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.03-19.18.53:693][423]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.18.53:693][423]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.03-19.18.53:693][423]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.18.55:998][439]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.18.56:986][446]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.03-19.18.56:986][446]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.18.56:986][446]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.03-19.18.56:986][446]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.18.59:333][457]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.19.02:904][480]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.03-19.19.02:904][480]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.19.02:904][480]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.03-19.19.02:904][480]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.19.21:838][617]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.19.21:850][617]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.03-19.19.21:884][617]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.03-19.19.21:892][617]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.03-19.19.23:243][626]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.03-19.19.23:243][626]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.19.23:243][626]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.03-19.19.23:243][626]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.19.35:770][693]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.19.35:782][693]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.10.03-19.19.35:817][693]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.03-19.19.35:829][693]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.03-19.19.35:836][693]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.10.03-19.19.36:962][700]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.03-19.19.36:962][700]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.19.36:962][700]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.03-19.19.36:962][700]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.19.43:496][744]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.19.44:547][749]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.03-19.19.44:547][749]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.19.44:547][749]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.03-19.19.44:547][749]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.19.48:491][768]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.19.49:541][776]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.03-19.19.49:541][776]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.19.49:541][776]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.03-19.19.49:541][776]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.19.55:109][805]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.19.55:124][805]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.03-19.19.57:561][820]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.03-19.19.57:561][820]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.19.57:561][820]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-19.19.57:561][820]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.19.58:918][829]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.20.00:206][836]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.03-19.20.00:206][836]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.20.00:206][836]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-19.20.00:206][836]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.20.02:925][849]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.20.07:949][874]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.03-19.20.07:949][874]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.20.07:949][874]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.03-19.20.07:949][874]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.20.15:349][912]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.20.20:521][942]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.03-19.20.20:522][942]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.20.20:522][942]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-19.20.20:522][942]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.20.25:229][977]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.20.26:390][984]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.03-19.20.26:390][984]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.20.26:390][984]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-19.20.26:390][984]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.20.28:327][993]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.20.31:336][ 10]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.03-19.20.31:336][ 10]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.20.31:336][ 10]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.03-19.20.31:336][ 10]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.20.36:045][ 43]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.20.37:141][ 50]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.03-19.20.37:141][ 50]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.20.37:141][ 50]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-19.20.37:141][ 50]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.20.53:923][166]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.20.54:968][173]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.03-19.20.54:968][173]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.20.54:968][173]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-19.20.54:968][173]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.20.59:079][194]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.20.59:096][194]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.10.03-19.21.00:570][203]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.03-19.21.00:570][203]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.21.00:570][203]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-19.21.00:570][203]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.21.09:865][264]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.21.10:868][270]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.03-19.21.10:869][270]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.21.10:869][270]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-19.21.10:869][270]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.21.13:591][290]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.21.14:610][295]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.03-19.21.14:610][295]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.21.14:610][295]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-19.21.14:610][295]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.21.24:137][358]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.21.24:155][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.10.03-19.21.25:239][366]MaterialEditorStats: Base pass shader: 87 instructions
+[2017.10.03-19.21.25:239][366]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.21.25:239][366]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.03-19.21.25:239][366]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.21.31:702][408]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.21.32:750][416]MaterialEditorStats: Base pass shader: 87 instructions
+[2017.10.03-19.21.32:750][416]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.21.32:750][416]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.03-19.21.32:750][416]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.21.38:041][451]LogMaterialEditor: Applying material Sky
+[2017.10.03-19.21.38:722][451]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.21.38:944][451]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.21.38:978][451]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.21.39:018][451]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Sky, compiling. 
+[2017.10.03-19.21.39:632][451]TextureStreamingBuild: Display: Compiling optional shaders took 0.622 seconds.
+[2017.10.03-19.21.41:359][460]MaterialEditorStats: Base pass shader: 87 instructions
+[2017.10.03-19.21.41:359][460]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.21.41:359][460]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.21.41:359][460]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.21.45:228][484]Cmd: TRANSACTION UNDO
+[2017.10.03-19.21.45:228][484]LogEditorTransaction: Undo Create Actors
+[2017.10.03-19.21.45:382][484]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-19.21.46:410][489]MaterialEditorStats: Base pass shader: 87 instructions
+[2017.10.03-19.21.46:410][489]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-19.21.46:410][489]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.03-19.21.46:410][489]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.22.06:161][627]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.03-19.22.33:294][818]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.22.33:433][818]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.22.33:451][818]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.22.33:492][818]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-19.22.35:631][831]MaterialEditorStats: Base pass shader: 45 instructions
+[2017.10.03-19.22.35:632][831]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.10.03-19.22.35:632][831]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.03-19.22.43:717][874]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.22.45:578][886]MaterialEditorStats: Base pass shader: 49 instructions
+[2017.10.03-19.22.45:578][886]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.10.03-19.22.45:578][886]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.03-19.22.50:924][924]LogMaterialEditor: Applying material Forcefield
+[2017.10.03-19.22.51:633][924]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.22.51:770][924]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.22.51:831][924]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.22.51:887][924]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forcefield, compiling. 
+[2017.10.03-19.22.53:027][924]TextureStreamingBuild: Display: Compiling optional shaders took 1.148 seconds.
+[2017.10.03-19.22.56:679][947]MaterialEditorStats: Base pass shader: 49 instructions
+[2017.10.03-19.22.56:679][947]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.10.03-19.22.56:679][947]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.03-19.23.08:764][ 30]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.23.10:644][ 43]MaterialEditorStats: Base pass shader: 49 instructions
+[2017.10.03-19.23.10:644][ 43]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.10.03-19.23.10:644][ 43]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.03-19.23.12:322][ 54]LogMaterialEditor: Applying material Forcefield
+[2017.10.03-19.23.12:955][ 54]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.23.13:088][ 54]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.23.13:144][ 54]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.23.13:195][ 54]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forcefield, compiling. 
+[2017.10.03-19.23.14:368][ 54]TextureStreamingBuild: Display: Compiling optional shaders took 1.180 seconds.
+[2017.10.03-19.23.17:927][ 78]MaterialEditorStats: Base pass shader: 49 instructions
+[2017.10.03-19.23.17:928][ 78]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.10.03-19.23.17:928][ 78]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.03-19.23.47:481][258]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.03-19.23.47:481][258]LogTemp: CWD: D:\Program Files\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.03-19.23.47:481][258]LogTemp: Initial Dir: D:\Program Files\UE_4.17
+[2017.10.03-19.23.47:481][258]LogTemp: Env CWD: D:\Program Files\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.03-19.23.47:481][258]LogTemp: BranchPath = MSI/D/Program Files/UE_4.17/Engine/Binaries --- GameBranchPath = MSI/D/Program Files/UE_4.17/Engine/Binaries
+[2017.10.03-19.23.47:481][258]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\aidan\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.03-19.27.45:015][307]LogSavePackage: Save=39.93ms
+[2017.10.03-19.27.45:015][307]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/BowCaster_Auto2128C67724384533AF9C92BAFE6AEB523.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto2.umap'
+[2017.10.03-19.27.45:017][307]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto2.umap
+[2017.10.03-19.27.45:093][307]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.139
+[2017.10.03-19.27.45:093][307]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.139
+[2017.10.03-19.27.45:234][307]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Materials/Sky] ([1] browsable assets)...
+[2017.10.03-19.27.45:386][307]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Materials/Sky.Sky]
+[2017.10.03-19.27.45:386][307]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Materials/Sky]
+[2017.10.03-19.27.45:386][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Materials/Sky" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Sky_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.10.03-19.27.45:410][307]LogSavePackage: Save=20.99ms
+[2017.10.03-19.27.45:410][307]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Sky_Auto2BC7D37524962390B7F8B5997AA3F42C6.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Sky_Auto2.uasset'
+[2017.10.03-19.27.45:412][307]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Sky_Auto2.uasset
+[2017.10.03-19.27.45:413][307]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Materials/Forcefield] ([1] browsable assets)...
+[2017.10.03-19.27.45:583][307]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Materials/Forcefield.Forcefield]
+[2017.10.03-19.27.45:583][307]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Materials/Forcefield]
+[2017.10.03-19.27.45:618][307]LogSavePackage: Save=24.49ms
+[2017.10.03-19.27.45:618][307]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Auto2497878AF45B086234371C1B7C18A633D.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Forcefield_Auto2.uasset'
+[2017.10.03-19.27.45:621][307]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Forcefield_Auto2.uasset
+[2017.10.03-19.27.45:621][307]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Textures/Stars_Mask] ([1] browsable assets)...
+[2017.10.03-19.27.45:736][307]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Textures/Stars_Mask.Stars_Mask]
+[2017.10.03-19.27.45:736][307]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Textures/Stars_Mask]
+[2017.10.03-19.27.45:840][307]LogSavePackage: Save=101.13ms
+[2017.10.03-19.27.45:841][307]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Stars_Mask_Auto20288676040258E61562613B5FF03E807.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Stars_Mask_Auto2.uasset'
+[2017.10.03-19.27.45:843][307]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Stars_Mask_Auto2.uasset
+[2017.10.03-19.27.45:844][307]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Textures/Stars] ([1] browsable assets)...
+[2017.10.03-19.27.45:976][307]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Textures/Stars.Stars]
+[2017.10.03-19.27.45:976][307]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Textures/Stars]
+[2017.10.03-19.27.45:977][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Textures/Stars" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Stars_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.10.03-19.27.46:031][307]LogSavePackage: Save=52.45ms
+[2017.10.03-19.27.46:031][307]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Stars_Auto2CA2DC8AC438728749A476199216B1962.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Stars_Auto2.uasset'
+[2017.10.03-19.27.46:032][307]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Stars_Auto2.uasset
+[2017.10.03-19.27.46:032][307]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Textures/Stars_Alpha] ([1] browsable assets)...
+[2017.10.03-19.27.46:036][307]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Textures/Stars_Alpha.Stars_Alpha]
+[2017.10.03-19.27.46:036][307]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Textures/Stars_Alpha]
+[2017.10.03-19.27.46:084][307]LogSavePackage: Save=45.81ms
+[2017.10.03-19.27.46:084][307]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Stars_Alpha_Auto2BD7A9E574717F590F8C646B4287620CD.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Stars_Alpha_Auto2.uasset'
+[2017.10.03-19.27.46:085][307]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Stars_Alpha_Auto2.uasset
+[2017.10.03-19.27.46:085][307]LogFileHelpers: Auto-saving content packages took 0.852
+[2017.10.03-19.27.46:170][307]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.03-19.36.26:287][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Textures/Sky/Stars_Mask" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Sky/Stars_Mask.uasset" SILENT=true
+[2017.10.03-19.36.26:798][918]LogSavePackage: Save=509.04ms
+[2017.10.03-19.36.26:798][918]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Stars_MaskDAD26476495EE0D2DC9D588C927BD978.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Sky/Stars_Mask.uasset'
+[2017.10.03-19.36.26:808][918]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Sky/Stars_Mask.uasset
+[2017.10.03-19.36.26:815][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Textures/Sky/Stars" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Sky/Stars.uasset" SILENT=true
+[2017.10.03-19.36.28:106][918]LogSavePackage: Save=1288.54ms
+[2017.10.03-19.36.28:106][918]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/StarsF0D0CD364D1FE06238B158B7E706C7E3.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Sky/Stars.uasset'
+[2017.10.03-19.36.28:110][918]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Sky/Stars.uasset
+[2017.10.03-19.36.28:117][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Textures/Sky/Stars_Alpha" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Sky/Stars_Alpha.uasset" SILENT=true
+[2017.10.03-19.36.28:445][918]LogSavePackage: Save=325.43ms
+[2017.10.03-19.36.28:445][918]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Stars_Alpha42039BE34FAAEB3CB37537A90465B1DC.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Sky/Stars_Alpha.uasset'
+[2017.10.03-19.36.28:451][918]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Sky/Stars_Alpha.uasset
+[2017.10.03-19.37.28:577][166]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\OneDrive\UofT Projects\Textures\Forcefield_Stutter.tga)
+[2017.10.03-19.37.28:621][166]LogTexture: Display: Building textures: Forcefield_Stutter (AutoDXT, 1024X1024)
+[2017.10.03-19.37.35:587][199]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.37.35:607][199]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.10.03-19.37.35:636][199]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-19.37.35:641][199]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.10.03-19.37.38:191][212]MaterialEditorStats: Base pass shader: 49 instructions
+[2017.10.03-19.37.38:191][212]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.10.03-19.37.38:191][212]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.03-19.37.39:593][219]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.37.41:438][228]MaterialEditorStats: Base pass shader: 49 instructions
+[2017.10.03-19.37.41:438][228]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.10.03-19.37.41:438][228]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.03-19.37.46:613][261]LogTexture: Display: Building textures: Forcefield_Stutter (AutoDXT, 1024X1024)
+[2017.10.03-19.37.52:997][296]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.37.53:013][296]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.10.03-19.37.53:045][296]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-19.37.53:051][296]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.10.03-19.37.55:588][310]MaterialEditorStats: Base pass shader: 49 instructions
+[2017.10.03-19.37.55:588][310]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.10.03-19.37.55:588][310]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.03-19.38.01:414][348]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-19.38.01:418][348]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.10.03-19.38.08:705][397]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.38.12:191][414]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.38.14:956][426]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.38.14:979][426]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-19.38.17:732][439]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.38.17:758][439]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.10.03-19.38.20:865][454]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.10.03-19.38.20:865][454]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.38.20:865][454]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.38.20:865][454]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.38.26:211][491]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-19.38.26:215][491]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.10.03-19.38.35:280][543]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.38.37:297][556]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.10.03-19.38.37:297][556]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.38.37:297][556]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.38.37:297][556]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.38.44:353][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-19.38.44:358][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.10.03-19.38.45:481][603]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.38.49:740][623]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.10.03-19.38.49:740][623]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.38.49:740][623]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.38.49:740][623]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.38.52:029][635]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.38.54:797][648]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.38.56:841][658]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.10.03-19.38.56:841][658]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.38.56:841][658]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.38.56:841][658]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.38.59:062][668]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.38.59:084][668]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.10.03-19.39.02:584][688]MaterialEditorStats: Base pass shader: 50 instructions
+[2017.10.03-19.39.02:585][688]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.39.02:585][688]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.39.02:585][688]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.39.10:685][733]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.39.10:713][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.10.03-19.39.12:925][744]MaterialEditorStats: Base pass shader: 50 instructions
+[2017.10.03-19.39.12:926][744]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.39.12:926][744]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.39.12:926][744]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.39.15:716][764]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.39.17:789][778]MaterialEditorStats: Base pass shader: 52 instructions
+[2017.10.03-19.39.17:789][778]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.39.17:789][778]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.39.17:789][778]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.39.24:104][824]LogMaterialEditor: Applying material Forcefield
+[2017.10.03-19.39.24:753][824]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.39.24:902][824]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.39.24:963][824]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.39.25:014][824]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forcefield, compiling. 
+[2017.10.03-19.39.26:386][824]TextureStreamingBuild: Display: Compiling optional shaders took 1.381 seconds.
+[2017.10.03-19.39.30:374][849]MaterialEditorStats: Base pass shader: 52 instructions
+[2017.10.03-19.39.30:374][849]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.39.30:374][849]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.39.30:374][849]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.39.40:606][923]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.39.42:769][937]MaterialEditorStats: Base pass shader: 52 instructions
+[2017.10.03-19.39.42:769][937]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.39.42:769][937]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.39.42:769][937]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.39.44:604][949]LogMaterialEditor: Applying material Forcefield
+[2017.10.03-19.39.45:259][949]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.39.45:405][949]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.39.45:465][949]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.39.45:522][949]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forcefield, compiling. 
+[2017.10.03-19.39.47:037][949]TextureStreamingBuild: Display: Compiling optional shaders took 1.524 seconds.
+[2017.10.03-19.39.51:177][973]MaterialEditorStats: Base pass shader: 52 instructions
+[2017.10.03-19.39.51:177][973]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.39.51:177][973]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.39.51:177][973]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.40.00:909][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_2)
+[2017.10.03-19.40.23:313][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.03-19.40.23:380][182]Cmd: SELECT NONE
+[2017.10.03-19.40.38:317][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-19.40.38:321][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.10.03-19.40.42:193][304]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.40.44:412][317]MaterialEditorStats: Base pass shader: 52 instructions
+[2017.10.03-19.40.44:412][317]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.40.44:412][317]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.40.44:412][317]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.40.51:091][350]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.40.53:722][360]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.40.55:831][370]MaterialEditorStats: Base pass shader: 54 instructions
+[2017.10.03-19.40.55:831][370]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.40.55:831][370]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.40.55:831][370]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.41.03:948][423]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.41.06:988][438]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.41.09:196][450]MaterialEditorStats: Base pass shader: 52 instructions
+[2017.10.03-19.41.09:196][450]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.41.09:196][450]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.41.09:196][450]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.41.13:455][471]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.41.15:664][481]MaterialEditorStats: Base pass shader: 54 instructions
+[2017.10.03-19.41.15:664][481]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.41.15:664][481]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.41.15:664][481]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.41.21:193][513]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.41.23:372][523]MaterialEditorStats: Base pass shader: 54 instructions
+[2017.10.03-19.41.23:372][523]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.41.23:372][523]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.41.23:372][523]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.41.29:651][554]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.41.31:747][564]MaterialEditorStats: Base pass shader: 54 instructions
+[2017.10.03-19.41.31:747][564]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.41.31:747][564]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.41.31:747][564]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.41.37:140][592]LogMaterialEditor: Applying material Forcefield
+[2017.10.03-19.41.37:778][592]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.41.37:915][592]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.41.37:974][592]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.41.38:030][592]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forcefield, compiling. 
+[2017.10.03-19.41.39:411][592]TextureStreamingBuild: Display: Compiling optional shaders took 1.388 seconds.
+[2017.10.03-19.41.43:417][615]MaterialEditorStats: Base pass shader: 54 instructions
+[2017.10.03-19.41.43:417][615]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.41.43:417][615]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.41.43:417][615]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.41.44:690][623]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.41.48:008][639]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.41.48:035][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-19.41.50:938][654]MaterialEditorStats: Base pass shader: 52 instructions
+[2017.10.03-19.41.50:938][654]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.41.50:938][654]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.41.50:938][654]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.41.52:199][661]LogMaterialEditor: Applying material Forcefield
+[2017.10.03-19.41.52:838][661]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.41.52:975][661]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.41.53:034][661]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.41.53:089][661]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forcefield, compiling. 
+[2017.10.03-19.41.54:421][661]TextureStreamingBuild: Display: Compiling optional shaders took 1.340 seconds.
+[2017.10.03-19.41.58:303][686]MaterialEditorStats: Base pass shader: 52 instructions
+[2017.10.03-19.41.58:303][686]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.41.58:303][686]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.41.58:303][686]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.42.06:857][739]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.42.08:945][749]MaterialEditorStats: Base pass shader: 52 instructions
+[2017.10.03-19.42.08:945][749]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.42.08:945][749]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.42.08:945][749]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.42.10:678][758]LogMaterialEditor: Applying material Forcefield
+[2017.10.03-19.42.11:395][758]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.42.11:540][758]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.42.11:605][758]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.42.11:670][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forcefield, compiling. 
+[2017.10.03-19.42.13:060][758]TextureStreamingBuild: Display: Compiling optional shaders took 1.398 seconds.
+[2017.10.03-19.42.16:821][783]MaterialEditorStats: Base pass shader: 52 instructions
+[2017.10.03-19.42.16:821][783]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.42.16:821][783]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.42.16:821][783]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.43.05:565][ 43]LogSavePackage: Save=41.97ms
+[2017.10.03-19.43.05:565][ 43]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/BowCaster_Auto3DBFA11D94CE138DC31DA6EBC1D8732C8.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto3.umap'
+[2017.10.03-19.43.05:568][ 43]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto3.umap
+[2017.10.03-19.43.05:630][ 43]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.129
+[2017.10.03-19.43.05:630][ 43]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.129
+[2017.10.03-19.43.05:749][ 43]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Materials/Forcefield] ([1] browsable assets)...
+[2017.10.03-19.43.05:880][ 43]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Materials/Forcefield.Forcefield]
+[2017.10.03-19.43.05:880][ 43]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Materials/Forcefield]
+[2017.10.03-19.43.05:910][ 43]LogSavePackage: Save=18.47ms
+[2017.10.03-19.43.05:910][ 43]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Auto3B359BC3D4C7FB5E76F5807B26EBEC0DC.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Forcefield_Auto3.uasset'
+[2017.10.03-19.43.05:912][ 43]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Forcefield_Auto3.uasset
+[2017.10.03-19.43.05:913][ 43]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Textures/Forecfield/Forcefield_Stutter] ([1] browsable assets)...
+[2017.10.03-19.43.06:004][ 43]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Textures/Forecfield/Forcefield_Stutter.Forcefield_Stutter]
+[2017.10.03-19.43.06:004][ 43]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Textures/Forecfield/Forcefield_Stutter]
+[2017.10.03-19.43.06:015][ 43]LogSavePackage: Save=9.16ms
+[2017.10.03-19.43.06:015][ 43]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Stutter_Auto3B8A0CD6C4814BFF58D3261A608C98A97.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Forecfield/Forcefield_Stutter_Auto3.uasset'
+[2017.10.03-19.43.06:016][ 43]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Forecfield/Forcefield_Stutter_Auto3.uasset
+[2017.10.03-19.43.06:016][ 43]LogFileHelpers: Auto-saving content packages took 0.268
+[2017.10.03-19.50.16:175][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_2)
+[2017.10.03-19.50.19:201][568]Cmd: DELETE
+[2017.10.03-19.50.19:201][568]Cmd: ACTOR DELETE
+[2017.10.03-19.50.19:201][568]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.03-19.50.19:211][568]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.10.03-19.50.41:424][664]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Export/Forcefield_01.FBX]
+[2017.10.03-19.50.41:513][664]LogFbx: Loading FBX Scene from D:/OneDrive/UofT Projects/Export/Forcefield_01.FBX
+[2017.10.03-19.50.41:520][664]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.03-19.50.41:521][664]LogFbx: Warning: Triangulating static mesh Sphere005
+[2017.10.03-19.50.41:684][664]LogStaticMesh: Building static mesh Forcefield_01...
+[2017.10.03-19.50.41:698][664]LogStaticMesh: Built static mesh [0.01s] /Game/Art/Geometry/Forcefield_01.Forcefield_01
+[2017.10.03-19.50.41:713][664]LogEditorFactories: -- imported successfully
+[2017.10.03-19.50.41:716][664]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.03-19.50.54:994][748]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.50.57:079][759]LogMaterialEditor: Applying material Forcefield
+[2017.10.03-19.50.57:711][759]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.50.57:859][759]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.50.57:917][759]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.50.57:972][759]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forcefield, compiling. 
+[2017.10.03-19.50.59:274][759]TextureStreamingBuild: Display: Compiling optional shaders took 1.310 seconds.
+[2017.10.03-19.51.02:837][783]MaterialEditorStats: Base pass shader: 52 instructions
+[2017.10.03-19.51.02:837][783]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.51.02:837][783]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.51.02:837][783]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.52.26:656][238]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Textures/Forcefield_Stutter.tga]
+[2017.10.03-19.52.26:710][238]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/OneDrive/UofT Projects/Textures/Forcefield_Stutter.tga)
+[2017.10.03-19.52.26:748][238]LogTexture: Display: Building textures: Forcefield_Stutter (AutoDXT, 1024X1024)
+[2017.10.03-19.52.26:960][238]LogEditorFactories: -- imported successfully
+[2017.10.03-19.53.16:655][569]LogSavePackage: Save=36.44ms
+[2017.10.03-19.53.16:655][569]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/BowCaster_Auto4EABE56804B59F550F06ADB8ADF32AD82.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto4.umap'
+[2017.10.03-19.53.16:657][569]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto4.umap
+[2017.10.03-19.53.16:718][569]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.120
+[2017.10.03-19.53.16:718][569]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.120
+[2017.10.03-19.53.16:836][569]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Geometry/Forcefield_01] ([1] browsable assets)...
+[2017.10.03-19.53.16:971][569]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/Geometry/Forcefield_01.Forcefield_01]
+[2017.10.03-19.53.16:971][569]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Geometry/Forcefield_01]
+[2017.10.03-19.53.16:999][569]LogSavePackage: Save=14.98ms
+[2017.10.03-19.53.16:999][569]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_01_Auto4312AB1064773CAF78FB5BE8F4840D12F.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Geometry/Forcefield_01_Auto4.uasset'
+[2017.10.03-19.53.17:001][569]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Geometry/Forcefield_01_Auto4.uasset
+[2017.10.03-19.53.17:001][569]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Materials/Forcefield] ([1] browsable assets)...
+[2017.10.03-19.53.17:111][569]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Materials/Forcefield.Forcefield]
+[2017.10.03-19.53.17:111][569]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Materials/Forcefield]
+[2017.10.03-19.53.17:137][569]LogSavePackage: Save=17.82ms
+[2017.10.03-19.53.17:137][569]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Auto40C55D9B14B0C3B83DAD38EA53EE65A19.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Forcefield_Auto4.uasset'
+[2017.10.03-19.53.17:139][569]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Forcefield_Auto4.uasset
+[2017.10.03-19.53.17:140][569]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Textures/Forecfield/Forcefield_Stutter] ([1] browsable assets)...
+[2017.10.03-19.53.17:148][569]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Textures/Forecfield/Forcefield_Stutter.Forcefield_Stutter]
+[2017.10.03-19.53.17:148][569]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Textures/Forecfield/Forcefield_Stutter]
+[2017.10.03-19.53.17:159][569]LogSavePackage: Save=9.82ms
+[2017.10.03-19.53.17:160][569]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Stutter_Auto4054447BE4BCDBDAB0BD69891BF0F1014.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Forecfield/Forcefield_Stutter_Auto4.uasset'
+[2017.10.03-19.53.17:161][569]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Forecfield/Forcefield_Stutter_Auto4.uasset
+[2017.10.03-19.53.17:161][569]LogFileHelpers: Auto-saving content packages took 0.326
+[2017.10.03-19.59.09:955][249]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\OneDrive\UofT Projects\Textures\Forcefield_Middle_Stutter.tga)
+[2017.10.03-19.59.09:982][249]LogTexture: Display: Building textures: Forcefield_Middle_Stutter (AutoDXT, 1024X1024)
+[2017.10.03-19.59.15:904][280]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.59.15:921][280]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.10.03-19.59.15:950][280]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-19.59.15:956][280]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.10.03-19.59.15:962][280]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.10.03-19.59.22:890][321]MaterialEditorStats: Base pass shader: 52 instructions
+[2017.10.03-19.59.22:890][321]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.59.22:890][321]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.59.22:890][321]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.59.47:767][489]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-19.59.47:771][489]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.10.03-19.59.47:776][489]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.10.03-19.59.52:453][519]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-19.59.54:402][532]MaterialEditorStats: Base pass shader: 52 instructions
+[2017.10.03-19.59.54:403][532]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-19.59.54:403][532]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-19.59.54:403][532]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-19.59.57:301][547]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.00.00:251][562]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.00.03:972][582]MaterialEditorStats: Base pass shader: 52 instructions
+[2017.10.03-20.00.03:972][582]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-20.00.03:972][582]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.03-20.00.03:972][582]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.00.13:827][643]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.00.13:863][643]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.10.03-20.00.18:051][670]MaterialEditorStats: Base pass shader: 54 instructions
+[2017.10.03-20.00.18:051][670]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-20.00.18:051][670]MaterialEditorStats: Texture samplers: 6/16
+[2017.10.03-20.00.18:051][670]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.00.28:005][748]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.00.30:077][760]MaterialEditorStats: Base pass shader: 54 instructions
+[2017.10.03-20.00.30:077][760]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-20.00.30:077][760]MaterialEditorStats: Texture samplers: 6/16
+[2017.10.03-20.00.30:077][760]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.00.33:836][779]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.00.33:858][779]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.10.03-20.00.36:948][796]MaterialEditorStats: Base pass shader: 54 instructions
+[2017.10.03-20.00.36:948][796]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-20.00.36:948][796]MaterialEditorStats: Texture samplers: 6/16
+[2017.10.03-20.00.36:948][796]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.00.40:581][821]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.00.42:409][834]MaterialEditorStats: Base pass shader: 57 instructions
+[2017.10.03-20.00.42:409][834]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-20.00.42:409][834]MaterialEditorStats: Texture samplers: 6/16
+[2017.10.03-20.00.42:409][834]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.00.49:408][891]LogMaterialEditor: Applying material Forcefield
+[2017.10.03-20.00.50:048][891]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.00.50:181][891]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.00.50:240][891]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.00.50:290][891]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forcefield, compiling. 
+[2017.10.03-20.00.51:572][891]TextureStreamingBuild: Display: Compiling optional shaders took 1.287 seconds.
+[2017.10.03-20.00.54:967][915]MaterialEditorStats: Base pass shader: 57 instructions
+[2017.10.03-20.00.54:967][915]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-20.00.54:967][915]MaterialEditorStats: Texture samplers: 6/16
+[2017.10.03-20.00.54:967][915]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.03.27:457][464]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.008
+[2017.10.03-20.03.27:571][464]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Materials/Forcefield] ([1] browsable assets)...
+[2017.10.03-20.03.27:698][464]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Materials/Forcefield.Forcefield]
+[2017.10.03-20.03.27:698][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Materials/Forcefield]
+[2017.10.03-20.03.27:728][464]LogSavePackage: Save=19.58ms
+[2017.10.03-20.03.27:728][464]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Auto543741AA6437D7DF8985AC18D11840807.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Forcefield_Auto5.uasset'
+[2017.10.03-20.03.27:731][464]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Forcefield_Auto5.uasset
+[2017.10.03-20.03.27:732][464]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Textures/Forecfield/Forcefield_Middle_Stutter] ([1] browsable assets)...
+[2017.10.03-20.03.27:825][464]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Textures/Forecfield/Forcefield_Middle_Stutter.Forcefield_Middle_Stutter]
+[2017.10.03-20.03.27:825][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Textures/Forecfield/Forcefield_Middle_Stutter]
+[2017.10.03-20.03.27:838][464]LogSavePackage: Save=10.27ms
+[2017.10.03-20.03.27:838][464]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Middle_Stutter_Auto5FBF488594E30A7C3F309E58F300D2DDC.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Forecfield/Forcefield_Middle_Stutter_Auto5.uasset'
+[2017.10.03-20.03.27:840][464]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Forecfield/Forcefield_Middle_Stutter_Auto5.uasset
+[2017.10.03-20.03.27:840][464]LogFileHelpers: Auto-saving content packages took 0.270
+[2017.10.03-20.06.20:367][986]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Export/Forcefield_01.FBX]
+[2017.10.03-20.06.20:454][986]LogFbx: Loading FBX Scene from D:/OneDrive/UofT Projects/Export/Forcefield_01.FBX
+[2017.10.03-20.06.20:460][986]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.03-20.06.20:461][986]LogFbx: Warning: Triangulating static mesh Sphere005
+[2017.10.03-20.06.20:613][986]LogStaticMesh: Building static mesh Forcefield_01...
+[2017.10.03-20.06.20:626][986]LogStaticMesh: Built static mesh [0.01s] /Game/Art/Geometry/Forcefield_01.Forcefield_01
+[2017.10.03-20.06.20:639][986]LogEditorFactories: -- imported successfully
+[2017.10.03-20.06.20:642][986]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.03-20.06.32:298][ 51]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.06.34:035][ 62]LogMaterialEditor: Applying material Forcefield
+[2017.10.03-20.06.34:686][ 62]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.06.34:819][ 62]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.06.34:883][ 62]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.06.34:939][ 62]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forcefield, compiling. 
+[2017.10.03-20.06.36:200][ 62]TextureStreamingBuild: Display: Compiling optional shaders took 1.269 seconds.
+[2017.10.03-20.06.39:609][ 86]MaterialEditorStats: Base pass shader: 57 instructions
+[2017.10.03-20.06.39:609][ 86]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-20.06.39:609][ 86]MaterialEditorStats: Texture samplers: 6/16
+[2017.10.03-20.06.39:609][ 86]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.07.41:796][385]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Textures/Forcefield_Middle_Stutter.tga]
+[2017.10.03-20.07.41:806][385]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/OneDrive/UofT Projects/Textures/Forcefield_Middle_Stutter.tga)
+[2017.10.03-20.07.41:833][385]LogTexture: Display: Building textures: Forcefield_Middle_Stutter (AutoDXT, 1024X1024)
+[2017.10.03-20.07.41:966][385]LogEditorFactories: -- imported successfully
+[2017.10.03-20.08.57:962][817]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Textures/Forcefield_Middle_Stutter.tga]
+[2017.10.03-20.08.57:971][817]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/OneDrive/UofT Projects/Textures/Forcefield_Middle_Stutter.tga)
+[2017.10.03-20.08.57:997][817]LogTexture: Display: Building textures: Forcefield_Middle_Stutter (AutoDXT, 1024X1024)
+[2017.10.03-20.08.58:192][817]LogEditorFactories: -- imported successfully
+[2017.10.03-20.13.04:651][833]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Textures/Forcefield_Middle_Stutter.tga]
+[2017.10.03-20.13.04:662][833]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/OneDrive/UofT Projects/Textures/Forcefield_Middle_Stutter.tga)
+[2017.10.03-20.13.04:689][833]LogTexture: Display: Building textures: Forcefield_Middle_Stutter (AutoDXT, 1024X1024)
+[2017.10.03-20.13.04:801][833]LogEditorFactories: -- imported successfully
+[2017.10.03-20.13.31:106][ 17]LogSavePackage: Save=35.96ms
+[2017.10.03-20.13.31:106][ 17]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/BowCaster_Auto6F08FD271416663C244286ABFA2797F9D.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto6.umap'
+[2017.10.03-20.13.31:108][ 17]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto6.umap
+[2017.10.03-20.13.31:164][ 17]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.116
+[2017.10.03-20.13.31:164][ 17]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.116
+[2017.10.03-20.13.31:276][ 17]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Geometry/Forcefield_01] ([1] browsable assets)...
+[2017.10.03-20.13.31:405][ 17]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/Geometry/Forcefield_01.Forcefield_01]
+[2017.10.03-20.13.31:405][ 17]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Geometry/Forcefield_01]
+[2017.10.03-20.13.31:435][ 17]LogSavePackage: Save=19.54ms
+[2017.10.03-20.13.31:435][ 17]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_01_Auto6CF5182E64DEF79118027628EC266B30B.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Geometry/Forcefield_01_Auto6.uasset'
+[2017.10.03-20.13.31:437][ 17]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Geometry/Forcefield_01_Auto6.uasset
+[2017.10.03-20.13.31:437][ 17]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Materials/Forcefield] ([1] browsable assets)...
+[2017.10.03-20.13.31:533][ 17]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Materials/Forcefield.Forcefield]
+[2017.10.03-20.13.31:533][ 17]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Materials/Forcefield]
+[2017.10.03-20.13.31:561][ 17]LogSavePackage: Save=18.12ms
+[2017.10.03-20.13.31:561][ 17]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Auto614CF73014F5940A130B17492F73D2D41.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Forcefield_Auto6.uasset'
+[2017.10.03-20.13.31:562][ 17]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Forcefield_Auto6.uasset
+[2017.10.03-20.13.31:563][ 17]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Textures/Forecfield/Forcefield_Middle_Stutter] ([1] browsable assets)...
+[2017.10.03-20.13.31:568][ 17]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Textures/Forecfield/Forcefield_Middle_Stutter.Forcefield_Middle_Stutter]
+[2017.10.03-20.13.31:568][ 17]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Textures/Forecfield/Forcefield_Middle_Stutter]
+[2017.10.03-20.13.31:578][ 17]LogSavePackage: Save=8.00ms
+[2017.10.03-20.13.31:579][ 17]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Middle_Stutter_Auto67EC0DEF94820C96781DC9F9EAF2141E3.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Forecfield/Forcefield_Middle_Stutter_Auto6.uasset'
+[2017.10.03-20.13.31:580][ 17]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Forecfield/Forcefield_Middle_Stutter_Auto6.uasset
+[2017.10.03-20.13.31:580][ 17]LogFileHelpers: Auto-saving content packages took 0.305
+[2017.10.03-20.26.52:088][659]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Export/Forcefield_01.FBX]
+[2017.10.03-20.26.52:183][659]LogFbx: Loading FBX Scene from D:/OneDrive/UofT Projects/Export/Forcefield_01.FBX
+[2017.10.03-20.26.52:189][659]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.03-20.26.52:190][659]LogFbx: Warning: Triangulating static mesh Sphere005
+[2017.10.03-20.26.52:370][659]LogStaticMesh: Building static mesh Forcefield_01...
+[2017.10.03-20.26.52:398][659]LogStaticMesh: Built static mesh [0.03s] /Game/Art/Geometry/Forcefield_01.Forcefield_01
+[2017.10.03-20.26.52:421][659]LogEditorFactories: -- imported successfully
+[2017.10.03-20.26.52:426][659]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.03-20.27.16:326][812]LogSavePackage: Save=38.87ms
+[2017.10.03-20.27.16:326][812]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/BowCaster_Auto7367C6BE645C182FD0E2C389D99F872B6.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto7.umap'
+[2017.10.03-20.27.16:328][812]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto7.umap
+[2017.10.03-20.27.16:395][812]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.235
+[2017.10.03-20.27.16:395][812]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.235
+[2017.10.03-20.27.16:508][812]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Geometry/Forcefield_01] ([1] browsable assets)...
+[2017.10.03-20.27.16:632][812]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/Geometry/Forcefield_01.Forcefield_01]
+[2017.10.03-20.27.16:632][812]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Geometry/Forcefield_01]
+[2017.10.03-20.27.16:659][812]LogSavePackage: Save=16.55ms
+[2017.10.03-20.27.16:659][812]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_01_Auto792851BAE455E7D5AC6E3ABA7A2F4CE58.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Geometry/Forcefield_01_Auto7.uasset'
+[2017.10.03-20.27.16:661][812]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Geometry/Forcefield_01_Auto7.uasset
+[2017.10.03-20.27.16:661][812]LogFileHelpers: Auto-saving content packages took 0.153
+[2017.10.03-20.27.46:194][  2]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.27.46:319][  2]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.27.46:341][  2]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.27.46:376][  2]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Sky, compiling. 
+[2017.10.03-20.27.47:329][  2]TextureStreamingBuild: Display: Compiling optional shaders took 0.959 seconds.
+[2017.10.03-20.27.54:725][402]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.03-20.27.55:161][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-20.27.55:245][402]PIE: New page: PIE session: BowCaster (Oct 3, 2017, 12:27:55 PM)
+[2017.10.03-20.27.55:260][402]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.03-20.27.55:303][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042321s)
+[2017.10.03-20.27.55:306][402]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.03-20.27.55:307][402]LogPlayLevel: PIE: World Init took: (0.004358s)
+[2017.10.03-20.27.55:313][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.062390s)
+[2017.10.03-20.27.55:403][402]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.10.03-20.27.55:464][402]LogInit: FAudioDevice initialized.
+[2017.10.03-20.27.55:521][402]LogLoad: Game class is 'GameModeBase'
+[2017.10.03-20.27.55:689][402]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.03-16.27.55
+[2017.10.03-20.27.55:806][402]LogWorld: Bringing up level for play took: 0.138431
+[2017.10.03-20.27.56:004][402]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2017.10.03-20.27.56:114][402]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.046
+[2017.10.03-20.28.09:355][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sky_2)
+[2017.10.03-20.28.24:989][ 60]Cmd: DELETE
+[2017.10.03-20.28.24:989][ 60]Cmd: ACTOR DELETE
+[2017.10.03-20.28.24:989][ 60]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.03-20.28.25:002][ 60]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.10.03-20.28.25:537][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sky_01)
+[2017.10.03-20.28.27:675][216]Cmd: TRANSACTION UNDO
+[2017.10.03-20.28.27:675][216]LogEditorTransaction: Undo Move Actors
+[2017.10.03-20.28.28:686][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.03-20.28.31:764][295]Cmd: TRANSACTION UNDO
+[2017.10.03-20.28.31:765][295]LogEditorTransaction: Undo Move Actors
+[2017.10.03-20.28.35:285][343]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.03-20.28.38:292][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sky_01)
+[2017.10.03-20.28.47:190][623]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:1).
+[2017.10.03-20.28.58:529][689]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.03-20.28.58:552][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-20.28.58:552][689]PIE: New page: PIE session: BowCaster (Oct 3, 2017, 12:28:58 PM)
+[2017.10.03-20.28.58:552][689]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.03-20.28.58:556][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002952s)
+[2017.10.03-20.28.58:556][689]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.03-20.28.58:556][689]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2017.10.03-20.28.58:557][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004097s)
+[2017.10.03-20.28.58:737][689]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.10.03-20.28.58:783][689]LogInit: FAudioDevice initialized.
+[2017.10.03-20.28.58:822][689]LogLoad: Game class is 'GameModeBase'
+[2017.10.03-20.28.58:824][689]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.03-16.28.58
+[2017.10.03-20.28.59:124][689]LogWorld: Bringing up level for play took: 0.301797
+[2017.10.03-20.28.59:130][689]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.062
+[2017.10.03-20.29.34:782][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Geometry/Forcefield_01" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset" SILENT=true
+[2017.10.03-20.29.34:808][916]LogSavePackage: Save=19.77ms
+[2017.10.03-20.29.34:808][916]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_01C18E59BF4D19848EC49A8FB58C8C1D21.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset'
+[2017.10.03-20.29.34:817][916]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset
+[2017.10.03-20.29.36:789][931]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.03-20.29.36:809][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-20.29.36:809][931]PIE: New page: PIE session: BowCaster (Oct 3, 2017, 12:29:36 PM)
+[2017.10.03-20.29.36:809][931]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.03-20.29.36:812][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002514s)
+[2017.10.03-20.29.36:812][931]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.03-20.29.36:813][931]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2017.10.03-20.29.36:813][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.003342s)
+[2017.10.03-20.29.36:840][931]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.10.03-20.29.36:892][931]LogInit: FAudioDevice initialized.
+[2017.10.03-20.29.37:009][931]LogLoad: Game class is 'GameModeBase'
+[2017.10.03-20.29.37:011][931]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.03-16.29.37
+[2017.10.03-20.29.37:011][931]LogWorld: Bringing up level for play took: 0.001568
+[2017.10.03-20.29.37:012][931]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.055
+[2017.10.03-20.30.21:174][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Geometry/Forcefield_01" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset" SILENT=true
+[2017.10.03-20.30.21:187][242]LogSavePackage: Save=8.66ms
+[2017.10.03-20.30.21:187][242]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_011641AA1C480C2CD7C8D3BD8598671B61.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset'
+[2017.10.03-20.30.21:189][242]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset
+[2017.10.03-20.30.35:381][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Geometry/Forcefield_01" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset" SILENT=true
+[2017.10.03-20.30.35:395][333]LogSavePackage: Save=9.79ms
+[2017.10.03-20.30.35:395][333]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_01079E1C064064BAAC610C6BBE481B3D4B.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset'
+[2017.10.03-20.30.35:397][333]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset
+[2017.10.03-20.30.37:359][347]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.03-20.30.37:381][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-20.30.37:382][347]PIE: New page: PIE session: BowCaster (Oct 3, 2017, 12:30:37 PM)
+[2017.10.03-20.30.37:382][347]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.03-20.30.37:384][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002508s)
+[2017.10.03-20.30.37:385][347]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.03-20.30.37:385][347]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2017.10.03-20.30.37:385][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.003413s)
+[2017.10.03-20.30.37:414][347]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.10.03-20.30.37:460][347]LogInit: FAudioDevice initialized.
+[2017.10.03-20.30.37:581][347]LogLoad: Game class is 'GameModeBase'
+[2017.10.03-20.30.37:583][347]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.03-16.30.37
+[2017.10.03-20.30.37:584][347]LogWorld: Bringing up level for play took: 0.001749
+[2017.10.03-20.30.37:586][347]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.518
+[2017.10.03-20.31.27:952][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Geometry/Forcefield_01" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset" SILENT=true
+[2017.10.03-20.31.27:980][711]LogSavePackage: Save=22.54ms
+[2017.10.03-20.31.27:980][711]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_0145469ED44944606B3DFD1AA5DB4D9BEA.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset'
+[2017.10.03-20.31.27:984][711]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset
+[2017.10.03-20.31.32:006][740]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.03-20.31.32:026][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-20.31.32:026][740]PIE: New page: PIE session: BowCaster (Oct 3, 2017, 12:31:32 PM)
+[2017.10.03-20.31.32:026][740]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.03-20.31.32:029][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002469s)
+[2017.10.03-20.31.32:029][740]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.03-20.31.32:029][740]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2017.10.03-20.31.32:030][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.003373s)
+[2017.10.03-20.31.32:058][740]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.10.03-20.31.32:107][740]LogInit: FAudioDevice initialized.
+[2017.10.03-20.31.32:223][740]LogLoad: Game class is 'GameModeBase'
+[2017.10.03-20.31.32:225][740]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.03-16.31.32
+[2017.10.03-20.31.32:226][740]LogWorld: Bringing up level for play took: 0.001184
+[2017.10.03-20.31.32:227][740]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.16
+[2017.10.03-20.32.13:584][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BowCaster" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.03-20.32.13:631][984]LogSavePackage: Save=34.24ms
+[2017.10.03-20.32.13:631][984]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/BowCaster5A34CD7D4F57F249679065A682016BB8.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap'
+[2017.10.03-20.32.13:640][984]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap
+[2017.10.03-20.32.13:666][984]LogFileHelpers: Saving map 'BowCaster' took 0.122
+[2017.10.03-20.32.13:689][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Materials/Sky" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Sky.uasset" SILENT=true
+[2017.10.03-20.32.13:710][984]LogSavePackage: Save=19.38ms
+[2017.10.03-20.32.13:710][984]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Sky281966E04659BFDA29BBA49DAED1FA80.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Sky.uasset'
+[2017.10.03-20.32.13:718][984]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Sky.uasset
+[2017.10.03-20.32.13:722][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Materials/Forcefield" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Forcefield.uasset" SILENT=true
+[2017.10.03-20.32.13:739][984]LogSavePackage: Save=9.32ms
+[2017.10.03-20.32.13:739][984]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/ForcefieldD37D413B4AB954A432AABD928D652287.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Forcefield.uasset'
+[2017.10.03-20.32.13:748][984]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Forcefield.uasset
+[2017.10.03-20.32.13:836][984]LogSavePackage: Save=76.85ms
+[2017.10.03-20.32.13:836][984]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Stutter20EA1C5D4F4EDDF5FFBBA89FCA3A7BAC.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Forecfield/Forcefield_Stutter.uasset'
+[2017.10.03-20.32.13:842][984]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Forecfield/Forcefield_Stutter.uasset
+[2017.10.03-20.32.13:935][984]LogSavePackage: Save=70.84ms
+[2017.10.03-20.32.13:935][984]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Middle_StutterBCB7958844B4D42D5888CCA6547D06BA.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Forecfield/Forcefield_Middle_Stutter.uasset'
+[2017.10.03-20.32.13:941][984]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Forecfield/Forcefield_Middle_Stutter.uasset
+[2017.10.03-20.32.51:517][261]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.32.51:653][261]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.32.51:666][261]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.32.51:705][261]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.03-20.32.51:711][261]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.03-20.32.51:719][261]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.10.03-20.32.52:968][268]MaterialEditorStats: Base pass shader: 87 instructions
+[2017.10.03-20.32.52:969][268]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-20.32.52:969][268]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.03-20.32.52:969][268]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.32.58:760][305]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.32.58:772][305]LogMaterial: Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (2 / 2)
+[2017.10.03-20.32.59:766][312]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.10.03-20.32.59:766][312]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-20.32.59:766][312]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-20.32.59:766][312]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.33.01:471][324]LogMaterialEditor: Applying material Sky
+[2017.10.03-20.33.02:112][324]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.33.02:233][324]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.33.02:263][324]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.33.02:302][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Sky, compiling. 
+[2017.10.03-20.33.02:967][324]TextureStreamingBuild: Display: Compiling optional shaders took 0.673 seconds.
+[2017.10.03-20.33.04:832][338]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.10.03-20.33.04:832][338]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-20.33.04:832][338]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.03-20.33.04:832][338]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.33.38:177][569]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.33.38:189][569]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-20.33.39:566][578]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.10.03-20.33.39:566][578]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-20.33.39:566][578]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-20.33.39:566][578]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.33.50:458][633]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.33.50:473][633]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-20.33.51:565][641]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.10.03-20.33.51:565][641]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-20.33.51:565][641]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-20.33.51:565][641]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.33.53:530][655]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.33.54:559][662]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.10.03-20.33.54:559][662]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-20.33.54:559][662]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-20.33.54:559][662]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.33.56:985][673]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.33.58:089][678]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.10.03-20.33.58:089][678]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-20.33.58:089][678]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-20.33.58:089][678]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.34.00:007][688]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.34.00:021][688]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-20.34.01:150][695]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.10.03-20.34.01:150][695]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-20.34.01:150][695]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-20.34.01:150][695]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.34.03:079][704]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.34.04:104][710]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.10.03-20.34.04:104][710]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-20.34.04:104][710]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-20.34.04:104][710]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.34.19:418][787]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.34.19:435][787]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-20.34.20:599][795]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.10.03-20.34.20:599][795]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-20.34.20:599][795]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-20.34.20:600][795]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.34.21:659][801]LogMaterialEditor: Applying material Sky
+[2017.10.03-20.34.22:364][801]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.34.22:485][801]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.34.22:520][801]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.03-20.34.22:559][801]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Sky, compiling. 
+[2017.10.03-20.34.23:197][801]TextureStreamingBuild: Display: Compiling optional shaders took 0.646 seconds.
+[2017.10.03-20.34.25:004][815]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.10.03-20.34.25:004][815]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-20.34.25:004][815]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.03-20.34.25:004][815]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.36.24:588][868]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.03-20.36.24:588][868]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.03-20.36.32:957][ 52]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Textures/Forcefield_Stutter.tga]
+[2017.10.03-20.36.32:966][ 52]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/OneDrive/UofT Projects/Textures/Forcefield_Stutter.tga)
+[2017.10.03-20.36.32:992][ 52]LogTexture: Display: Building textures: Forcefield_Stutter (AutoDXT, 1024X1024)
+[2017.10.03-20.36.33:173][ 52]LogEditorFactories: -- imported successfully
+[2017.10.03-20.38.12:517][ 68]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Textures/Forcefield_Stutter.tga]
+[2017.10.03-20.38.12:529][ 68]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/OneDrive/UofT Projects/Textures/Forcefield_Stutter.tga)
+[2017.10.03-20.38.12:561][ 68]LogTexture: Display: Building textures: Forcefield_Stutter (AutoDXT, 1024X1024)
+[2017.10.03-20.38.12:774][ 68]LogEditorFactories: -- imported successfully
+[2017.10.03-20.38.23:130][264]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.03-20.38.23:266][264]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.03-20.38.23:282][264]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.03-20.38.23:324][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.03-20.38.23:330][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.10.03-20.38.23:337][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-20.38.24:609][272]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.10.03-20.38.24:610][272]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.03-20.38.24:610][272]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.03-20.38.24:610][272]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.38.27:029][299]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.38.27:171][299]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.38.27:191][299]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.38.27:236][299]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-20.38.27:242][299]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.10.03-20.38.27:250][299]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.10.03-20.38.29:224][311]MaterialEditorStats: Base pass shader: 57 instructions
+[2017.10.03-20.38.29:224][311]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-20.38.29:224][311]MaterialEditorStats: Texture samplers: 6/16
+[2017.10.03-20.38.29:224][311]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.38.41:917][395]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.38.43:766][408]MaterialEditorStats: Base pass shader: 56 instructions
+[2017.10.03-20.38.43:766][408]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-20.38.43:766][408]MaterialEditorStats: Texture samplers: 6/16
+[2017.10.03-20.38.43:766][408]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.38.45:883][423]LogMaterialEditor: Applying material Forcefield
+[2017.10.03-20.38.46:557][423]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.38.46:690][423]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.38.46:746][423]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.38.46:800][423]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forcefield, compiling. 
+[2017.10.03-20.38.48:093][423]TextureStreamingBuild: Display: Compiling optional shaders took 1.302 seconds.
+[2017.10.03-20.38.51:581][447]MaterialEditorStats: Base pass shader: 56 instructions
+[2017.10.03-20.38.51:581][447]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-20.38.51:581][447]MaterialEditorStats: Texture samplers: 6/16
+[2017.10.03-20.38.51:581][447]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.39.43:384][667]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Textures/Forcefield_Stutter.tga]
+[2017.10.03-20.39.43:394][667]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/OneDrive/UofT Projects/Textures/Forcefield_Stutter.tga)
+[2017.10.03-20.39.43:420][667]LogTexture: Display: Building textures: Forcefield_Stutter (AutoDXT, 1024X1024)
+[2017.10.03-20.39.43:610][667]LogEditorFactories: -- imported successfully
+[2017.10.03-20.39.47:624][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.03-20.42.17:540][285]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.009
+[2017.10.03-20.42.17:653][285]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Materials/Sky] ([1] browsable assets)...
+[2017.10.03-20.42.17:783][285]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Materials/Sky.Sky]
+[2017.10.03-20.42.17:783][285]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Materials/Sky]
+[2017.10.03-20.42.17:784][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Materials/Sky" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Sky_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.10.03-20.42.17:816][285]LogSavePackage: Save=21.07ms
+[2017.10.03-20.42.17:816][285]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Sky_Auto8EB4ECE864DB3F1232C960BAEC6449A7B.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Sky_Auto8.uasset'
+[2017.10.03-20.42.17:817][285]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Sky_Auto8.uasset
+[2017.10.03-20.42.17:818][285]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Materials/Forcefield] ([1] browsable assets)...
+[2017.10.03-20.42.17:922][285]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Materials/Forcefield.Forcefield]
+[2017.10.03-20.42.17:922][285]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Materials/Forcefield]
+[2017.10.03-20.42.17:951][285]LogSavePackage: Save=19.92ms
+[2017.10.03-20.42.17:951][285]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Auto8789092D04DF98E2440433FB4EB2741AA.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Forcefield_Auto8.uasset'
+[2017.10.03-20.42.17:952][285]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Forcefield_Auto8.uasset
+[2017.10.03-20.42.17:953][285]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Textures/Forecfield/Forcefield_Stutter] ([1] browsable assets)...
+[2017.10.03-20.42.17:959][285]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Textures/Forecfield/Forcefield_Stutter.Forcefield_Stutter]
+[2017.10.03-20.42.17:959][285]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Textures/Forecfield/Forcefield_Stutter]
+[2017.10.03-20.42.17:978][285]LogSavePackage: Save=9.79ms
+[2017.10.03-20.42.17:978][285]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Stutter_Auto8D9AA91D84DF0CCDB911658901482080E.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Forecfield/Forcefield_Stutter_Auto8.uasset'
+[2017.10.03-20.42.17:980][285]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Forecfield/Forcefield_Stutter_Auto8.uasset
+[2017.10.03-20.42.17:980][285]LogFileHelpers: Auto-saving content packages took 0.328
+[2017.10.03-20.48.40:014][432]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Textures/Forcefield_Stutter.tga]
+[2017.10.03-20.48.40:025][432]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/OneDrive/UofT Projects/Textures/Forcefield_Stutter.tga)
+[2017.10.03-20.48.40:058][432]LogTexture: Display: Building textures: Forcefield_Stutter (AutoDXT, 1024X1024)
+[2017.10.03-20.48.40:222][432]LogEditorFactories: -- imported successfully
+[2017.10.03-20.49.45:613][783]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Textures/Forcefield_Stutter.tga]
+[2017.10.03-20.49.45:622][783]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/OneDrive/UofT Projects/Textures/Forcefield_Stutter.tga)
+[2017.10.03-20.49.45:650][783]LogTexture: Display: Building textures: Forcefield_Stutter (AutoDXT, 1024X1024)
+[2017.10.03-20.49.45:813][783]LogEditorFactories: -- imported successfully
+[2017.10.03-20.50.28:308][ 13]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Textures/Forcefield_Stutter.tga]
+[2017.10.03-20.50.28:317][ 13]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/OneDrive/UofT Projects/Textures/Forcefield_Stutter.tga)
+[2017.10.03-20.50.28:343][ 13]LogTexture: Display: Building textures: Forcefield_Stutter (AutoDXT, 1024X1024)
+[2017.10.03-20.50.28:519][ 13]LogEditorFactories: -- imported successfully
+[2017.10.03-20.51.14:755][350]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.51.16:486][361]LogMaterialEditor: Applying material Forcefield
+[2017.10.03-20.51.17:136][361]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.51.17:265][361]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.51.17:323][361]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.03-20.51.17:376][361]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forcefield, compiling. 
+[2017.10.03-20.51.18:660][361]TextureStreamingBuild: Display: Compiling optional shaders took 1.290 seconds.
+[2017.10.03-20.51.22:129][385]MaterialEditorStats: Base pass shader: 56 instructions
+[2017.10.03-20.51.22:130][385]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.03-20.51.22:130][385]MaterialEditorStats: Texture samplers: 6/16
+[2017.10.03-20.51.22:130][385]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.03-20.52.51:992][ 57]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.009
+[2017.10.03-20.52.52:105][ 57]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Materials/Forcefield] ([1] browsable assets)...
+[2017.10.03-20.52.52:234][ 57]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Materials/Forcefield.Forcefield]
+[2017.10.03-20.52.52:234][ 57]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Materials/Forcefield]
+[2017.10.03-20.52.52:264][ 57]LogSavePackage: Save=18.76ms
+[2017.10.03-20.52.52:264][ 57]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Auto9B549BE2C4408D43F44A4EFB882CA6BDC.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Forcefield_Auto9.uasset'
+[2017.10.03-20.52.52:266][ 57]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Materials/Forcefield_Auto9.uasset
+[2017.10.03-20.52.52:266][ 57]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Textures/Forecfield/Forcefield_Stutter] ([1] browsable assets)...
+[2017.10.03-20.52.52:356][ 57]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Textures/Forecfield/Forcefield_Stutter.Forcefield_Stutter]
+[2017.10.03-20.52.52:356][ 57]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Textures/Forecfield/Forcefield_Stutter]
+[2017.10.03-20.52.52:376][ 57]LogSavePackage: Save=11.55ms
+[2017.10.03-20.52.52:377][ 57]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_Stutter_Auto937AF9BA146A972236FA33E979432DE5F.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Forecfield/Forcefield_Stutter_Auto9.uasset'
+[2017.10.03-20.52.52:378][ 57]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Autosaves/Game/Art/Textures/Forecfield/Forcefield_Stutter_Auto9.uasset
+[2017.10.03-20.52.52:378][ 57]LogFileHelpers: Auto-saving content packages took 0.274
+[2017.10.03-20.53.11:920][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Materials/Sky" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Sky.uasset" SILENT=true
+[2017.10.03-20.53.11:939][180]LogSavePackage: Save=8.56ms
+[2017.10.03-20.53.11:939][180]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Sky1FA65BCD449002CA0F6D8084CB4E162B.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Sky.uasset'
+[2017.10.03-20.53.11:946][180]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Sky.uasset
+[2017.10.03-20.53.11:949][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Materials/Forcefield" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Forcefield.uasset" SILENT=true
+[2017.10.03-20.53.11:963][180]LogSavePackage: Save=8.87ms
+[2017.10.03-20.53.11:963][180]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield2D3433014F86530BC66674990C8354CC.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Forcefield.uasset'
+[2017.10.03-20.53.11:968][180]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Materials/Forcefield.uasset
+[2017.10.03-20.53.12:044][180]LogSavePackage: Save=67.72ms
+[2017.10.03-20.53.12:044][180]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_StutterFEB5B7D440C501F770495395DC619792.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Forecfield/Forcefield_Stutter.uasset'
+[2017.10.03-20.53.12:048][180]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Textures/Forecfield/Forcefield_Stutter.uasset
+[2017.10.03-20.53.52:470][467]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.03-20.53.52:835][468]Cmd: QUIT_EDITOR
+[2017.10.03-20.53.53:238][468]LogExit: Preparing to exit.
+[2017.10.03-20.53.54:533][468]LogExit: Editor shut down
+[2017.10.03-20.53.54:569][468]LogExit: Transaction tracking system shut down
+[2017.10.03-20.53.54:978][468]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.03-20.53.54:978][468]LogDirectoryWatcher: A directory notification for 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/' was aborted.
+[2017.10.03-20.53.54:979][468]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.03-20.53.54:979][468]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.03-20.53.54:979][468]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.03-20.53.55:094][468]LogExit: Object subsystem successfully closed.
+[2017.10.03-20.53.55:116][468]LogD3D11RHI: Shutdown
+[2017.10.03-20.53.55:116][468]LogD3D11RHI: CleanupD3DDevice
+[2017.10.03-20.53.55:121][468]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.03-20.53.55:129][468]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (540)
+[2017.10.03-20.53.55:129][468]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (538)
+[2017.10.03-20.53.55:129][468]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (536)
+[2017.10.03-20.53.55:129][468]LogModuleManager: Shutting down and abandoning module TextureEditor (534)
+[2017.10.03-20.53.55:129][468]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
+[2017.10.03-20.53.55:129][468]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.10.03-20.53.55:129][468]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.10.03-20.53.55:129][468]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.10.03-20.53.55:130][468]LogDirectoryWatcher: A directory notification for 'D:/Program Files/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.10.03-20.53.55:136][468]LogDirectoryWatcher: A directory notification for 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Collections/' was aborted.
+[2017.10.03-20.53.55:136][468]LogDirectoryWatcher: A directory notification for 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Developers/aidan/Collections/' was aborted.
+[2017.10.03-20.53.55:136][468]LogDirectoryWatcher: A directory notification for 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Collections/' was aborted.
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.10.03-20.53.55:136][468]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.10.03-20.53.55:137][468]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.10.03-20.53.56:074][468]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.10.03-20.53.56:074][468]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.10.03-20.53.56:075][468]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.10.03-20.53.56:075][468]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.10.03-20.53.56:075][468]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.10.03-20.53.56:075][468]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.10.03-20.53.56:075][468]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.10.03-20.53.56:075][468]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.10.03-20.53.56:075][468]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.10.03-20.53.56:076][468]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.10.03-20.53.56:076][468]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.10.03-20.53.56:076][468]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.10.03-20.53.56:076][468]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.10.03-20.53.56:076][468]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.10.03-20.53.56:076][468]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.10.03-20.53.56:076][468]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.10.03-20.53.56:077][468]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.10.03-20.53.56:078][468]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.10.03-20.53.56:078][468]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.10.03-20.53.56:080][468]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.10.03-20.53.56:080][468]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.10.03-20.53.56:080][468]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.10.03-20.53.56:080][468]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.10.03-20.53.56:080][468]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.10.03-20.53.56:136][468]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.10.03-20.53.56:136][468]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.10.03-20.53.56:136][468]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.10.03-20.53.56:136][468]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.10.03-20.53.56:136][468]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.10.03-20.53.56:136][468]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.10.03-20.53.56:137][468]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.10.03-20.53.56:137][468]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.10.03-20.53.56:137][468]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.10.03-20.53.56:138][468]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.10.03-20.53.56:139][468]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.10.03-20.53.56:139][468]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.10.03-20.53.56:139][468]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.10.03-20.53.56:139][468]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.10.03-20.53.56:140][468]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.10.03-20.53.56:140][468]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.10.03-20.53.56:140][468]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.10.03-20.53.56:140][468]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.10.03-20.53.56:140][468]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.10.03-20.53.56:140][468]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.10.03-20.53.56:140][468]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.10.03-20.53.56:141][468]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.10.03-20.53.56:141][468]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.10.03-20.53.56:141][468]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.10.03-20.53.56:141][468]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.10.03-20.53.56:141][468]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.10.03-20.53.56:141][468]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.10.03-20.53.56:141][468]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.10.03-20.53.56:141][468]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.10.03-20.53.56:141][468]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.10.03-20.53.56:141][468]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.10.03-20.53.56:213][468]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.10.03-20.53.56:213][468]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.10.03-20.53.56:213][468]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.10.03-20.53.56:214][468]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.10.03-20.53.56:214][468]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.10.03-20.53.56:214][468]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.10.03-20.53.56:214][468]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.10.03-20.53.56:214][468]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.10.03-20.53.56:214][468]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.10.03-20.53.56:214][468]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.10.03-20.53.56:214][468]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.10.03-20.53.56:214][468]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.10.03-20.53.56:214][468]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.10.03-20.53.56:214][468]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.10.03-20.53.56:214][468]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.10.03-20.53.56:214][468]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.10.03-20.53.56:214][468]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.10.03-20.53.56:215][468]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.10.03-20.53.56:215][468]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.10.03-20.53.56:215][468]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.10.03-20.53.56:215][468]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.10.03-20.53.56:215][468]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.10.03-20.53.56:215][468]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.10.03-20.53.56:215][468]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.10.03-20.53.56:215][468]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.10.03-20.53.56:216][468]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.10.03-20.53.56:216][468]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.10.03-20.53.56:216][468]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.10.03-20.53.56:216][468]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.10.03-20.53.56:216][468]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.10.03-20.53.56:216][468]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.10.03-20.53.56:216][468]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.10.03-20.53.56:221][468]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.10.03-20.53.56:221][468]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.10.03-20.53.56:221][468]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.10.03-20.53.56:222][468]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.03-20.53.56:222][468]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.03-20.53.56:222][468]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.03-20.53.56:222][468]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.03-20.53.56:222][468]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.03-20.53.56:223][468]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.03-20.53.56:223][468]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.03-20.53.56:223][468]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.03-20.53.56:323][468]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.03-20.53.56:424][468]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.03-20.53.56:424][468]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.03-20.53.56:424][468]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.03-20.53.56:424][468]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.03-20.53.56:424][468]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.03-20.53.56:425][468]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.03-20.53.56:433][468]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.03-20.53.56:433][468]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.03-20.53.56:433][468]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.03-20.53.56:433][468]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.03-20.53.56:434][468]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.03-20.53.56:434][468]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.03-20.53.56:434][468]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.03-20.53.56:434][468]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.03-20.53.56:434][468]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.03-20.53.56:434][468]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.03-20.53.56:434][468]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.03-20.53.56:434][468]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.03-20.53.56:434][468]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.03-20.53.56:434][468]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.03-20.53.56:434][468]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.03-20.53.56:435][468]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.03-20.53.56:435][468]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.03-20.53.56:435][468]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.03-20.53.56:435][468]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.03-20.53.56:435][468]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.03-20.53.56:436][468]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.03-20.53.56:436][468]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.03-20.53.56:436][468]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.03-20.53.56:436][468]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.03-20.53.56:443][468]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.03-20.53.56:443][468]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.03-20.53.56:443][468]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.03-20.53.56:443][468]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.03-20.53.56:443][468]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.03-20.53.56:444][468]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.03-20.53.56:444][468]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.03-20.53.56:444][468]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.10.03-20.53.56:444][468]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.10.03-20.53.56:444][468]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.10.03-20.53.56:444][468]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.10.03-20.53.56:444][468]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.10.03-20.53.56:444][468]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.10.03-20.53.56:444][468]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.10.03-20.53.56:444][468]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.10.03-20.53.56:444][468]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.03-20.53.56:458][468]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.03-20.53.56:519][468]LogDerivedDataCache: Shutdown
+[2017.10.03-20.53.56:519][468]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.03-20.53.56:519][468]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.03-20.53.56:519][468]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.03-20.53.56:520][468]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.03-20.53.56:520][468]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.03-20.53.56:520][468]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.03-20.53.56:520][468]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.03-20.53.56:520][468]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.03-20.53.56:520][468]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.03-20.53.56:520][468]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.03-20.53.56:520][468]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.03-20.53.56:520][468]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.03-20.53.56:520][468]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.03-20.53.56:520][468]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.03-20.53.56:521][468]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.03-20.53.56:521][468]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.03-20.53.56:521][468]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.03-20.53.56:521][468]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.03-20.53.56:521][468]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.03-20.53.56:521][468]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.03-20.53.56:522][468]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.03-20.53.56:523][468]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.03-20.53.56:523][468]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.03-20.53.56:523][468]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.03-20.53.56:523][468]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.03-20.53.56:523][468]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.03-20.53.56:523][468]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.03-20.53.56:523][468]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.03-20.53.56:523][468]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.03-20.53.56:524][468]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.03-20.53.56:524][468]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.03-20.53.56:524][468]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.03-20.53.56:524][468]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.03-20.53.56:524][468]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.03-20.53.56:524][468]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.03-20.53.56:524][468]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.03-20.53.56:524][468]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.03-20.53.56:524][468]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.03-20.53.56:525][468]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.03-20.53.56:525][468]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB4ABB2E0-4E40-435F-7C83-8CBF610C0AFD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=5864537c4867b295761b74a9b3560ecd%7Ccf614d1e009f4a30963b168615d60f1b%7C0b723a46-140e-4e27-b184-6b23cd7bcf6d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.03-20.53.56:536][468]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.03-20.53.56:545][468]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.03-20.53.56:545][468]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.03-20.53.56:545][468]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.03-20.53.56:545][468]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.03-20.53.56:545][468]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.03-20.53.56:545][468]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.03-20.53.56:545][468]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.03-20.53.56:563][468]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.03-20.53.56:563][468]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.03-20.53.56:563][468]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.03-20.53.56:563][468]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.03-20.53.56:563][468]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.03-20.53.56:563][468]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.03-20.53.56:563][468]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.03-20.53.56:564][468]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.03-20.53.56:564][468]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.03-20.53.56:564][468]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.03-20.53.56:564][468]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.03-20.53.56:570][468]LogExit: Exiting.
+[2017.10.03-20.53.56:602][468]Log file closed, 10/03/17 16:53:56
