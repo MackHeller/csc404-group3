@@ -810,3 +810,117 @@ LogInit: Object subsystem initialized
 [2017.10.07-19.11.44:212][ 20]LogSavePackage: Moving '../../../../../../csc404/csc404-group3/Bowcaster/Saved/Bolt_Auto29BFB6C48498A4657C3F607815C9BC9AE.tmp' to '../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Bolt_Auto2.uasset'
 [2017.10.07-19.11.44:224][ 20]LogSavePackage: Display: Finished SavePackage ../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Bolt_Auto2.uasset
 [2017.10.07-19.11.44:224][ 20]LogFileHelpers: Auto-saving content packages took 0.073
+[2017.10.07-19.21.43:134][459]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.21.43:164][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.21.43:164][459]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:21:43 AM)
+[2017.10.07-19.21.43:164][459]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.21.43:167][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003029s)
+[2017.10.07-19.21.43:168][459]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.21.43:168][459]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2017.10.07-19.21.43:168][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004191s)
+[2017.10.07-19.21.43:194][459]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.21.43:251][459]LogInit: FAudioDevice initialized.
+[2017.10.07-19.21.43:292][459]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.21.43:293][459]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.21.43
+[2017.10.07-19.21.43:293][459]LogWorld: Bringing up level for play took: 0.001029
+[2017.10.07-19.21.43:295][459]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.21.43:301][459]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.808
+[2017.10.07-19.22.13:078][874]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.10.07-19.22.25:328][329]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.10.07-19.22.36:571][663]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.22.36:600][663]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.22.36:600][663]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:22:36 AM)
+[2017.10.07-19.22.36:600][663]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.22.36:603][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003121s)
+[2017.10.07-19.22.36:604][663]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.22.36:604][663]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2017.10.07-19.22.36:604][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004170s)
+[2017.10.07-19.22.36:628][663]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.22.36:673][663]LogInit: FAudioDevice initialized.
+[2017.10.07-19.22.36:716][663]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.22.36:718][663]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.22.36
+[2017.10.07-19.22.36:718][663]LogWorld: Bringing up level for play took: 0.001172
+[2017.10.07-19.22.36:720][663]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.22.36:727][663]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.234
+[2017.10.07-19.23.31:168][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BowCaster" FILE="../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.07-19.23.31:229][ 86]LogSavePackage: Save=40.80ms
+[2017.10.07-19.23.31:229][ 86]LogSavePackage: Moving '../../../../../../csc404/csc404-group3/Bowcaster/Saved/BowCaster_Auto31FC42F474A0FB4CABA68DC88283AF013.tmp' to '../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto3.umap'
+[2017.10.07-19.23.31:248][ 86]LogSavePackage: Display: Finished SavePackage ../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto3.umap
+[2017.10.07-19.23.31:250][ 86]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.106
+[2017.10.07-19.23.31:250][ 86]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.106
+[2017.10.07-19.31.36:773][852]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.37.47:489][175]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.37.47:515][175]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.07-19.37.47:521][175]LogPlayLevel: [PlayLevel] Compiling Bolt before play...
+[2017.10.07-19.37.47:523][175]LogPlayLevel: [PlayLevel]   Compiling BowCaster as a dependent...
+[2017.10.07-19.37.47:535][175]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.37.47:537][175]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.37.47:991][175]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.37.47:992][175]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_41.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.37.47:992][175]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.37.47:993][175]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_43.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.37.48:016][175]LogPlayLevel: PlayLevel: Blueprint regeneration took 501 ms (2 blueprints)
+[2017.10.07-19.37.48:017][175]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:37:48 AM)
+[2017.10.07-19.37.48:017][175]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.37.48:019][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002718s)
+[2017.10.07-19.37.48:020][175]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.37.48:020][175]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2017.10.07-19.37.48:020][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.003670s)
+[2017.10.07-19.37.48:041][175]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.37.48:072][175]LogInit: FAudioDevice initialized.
+[2017.10.07-19.37.48:112][175]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.37.48:113][175]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.37.48
+[2017.10.07-19.37.48:114][175]LogWorld: Bringing up level for play took: 0.000836
+[2017.10.07-19.37.48:115][175]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.37.48:121][175]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.375
+[2017.10.07-19.38.02:916][589]BlueprintLog: New page: Compile Bolt
+[2017.10.07-19.38.02:934][589]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.38.02:935][589]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.38.03:506][589]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.38.03:506][589]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_41.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.38.03:507][589]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.38.03:507][589]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_43.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.38.04:805][711]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.38.04:831][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.38.04:831][711]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:38:04 AM)
+[2017.10.07-19.38.04:831][711]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.38.04:834][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002736s)
+[2017.10.07-19.38.04:834][711]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.38.04:834][711]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2017.10.07-19.38.04:835][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.003642s)
+[2017.10.07-19.38.04:857][711]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.38.04:890][711]LogInit: FAudioDevice initialized.
+[2017.10.07-19.38.04:929][711]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.38.04:930][711]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.38.04
+[2017.10.07-19.38.04:930][711]LogWorld: Bringing up level for play took: 0.000987
+[2017.10.07-19.38.04:932][711]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.38.04:939][711]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.442
+[2017.10.07-19.40.50:076][586]BlueprintLog: New page: Compile BowCaster
+[2017.10.07-19.40.50:104][586]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.40.50:438][586]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.40.50:439][586]LogActor: Warning: BowCaster_C /Engine/Transient.World_8:PersistentLevel.BowCaster_GEN_VARIABLE_BowCaster_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.10.07-19.40.50:548][586]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.40.50:548][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_3.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.40.50:549][586]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.40.50:550][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_9.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.40.50:555][586]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.40.50:556][586]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.40.51:106][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BowCaster" FILE="../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/BowCaster.uasset" SILENT=true
+[2017.10.07-19.40.51:175][625]LogSavePackage: Save=45.92ms
+[2017.10.07-19.40.51:175][625]LogSavePackage: Moving '../../../../../../csc404/csc404-group3/Bowcaster/Saved/BowCasterC9426C8C4822677D44DAC481D130E896.tmp' to '../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/BowCaster.uasset'
+[2017.10.07-19.40.51:177][625]LogSavePackage: Display: Finished SavePackage ../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/BowCaster.uasset
+[2017.10.07-19.40.53:434][814]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.40.53:462][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.40.53:462][814]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:40:53 AM)
+[2017.10.07-19.40.53:462][814]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.40.53:465][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003005s)
+[2017.10.07-19.40.53:466][814]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.40.53:466][814]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2017.10.07-19.40.53:466][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004034s)
+[2017.10.07-19.40.53:489][814]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.40.53:524][814]LogInit: FAudioDevice initialized.
+[2017.10.07-19.40.53:564][814]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.40.53:566][814]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.40.53
+[2017.10.07-19.40.53:566][814]LogWorld: Bringing up level for play took: 0.000888
+[2017.10.07-19.40.53:567][814]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.40.53:574][814]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.077
