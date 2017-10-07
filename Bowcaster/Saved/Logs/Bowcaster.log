@@ -924,3 +924,1256 @@ LogInit: Object subsystem initialized
 [2017.10.07-19.40.53:566][814]LogWorld: Bringing up level for play took: 0.000888
 [2017.10.07-19.40.53:567][814]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
 [2017.10.07-19.40.53:574][814]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.077
+[2017.10.07-19.41.40:313][ 14]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.019
+[2017.10.07-19.41.40:314][ 14]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Bolt] ([1] browsable assets)...
+[2017.10.07-19.41.40:343][ 14]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Bolt.Bolt]
+[2017.10.07-19.41.40:343][ 14]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Bolt]
+[2017.10.07-19.41.40:343][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bolt" FILE="../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Bolt_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.10.07-19.41.40:375][ 14]LogSavePackage: Save=18.73ms
+[2017.10.07-19.41.40:376][ 14]LogSavePackage: Moving '../../../../../../csc404/csc404-group3/Bowcaster/Saved/Bolt_Auto498B720C84C3CA208B6932BA8B974959A.tmp' to '../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Bolt_Auto4.uasset'
+[2017.10.07-19.41.40:376][ 14]LogSavePackage: Display: Finished SavePackage ../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Bolt_Auto4.uasset
+[2017.10.07-19.41.40:376][ 14]LogFileHelpers: Auto-saving content packages took 0.063
+[2017.10.07-19.44.01:143][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.07-19.44.05:385][249]Cmd: EDIT COPY
+[2017.10.07-19.44.05:735][276]Cmd: EDIT PASTE
+[2017.10.07-19.44.41:827][307]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.44.41:856][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.44.41:856][307]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:44:41 AM)
+[2017.10.07-19.44.41:856][307]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.44.41:859][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003055s)
+[2017.10.07-19.44.41:860][307]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.44.41:860][307]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2017.10.07-19.44.41:860][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004213s)
+[2017.10.07-19.44.41:887][307]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.44.41:932][307]LogInit: FAudioDevice initialized.
+[2017.10.07-19.44.41:974][307]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.44.41:975][307]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.44.41
+[2017.10.07-19.44.41:975][307]LogWorld: Bringing up level for play took: 0.000996
+[2017.10.07-19.44.41:977][307]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.44.41:984][307]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.514
+[2017.10.07-19.44.52:887][570]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.10.07-19.44.54:009][700]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.44.54:036][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.44.54:036][700]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:44:54 AM)
+[2017.10.07-19.44.54:036][700]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.44.54:040][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003324s)
+[2017.10.07-19.44.54:040][700]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.44.54:040][700]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2017.10.07-19.44.54:041][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004323s)
+[2017.10.07-19.44.54:067][700]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.44.54:101][700]LogInit: FAudioDevice initialized.
+[2017.10.07-19.44.54:139][700]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.44.54:140][700]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.44.54
+[2017.10.07-19.44.54:140][700]LogWorld: Bringing up level for play took: 0.001021
+[2017.10.07-19.44.54:142][700]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.44.54:149][700]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.349
+[2017.10.07-19.44.58:979][239]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2017.10.07-19.45.08:295][346]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.45.08:319][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.45.08:320][346]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:45:08 AM)
+[2017.10.07-19.45.08:320][346]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.45.08:323][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003042s)
+[2017.10.07-19.45.08:324][346]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.45.08:324][346]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2017.10.07-19.45.08:324][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.003970s)
+[2017.10.07-19.45.08:347][346]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.45.08:382][346]LogInit: FAudioDevice initialized.
+[2017.10.07-19.45.08:423][346]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.45.08:425][346]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.45.08
+[2017.10.07-19.45.08:425][346]LogWorld: Bringing up level for play took: 0.000951
+[2017.10.07-19.45.08:426][346]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.08:433][346]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.065
+[2017.10.07-19.45.19:687][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.07-19.45.21:629][877]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.07-19.45.23:040][ 41]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.10.07-19.45.27:618][578]Cmd: DELETE
+[2017.10.07-19.45.27:618][578]Cmd: ACTOR DELETE
+[2017.10.07-19.45.27:618][578]LogEditorActor: Deleted Actor: PlayerStart
+[2017.10.07-19.45.27:641][578]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2017.10.07-19.45.28:753][650]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:754][650]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:756][650]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:759][650]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:769][651]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:771][651]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:786][652]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:788][652]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:790][652]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:800][653]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:802][653]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:811][654]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:816][654]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:825][655]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:828][655]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:832][655]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:841][656]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:843][656]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:853][657]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:855][657]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:865][658]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:867][658]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:877][659]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:879][659]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:888][660]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:890][660]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:899][661]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:904][661]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:912][662]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:914][662]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:922][663]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:924][663]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:926][663]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:934][664]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:936][664]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:952][666]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:954][666]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:963][667]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:971][668]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:975][668]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:982][669]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:984][669]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.28:986][669]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:002][671]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:003][671]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:012][672]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:028][674]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:036][675]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:045][676]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:047][676]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:055][677]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:064][678]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:066][678]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:074][679]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:083][680]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:092][681]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:100][682]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:102][682]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:110][683]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:119][684]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:128][685]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:130][685]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:138][686]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:140][686]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:142][686]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:150][687]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:152][687]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:154][687]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:162][688]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:164][688]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:165][688]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:174][689]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:175][689]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:179][689]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:186][690]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:188][690]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:190][690]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:198][691]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:200][691]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:202][691]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:210][692]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:226][694]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:243][696]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:277][700]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:585][737]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:594][738]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:595][738]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:599][738]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:965][782]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:966][782]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:975][783]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:984][784]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.29:986][784]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:293][821]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:295][821]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:304][822]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:306][822]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:314][823]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:316][823]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:398][833]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:475][842]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:532][849]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:557][852]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:840][886]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:850][887]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:859][888]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:869][889]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:871][889]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.30:962][900]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.31:229][932]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.31:231][932]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.31:240][933]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.31:242][933]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.31:608][977]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.31:610][977]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.31:620][978]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.31:628][979]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.32:124][ 37]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.32:168][ 37]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.32:169][ 37]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.35:777][400]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.45.35:808][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.45.35:809][400]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:45:35 AM)
+[2017.10.07-19.45.35:809][400]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.45.35:813][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003629s)
+[2017.10.07-19.45.35:813][400]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.45.35:813][400]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2017.10.07-19.45.35:814][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004605s)
+[2017.10.07-19.45.35:863][400]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.45.35:895][400]LogInit: FAudioDevice initialized.
+[2017.10.07-19.45.35:938][400]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.45.35:939][400]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.45.35
+[2017.10.07-19.45.35:940][400]LogWorld: Bringing up level for play took: 0.001515
+[2017.10.07-19.45.35:941][400]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.35:949][400]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.55
+[2017.10.07-19.45.46:320][546]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2017.10.07-19.45.48:934][853]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.10.07-19.45.50:215][  3]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.45.50:250][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.45.50:250][  3]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:45:50 AM)
+[2017.10.07-19.45.50:250][  3]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.45.50:254][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003219s)
+[2017.10.07-19.45.50:254][  3]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.45.50:254][  3]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2017.10.07-19.45.50:254][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004138s)
+[2017.10.07-19.45.50:278][  3]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.45.50:317][  3]LogInit: FAudioDevice initialized.
+[2017.10.07-19.45.50:353][  3]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.45.50:355][  3]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.45.50
+[2017.10.07-19.45.50:355][  3]LogWorld: Bringing up level for play took: 0.001411
+[2017.10.07-19.45.50:357][  3]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.45.50:363][  3]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.134
+[2017.10.07-19.47.04:019][913]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.47.44:930][557]BlueprintLog: New page: Compile Bolt
+[2017.10.07-19.47.44:956][557]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.47.44:957][557]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.47.44:959][557]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.47.45:319][557]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.47.45:319][557]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_9.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.47.45:320][557]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.47.45:320][557]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_11.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.47.45:321][557]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.47.45:322][557]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/BowCaster.BowCaster:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_239.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.47.51:391][117]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.47.51:418][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.47.51:418][117]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:47:51 AM)
+[2017.10.07-19.47.51:418][117]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.47.51:422][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003363s)
+[2017.10.07-19.47.51:422][117]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.47.51:423][117]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2017.10.07-19.47.51:423][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004397s)
+[2017.10.07-19.47.51:446][117]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.47.51:485][117]LogInit: FAudioDevice initialized.
+[2017.10.07-19.47.51:527][117]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.47.51:528][117]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.47.51
+[2017.10.07-19.47.51:529][117]LogWorld: Bringing up level for play took: 0.001461
+[2017.10.07-19.47.51:530][117]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.47.51:537][117]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.039
+[2017.10.07-19.48.48:737][640]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.48.48:759][640]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.07-19.48.48:763][640]LogPlayLevel: [PlayLevel] Compiling Bolt before play...
+[2017.10.07-19.48.48:769][640]LogPlayLevel: [PlayLevel]   Compiling BowCaster as a dependent...
+[2017.10.07-19.48.48:786][640]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.48.48:788][640]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.48.48:790][640]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.48.49:064][640]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.48.49:064][640]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_11.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.48.49:066][640]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.48.49:066][640]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_13.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.48.49:067][640]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.48.49:067][640]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/BowCaster.BowCaster:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_239.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.48.49:092][640]LogPlayLevel: PlayLevel: Blueprint regeneration took 332 ms (2 blueprints)
+[2017.10.07-19.48.49:092][640]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:48:49 AM)
+[2017.10.07-19.48.49:092][640]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.48.49:096][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003463s)
+[2017.10.07-19.48.49:096][640]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.48.49:096][640]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2017.10.07-19.48.49:097][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004410s)
+[2017.10.07-19.48.49:120][640]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.48.49:156][640]LogInit: FAudioDevice initialized.
+[2017.10.07-19.48.49:194][640]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.48.49:195][640]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.48.49
+[2017.10.07-19.48.49:196][640]LogWorld: Bringing up level for play took: 0.001566
+[2017.10.07-19.48.49:197][640]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.48.49:205][640]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.706
+[2017.10.07-19.48.53:597][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.07-19.48.58:752][532]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2017.10.07-19.49.00:422][726]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.10.07-19.49.01:466][848]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.49.01:492][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.49.01:492][848]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:49:01 AM)
+[2017.10.07-19.49.01:492][848]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.49.01:496][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003323s)
+[2017.10.07-19.49.01:496][848]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.49.01:496][848]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2017.10.07-19.49.01:497][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004275s)
+[2017.10.07-19.49.01:520][848]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.49.01:557][848]LogInit: FAudioDevice initialized.
+[2017.10.07-19.49.01:599][848]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.49.01:601][848]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.49.01
+[2017.10.07-19.49.01:601][848]LogWorld: Bringing up level for play took: 0.001561
+[2017.10.07-19.49.01:602][848]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.49.01:610][848]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.112
+[2017.10.07-19.49.07:961][561]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.49.07:985][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.49.07:985][561]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:49:07 AM)
+[2017.10.07-19.49.07:985][561]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.49.07:989][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003430s)
+[2017.10.07-19.49.07:989][561]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.49.07:990][561]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2017.10.07-19.49.07:990][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004352s)
+[2017.10.07-19.49.08:014][561]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.49.08:051][561]LogInit: FAudioDevice initialized.
+[2017.10.07-19.49.08:088][561]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.49.08:089][561]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.49.08
+[2017.10.07-19.49.08:090][561]LogWorld: Bringing up level for play took: 0.001427
+[2017.10.07-19.49.08:091][561]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.49.08:098][561]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.401
+[2017.10.07-19.49.15:007][343]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.49.15:029][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.49.15:029][343]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:49:15 AM)
+[2017.10.07-19.49.15:029][343]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.49.15:033][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003425s)
+[2017.10.07-19.49.15:033][343]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.49.15:033][343]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2017.10.07-19.49.15:033][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004327s)
+[2017.10.07-19.49.15:057][343]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.49.15:089][343]LogInit: FAudioDevice initialized.
+[2017.10.07-19.49.15:124][343]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.49.15:126][343]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.49.15
+[2017.10.07-19.49.15:126][343]LogWorld: Bringing up level for play took: 0.001405
+[2017.10.07-19.49.15:128][343]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.49.15:134][343]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.636
+[2017.10.07-19.49.30:470][695]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.49.30:495][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.49.30:495][695]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:49:30 AM)
+[2017.10.07-19.49.30:495][695]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.49.30:499][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003495s)
+[2017.10.07-19.49.30:499][695]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.49.30:499][695]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2017.10.07-19.49.30:500][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004470s)
+[2017.10.07-19.49.30:527][695]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.49.30:570][695]LogInit: FAudioDevice initialized.
+[2017.10.07-19.49.30:608][695]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.49.30:609][695]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.49.30
+[2017.10.07-19.49.30:610][695]LogWorld: Bringing up level for play took: 0.001479
+[2017.10.07-19.49.30:611][695]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.49.30:619][695]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.12
+[2017.10.07-19.53.11:409][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BowCaster" FILE="../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.07-19.53.11:522][289]LogSavePackage: Save=83.73ms
+[2017.10.07-19.53.11:522][289]LogSavePackage: Moving '../../../../../../csc404/csc404-group3/Bowcaster/Saved/BowCaster_Auto5774E52B14B39C7FF6C3B958A76A27581.tmp' to '../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto5.umap'
+[2017.10.07-19.53.11:523][289]LogSavePackage: Display: Finished SavePackage ../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto5.umap
+[2017.10.07-19.53.11:525][289]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.154
+[2017.10.07-19.53.11:526][289]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.154
+[2017.10.07-19.53.11:529][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Bolt] ([1] browsable assets)...
+[2017.10.07-19.53.11:555][289]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Bolt.Bolt]
+[2017.10.07-19.53.11:555][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Bolt]
+[2017.10.07-19.53.11:555][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bolt" FILE="../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Bolt_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.10.07-19.53.11:608][289]LogSavePackage: Save=37.24ms
+[2017.10.07-19.53.11:608][289]LogSavePackage: Moving '../../../../../../csc404/csc404-group3/Bowcaster/Saved/Bolt_Auto5D01CD04E40CCD3E19B8425B47C984F8B.tmp' to '../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Bolt_Auto5.uasset'
+[2017.10.07-19.53.11:609][289]LogSavePackage: Display: Finished SavePackage ../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Bolt_Auto5.uasset
+[2017.10.07-19.53.11:609][289]LogFileHelpers: Auto-saving content packages took 0.082
+[2017.10.07-19.57.12:894][993]BlueprintLog: New page: Compile Bolt
+[2017.10.07-19.57.12:923][993]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.57.12:925][993]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.57.12:927][993]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.57.13:279][993]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.57.13:279][993]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_9.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.57.13:280][993]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.57.13:281][993]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_11.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.57.13:282][993]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.57.13:282][993]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/BowCaster.BowCaster:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_239.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.57.14:892][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bolt" FILE="../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Bolt.uasset" SILENT=true
+[2017.10.07-19.57.14:939][113]LogSavePackage: Save=40.56ms
+[2017.10.07-19.57.14:939][113]LogSavePackage: Moving '../../../../../../csc404/csc404-group3/Bowcaster/Saved/Bolt2CEEE714494901A313BF36B07293B92A.tmp' to '../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Bolt.uasset'
+[2017.10.07-19.57.14:943][113]LogSavePackage: Display: Finished SavePackage ../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Bolt.uasset
+[2017.10.07-19.57.16:007][201]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.57.16:034][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.57.16:034][201]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:57:16 AM)
+[2017.10.07-19.57.16:035][201]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.57.16:038][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003474s)
+[2017.10.07-19.57.16:039][201]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.57.16:039][201]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2017.10.07-19.57.16:039][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004527s)
+[2017.10.07-19.57.16:062][201]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.57.16:098][201]LogInit: FAudioDevice initialized.
+[2017.10.07-19.57.16:139][201]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.57.16:141][201]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.57.16
+[2017.10.07-19.57.16:141][201]LogWorld: Bringing up level for play took: 0.001501
+[2017.10.07-19.57.16:143][201]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.57.16:151][201]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.35
+[2017.10.07-19.57.44:444][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bolt" FILE="../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Bolt.uasset" SILENT=true
+[2017.10.07-19.57.44:490][486]LogSavePackage: Save=39.07ms
+[2017.10.07-19.57.44:490][486]LogSavePackage: Moving '../../../../../../csc404/csc404-group3/Bowcaster/Saved/Bolt11B65A2145BD8892BDD6A6B8902D0F98.tmp' to '../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Bolt.uasset'
+[2017.10.07-19.57.44:492][486]LogSavePackage: Display: Finished SavePackage ../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Bolt.uasset
+[2017.10.07-19.57.49:035][869]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.10.07-19.58.51:045][236]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.58.51:047][236]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.58.51:048][236]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.58.51:049][236]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.58.51:051][236]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.58.51:053][236]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.58.57:480][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Player.uasset" SILENT=true
+[2017.10.07-19.58.57:627][652]LogSavePackage: Save=47.62ms
+[2017.10.07-19.58.57:627][652]LogSavePackage: Moving '../../../../../../csc404/csc404-group3/Bowcaster/Saved/Player2021580B43559B31FFBE3CA20CAD0959.tmp' to '../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Player.uasset'
+[2017.10.07-19.58.57:629][652]LogSavePackage: Display: Finished SavePackage ../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Player.uasset
+[2017.10.07-19.58.59:280][768]BlueprintLog: New page: Compile Player
+[2017.10.07-19.58.59:450][768]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.58.59:536][768]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.58.59:611][768]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.58.59:756][768]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.58.59:757][768]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.58.59:759][768]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.58.59:760][768]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.59.01:020][853]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.59.01:051][853]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.07-19.59.01:058][853]LogPlayLevel: [PlayLevel] Compiling Bolt before play...
+[2017.10.07-19.59.01:063][853]LogPlayLevel: [PlayLevel]   Compiling BowCaster as a dependent...
+[2017.10.07-19.59.01:080][853]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.59.01:082][853]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.59.01:084][853]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.59.01:443][853]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.59.01:444][853]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.59.01:445][853]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.59.01:445][853]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/BowCaster.BowCaster:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_239.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.59.01:446][853]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.59.01:446][853]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_44.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-19.59.01:472][853]LogPlayLevel: PlayLevel: Blueprint regeneration took 421 ms (2 blueprints)
+[2017.10.07-19.59.01:472][853]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:59:01 AM)
+[2017.10.07-19.59.01:472][853]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.59.01:476][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003629s)
+[2017.10.07-19.59.01:476][853]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.59.01:476][853]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2017.10.07-19.59.01:477][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004651s)
+[2017.10.07-19.59.01:526][853]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.59.01:563][853]LogInit: FAudioDevice initialized.
+[2017.10.07-19.59.01:600][853]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.59.01:601][853]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.59.01
+[2017.10.07-19.59.01:602][853]LogWorld: Bringing up level for play took: 0.001456
+[2017.10.07-19.59.01:603][853]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.59.01:610][853]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.109
+[2017.10.07-19.59.08:485][290]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.59.08:515][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.59.08:515][290]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:59:08 AM)
+[2017.10.07-19.59.08:515][290]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.59.08:519][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003776s)
+[2017.10.07-19.59.08:520][290]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.59.08:520][290]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2017.10.07-19.59.08:520][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004787s)
+[2017.10.07-19.59.08:569][290]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.59.08:607][290]LogInit: FAudioDevice initialized.
+[2017.10.07-19.59.08:650][290]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.59.08:652][290]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.59.08
+[2017.10.07-19.59.08:653][290]LogWorld: Bringing up level for play took: 0.001740
+[2017.10.07-19.59.08:654][290]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.59.08:663][290]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.162
+[2017.10.07-19.59.11:553][466]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.59.11:575][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.59.11:575][466]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:59:11 AM)
+[2017.10.07-19.59.11:575][466]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.59.11:579][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003457s)
+[2017.10.07-19.59.11:580][466]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.59.11:580][466]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2017.10.07-19.59.11:580][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004419s)
+[2017.10.07-19.59.11:628][466]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.59.11:662][466]LogInit: FAudioDevice initialized.
+[2017.10.07-19.59.11:703][466]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.59.11:704][466]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.59.11
+[2017.10.07-19.59.11:705][466]LogWorld: Bringing up level for play took: 0.001430
+[2017.10.07-19.59.11:706][466]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.59.11:714][466]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.787
+[2017.10.07-19.59.35:869][153]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.59.35:892][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.59.35:892][153]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:59:35 AM)
+[2017.10.07-19.59.35:892][153]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.59.35:896][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003548s)
+[2017.10.07-19.59.35:896][153]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.59.35:897][153]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2017.10.07-19.59.35:897][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004504s)
+[2017.10.07-19.59.35:948][153]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.59.35:983][153]LogInit: FAudioDevice initialized.
+[2017.10.07-19.59.36:022][153]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.59.36:024][153]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.59.36
+[2017.10.07-19.59.36:024][153]LogWorld: Bringing up level for play took: 0.001394
+[2017.10.07-19.59.36:025][153]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.59.36:033][153]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.468
+[2017.10.07-19.59.43:093][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.07-19.59.47:075][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.07-19.59.48:067][158]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2017.10.07-19.59.50:715][418]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.59.51:172][465]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.59.51:917][538]Cmd: SELECT NONE
+[2017.10.07-19.59.53:684][746]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-19.59.53:712][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-19.59.53:712][746]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 11:59:53 AM)
+[2017.10.07-19.59.53:712][746]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-19.59.53:716][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003452s)
+[2017.10.07-19.59.53:716][746]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-19.59.53:716][746]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2017.10.07-19.59.53:717][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004432s)
+[2017.10.07-19.59.53:741][746]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.59.53:796][746]LogInit: FAudioDevice initialized.
+[2017.10.07-19.59.53:839][746]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-19.59.53:841][746]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-15.59.53
+[2017.10.07-19.59.53:841][746]LogWorld: Bringing up level for play took: 0.001548
+[2017.10.07-19.59.53:843][746]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-19.59.53:851][746]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.65
+[2017.10.07-19.59.56:553][ 25]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2017.10.07-20.00.08:886][871]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.08:887][871]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.08:889][871]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.08:892][871]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.08:892][871]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_70.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.00.08:893][871]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.08:893][871]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_72.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.00.08:895][871]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.08:895][871]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/BowCaster.BowCaster:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_248.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.00.12:175][ 74]BlueprintLog: New page: Compile BowCaster
+[2017.10.07-20.00.12:204][ 74]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.12:705][ 74]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.12:705][ 74]LogActor: Warning: BowCaster_C /Engine/Transient.World_8:PersistentLevel.BowCaster_GEN_VARIABLE_BowCaster_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.10.07-20.00.12:791][ 74]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.12:792][ 74]LogActor: Warning: BowCaster_C /Game/Levels/BowCaster.BowCaster:PersistentLevel.BowCaster_GEN_VARIABLE_BowCaster_C_CAT_236 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.10.07-20.00.12:944][ 74]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.12:944][ 74]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_3.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.00.12:946][ 74]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.12:947][ 74]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_13.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.00.12:948][ 74]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.12:948][ 74]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/BowCaster.BowCaster:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_238.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.00.12:953][ 74]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.12:954][ 74]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.12:955][ 74]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.13:747][125]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-20.00.13:778][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-20.00.13:778][125]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 12:00:13 PM)
+[2017.10.07-20.00.13:778][125]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-20.00.13:781][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002989s)
+[2017.10.07-20.00.13:782][125]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-20.00.13:782][125]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2017.10.07-20.00.13:782][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.003903s)
+[2017.10.07-20.00.13:831][125]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-20.00.13:867][125]LogInit: FAudioDevice initialized.
+[2017.10.07-20.00.13:904][125]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-20.00.13:906][125]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-16.00.13
+[2017.10.07-20.00.13:906][125]LogWorld: Bringing up level for play took: 0.001312
+[2017.10.07-20.00.13:907][125]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.13:915][125]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.586
+[2017.10.07-20.00.21:074][655]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-20.00.21:109][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-20.00.21:109][655]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 12:00:21 PM)
+[2017.10.07-20.00.21:109][655]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-20.00.21:113][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003719s)
+[2017.10.07-20.00.21:114][655]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-20.00.21:114][655]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2017.10.07-20.00.21:114][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004755s)
+[2017.10.07-20.00.21:163][655]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-20.00.21:199][655]LogInit: FAudioDevice initialized.
+[2017.10.07-20.00.21:245][655]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-20.00.21:247][655]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-16.00.21
+[2017.10.07-20.00.21:248][655]LogWorld: Bringing up level for play took: 0.001578
+[2017.10.07-20.00.21:249][655]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.21:258][655]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.757
+[2017.10.07-20.00.35:662][367]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.35:664][367]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.35:665][367]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.35:667][367]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.35:668][367]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_48.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.00.35:670][367]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.35:670][367]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/BowCaster.BowCaster:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_244.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.00.35:671][367]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.35:671][367]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_54.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.00.38:956][563]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-20.00.38:985][563]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.07-20.00.38:994][563]LogPlayLevel: [PlayLevel] Compiling BowCaster before play...
+[2017.10.07-20.00.38:999][563]LogPlayLevel: [PlayLevel]   Compiling Player as a dependent...
+[2017.10.07-20.00.39:017][563]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.39:501][563]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.39:501][563]LogActor: Warning: BowCaster_C /Engine/Transient.World_8:PersistentLevel.BowCaster_GEN_VARIABLE_BowCaster_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.10.07-20.00.39:585][563]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.39:585][563]LogActor: Warning: BowCaster_C /Game/Levels/BowCaster.BowCaster:PersistentLevel.BowCaster_GEN_VARIABLE_BowCaster_C_CAT_236 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.10.07-20.00.39:705][563]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.39:706][563]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_3.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.00.39:708][563]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.39:708][563]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_13.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.00.39:709][563]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.39:710][563]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/BowCaster.BowCaster:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_238.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.00.39:714][563]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.39:715][563]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.39:717][563]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.39:742][563]LogPlayLevel: PlayLevel: Blueprint regeneration took 756 ms (2 blueprints)
+[2017.10.07-20.00.39:742][563]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 12:00:39 PM)
+[2017.10.07-20.00.39:742][563]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-20.00.39:745][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003313s)
+[2017.10.07-20.00.39:746][563]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-20.00.39:746][563]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2017.10.07-20.00.39:746][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.004291s)
+[2017.10.07-20.00.39:796][563]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-20.00.39:828][563]LogInit: FAudioDevice initialized.
+[2017.10.07-20.00.39:864][563]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-20.00.39:866][563]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-16.00.39
+[2017.10.07-20.00.39:866][563]LogWorld: Bringing up level for play took: 0.001290
+[2017.10.07-20.00.39:867][563]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.39:875][563]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.374
+[2017.10.07-20.00.52:801][421]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.52:803][421]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.52:804][421]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.52:806][421]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.52:807][421]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.52:809][421]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.00.54:299][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Player.uasset" SILENT=true
+[2017.10.07-20.00.54:393][504]LogSavePackage: Save=40.47ms
+[2017.10.07-20.00.54:393][504]LogSavePackage: Moving '../../../../../../csc404/csc404-group3/Bowcaster/Saved/Player0AC367C542D36BDBFE1E8BB2F84900A5.tmp' to '../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Player.uasset'
+[2017.10.07-20.00.54:395][504]LogSavePackage: Display: Finished SavePackage ../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Player.uasset
+[2017.10.07-20.00.55:574][563]Cmd: SELECT NONE
+[2017.10.07-20.01.47:570][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BowCaster" FILE="../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/BowCaster.uasset" SILENT=true
+[2017.10.07-20.01.47:623][506]LogSavePackage: Save=39.83ms
+[2017.10.07-20.01.47:623][506]LogSavePackage: Moving '../../../../../../csc404/csc404-group3/Bowcaster/Saved/BowCasterED668DE147D9659FD04D3F90B198021B.tmp' to '../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/BowCaster.uasset'
+[2017.10.07-20.01.47:625][506]LogSavePackage: Display: Finished SavePackage ../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/BowCaster.uasset
+[2017.10.07-20.02.23:125][768]BlueprintLog: New page: Compile Bolt
+[2017.10.07-20.02.23:160][768]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.02.23:162][768]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.02.23:164][768]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.02.23:738][768]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.02.23:738][768]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_9.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.02.23:739][768]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.02.23:739][768]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_11.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.02.23:741][768]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.02.23:741][768]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/BowCaster.BowCaster:PersistentLevel.DESTROYED_BowCaster_C_CHILDACTOR_239.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.07-20.02.24:472][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bolt" FILE="../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Bolt.uasset" SILENT=true
+[2017.10.07-20.02.24:526][824]LogSavePackage: Save=38.18ms
+[2017.10.07-20.02.24:526][824]LogSavePackage: Moving '../../../../../../csc404/csc404-group3/Bowcaster/Saved/BoltAC755BB64B55AFC2255D1A9ACE444F29.tmp' to '../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Bolt.uasset'
+[2017.10.07-20.02.24:528][824]LogSavePackage: Display: Finished SavePackage ../../../../../../csc404/csc404-group3/Bowcaster/Content/Blueprints/Bolt.uasset
+[2017.10.07-20.02.25:125][878]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.07-20.02.25:155][878]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.07-20.02.25:161][878]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.07-20.02.25:256][878]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.02.25:340][878]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.02.25:428][878]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.02.25:512][878]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.02.25:514][878]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.02.25:515][878]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.02.25:517][878]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.02.25:544][878]LogPlayLevel: PlayLevel: Blueprint regeneration took 388 ms (1 blueprints)
+[2017.10.07-20.02.25:544][878]PIE: New page: PIE session: BowCaster (Oct 7, 2017, 12:02:25 PM)
+[2017.10.07-20.02.25:544][878]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.07-20.02.25:548][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004393s)
+[2017.10.07-20.02.25:549][878]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.07-20.02.25:549][878]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2017.10.07-20.02.25:550][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.005636s)
+[2017.10.07-20.02.25:579][878]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-20.02.25:623][878]LogInit: FAudioDevice initialized.
+[2017.10.07-20.02.25:667][878]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.07-20.02.25:668][878]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.07-16.02.25
+[2017.10.07-20.02.25:669][878]LogWorld: Bringing up level for play took: 0.001459
+[2017.10.07-20.02.25:670][878]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.07-20.02.25:678][878]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.177
+[2017.10.07-20.02.27:301][  4]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:363][  4]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:374][  5]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:375][  5]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:385][  6]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:386][  6]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:397][  7]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:397][  7]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:408][  8]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:408][  8]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:420][  9]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:420][  9]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:433][ 10]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:433][ 10]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:445][ 11]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:446][ 11]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:458][ 12]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:458][ 12]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:471][ 13]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:471][ 13]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:484][ 14]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:484][ 14]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:496][ 15]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:496][ 15]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:509][ 16]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:509][ 16]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:521][ 17]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:521][ 17]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:533][ 18]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:534][ 18]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:546][ 19]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:546][ 19]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:558][ 20]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:558][ 20]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:570][ 21]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:570][ 21]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:582][ 22]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:582][ 22]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:595][ 23]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:595][ 23]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:607][ 24]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:607][ 24]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:620][ 25]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:620][ 25]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:632][ 26]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:632][ 26]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:645][ 27]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:645][ 27]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:657][ 28]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:657][ 28]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:670][ 29]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:670][ 29]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:683][ 30]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:683][ 30]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:696][ 31]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:696][ 31]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:708][ 32]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:708][ 32]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:720][ 33]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:720][ 33]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:732][ 34]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:733][ 34]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:744][ 35]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:744][ 35]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:757][ 36]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:757][ 36]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:770][ 37]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:771][ 37]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:783][ 38]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:783][ 38]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:795][ 39]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:796][ 39]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:808][ 40]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:808][ 40]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:820][ 41]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:820][ 41]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:832][ 42]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:832][ 42]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:844][ 43]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:844][ 43]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:856][ 44]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:856][ 44]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:869][ 45]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:869][ 45]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:882][ 46]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:882][ 46]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:894][ 47]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:894][ 47]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:906][ 48]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:906][ 48]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:918][ 49]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:918][ 49]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:930][ 50]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:930][ 50]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:942][ 51]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:942][ 51]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:954][ 52]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:954][ 52]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:967][ 53]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:967][ 53]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:979][ 54]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:980][ 54]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:992][ 55]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.27:992][ 55]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:005][ 56]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:005][ 56]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:017][ 57]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:018][ 57]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:029][ 58]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:030][ 58]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:041][ 59]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:042][ 59]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:053][ 60]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:053][ 60]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:065][ 61]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:065][ 61]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:077][ 62]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:077][ 62]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:090][ 63]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:090][ 63]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:103][ 64]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:103][ 64]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:115][ 65]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:115][ 65]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:127][ 66]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:127][ 66]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:139][ 67]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:139][ 67]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:152][ 68]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:152][ 68]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:165][ 69]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:165][ 69]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:177][ 70]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:177][ 70]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:190][ 71]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:190][ 71]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:202][ 72]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:202][ 72]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:214][ 73]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:214][ 73]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:226][ 74]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:226][ 74]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:238][ 75]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:238][ 75]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:250][ 76]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:250][ 76]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:262][ 77]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:262][ 77]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:274][ 78]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:275][ 78]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:287][ 79]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:287][ 79]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:299][ 80]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:299][ 80]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:311][ 81]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:311][ 81]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:324][ 82]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:324][ 82]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:336][ 83]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:336][ 83]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:348][ 84]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:348][ 84]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:360][ 85]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:360][ 85]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:372][ 86]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:372][ 86]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:383][ 87]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:384][ 87]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:395][ 88]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:395][ 88]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:407][ 89]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:407][ 89]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:419][ 90]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:419][ 90]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:431][ 91]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:431][ 91]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:444][ 92]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:444][ 92]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:457][ 93]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:457][ 93]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:469][ 94]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:469][ 94]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:481][ 95]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:482][ 95]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:494][ 96]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:494][ 96]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:507][ 97]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:507][ 97]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:519][ 98]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:519][ 98]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:532][ 99]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:532][ 99]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:544][100]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:544][100]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:556][101]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.28:556][101]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:838][209]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:839][209]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:851][210]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:851][210]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:863][211]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:863][211]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:875][212]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:875][212]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:886][213]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:886][213]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:897][214]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:897][214]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:909][215]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:909][215]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:920][216]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:921][216]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:932][217]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:932][217]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:944][218]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:944][218]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:956][219]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:956][219]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:967][220]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:967][220]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:979][221]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:979][221]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:990][222]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.29:990][222]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:002][223]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:002][223]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:015][224]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:015][224]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:027][225]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:027][225]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:039][226]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:039][226]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:051][227]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:051][227]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:064][228]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:064][228]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:076][229]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:076][229]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:088][230]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:088][230]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:101][231]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:101][231]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:114][232]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:114][232]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:126][233]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:126][233]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:139][234]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:139][234]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:151][235]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:151][235]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:164][236]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:164][236]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:176][237]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:176][237]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:188][238]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:188][238]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:200][239]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:200][239]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:212][240]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:212][240]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:224][241]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:224][241]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:236][242]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:236][242]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:250][243]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:250][243]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:263][244]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:263][244]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:275][245]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:276][245]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:288][246]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:288][246]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:300][247]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:300][247]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:312][248]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:312][248]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:324][249]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:324][249]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:336][250]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:336][250]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:347][251]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:347][251]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:359][252]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:359][252]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:372][253]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:372][253]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:385][254]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:385][254]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:398][255]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:398][255]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:410][256]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:410][256]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:423][257]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:423][257]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:436][258]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:436][258]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:448][259]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:448][259]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:460][260]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:460][260]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:472][261]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:472][261]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:484][262]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:485][262]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:496][263]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:496][263]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:508][264]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:508][264]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:521][265]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:521][265]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:533][266]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:533][266]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:545][267]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:545][267]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:557][268]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:557][268]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:569][269]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:569][269]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:581][270]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:581][270]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:594][271]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:594][271]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:607][272]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:607][272]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:619][273]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:619][273]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:632][274]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:632][274]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:644][275]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:644][275]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:657][276]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:657][276]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:670][277]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:671][277]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:684][278]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:684][278]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:697][279]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:697][279]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:709][280]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:710][280]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:722][281]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:722][281]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:736][282]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:736][282]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:749][283]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:749][283]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:763][284]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:763][284]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:777][285]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:777][285]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:789][286]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:790][286]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:802][287]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:802][287]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:815][288]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:815][288]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:827][289]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:827][289]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:840][290]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:840][290]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:852][291]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:852][291]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:864][292]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:864][292]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:877][293]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:877][293]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:890][294]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:890][294]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:903][295]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:903][295]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:917][296]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:917][296]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:930][297]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:931][297]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:944][298]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:944][298]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:957][299]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:957][299]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:970][300]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:970][300]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:983][301]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:983][301]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:995][302]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.30:995][302]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:007][303]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:007][303]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:019][304]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:019][304]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:031][305]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:031][305]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:043][306]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:043][306]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:054][307]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:055][307]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:066][308]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:066][308]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:078][309]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:078][309]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:089][310]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.31:089][310]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:376][418]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:376][418]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:388][419]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:389][419]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:401][420]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:401][420]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:413][421]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:414][421]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:426][422]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:426][422]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:440][423]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:440][423]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:453][424]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:453][424]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:467][425]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:467][425]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:481][426]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:481][426]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:494][427]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:494][427]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:507][428]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:507][428]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:520][429]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:520][429]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:533][430]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:533][430]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:546][431]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:546][431]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:558][432]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:558][432]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:571][433]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:571][433]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:584][434]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:584][434]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:596][435]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:596][435]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:608][436]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:608][436]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:620][437]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:620][437]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:632][438]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:632][438]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:644][439]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:644][439]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:656][440]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:656][440]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:669][441]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:669][441]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:681][442]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:682][442]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:694][443]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:694][443]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:707][444]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:707][444]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:720][445]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:720][445]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:732][446]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:732][446]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:745][447]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:745][447]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:757][448]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:757][448]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:770][449]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:771][449]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:784][450]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:784][450]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:796][451]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:796][451]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:809][452]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:809][452]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:822][453]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:822][453]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:834][454]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:834][454]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:846][455]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:846][455]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:858][456]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:858][456]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:870][457]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:870][457]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:881][458]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:882][458]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:893][459]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:893][459]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:904][460]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:904][460]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:916][461]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:916][461]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:928][462]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:928][462]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:939][463]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:940][463]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:951][464]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:952][464]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:963][465]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:964][465]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:976][466]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:976][466]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:987][467]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:987][467]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:999][468]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.32:999][468]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:011][469]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:012][469]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:025][470]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:025][470]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:038][471]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:039][471]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:052][472]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:052][472]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:065][473]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:065][473]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:078][474]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:078][474]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:091][475]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:091][475]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:104][476]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:104][476]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:116][477]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:116][477]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:128][478]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:128][478]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:140][479]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:140][479]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:152][480]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:152][480]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:163][481]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:164][481]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:175][482]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:175][482]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:187][483]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:187][483]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:199][484]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:200][484]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:212][485]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:212][485]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:224][486]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:224][486]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:236][487]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:236][487]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:248][488]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:248][488]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:260][489]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:261][489]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:273][490]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:273][490]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:285][491]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:285][491]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:296][492]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:296][492]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:308][493]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:308][493]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:320][494]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:320][494]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:331][495]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:332][495]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:343][496]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:343][496]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:355][497]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:356][497]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:368][498]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:368][498]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:380][499]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:380][499]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:392][500]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:392][500]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:405][501]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:405][501]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:417][502]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:418][502]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:430][503]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:430][503]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:443][504]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:444][504]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:456][505]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:456][505]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:468][506]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:468][506]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:479][507]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:479][507]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:491][508]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:491][508]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:502][509]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:502][509]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:515][510]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:515][510]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:527][511]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:527][511]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:539][512]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:539][512]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:550][513]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:551][513]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:562][514]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:562][514]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:574][515]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:574][515]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:586][516]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:587][516]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:599][517]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:599][517]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:611][518]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:611][518]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:623][519]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.33:623][519]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.02.34:898][624]PIE: Warning: Player_587.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.10.07-20.04.31:425][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BowCaster" FILE="../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.07-20.04.31:525][567]LogSavePackage: Save=55.86ms
+[2017.10.07-20.04.31:525][567]LogSavePackage: Moving '../../../../../../csc404/csc404-group3/Bowcaster/Saved/BowCaster_Auto6C309878E43A9E2649580AA878C6A8581.tmp' to '../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto6.umap'
+[2017.10.07-20.04.31:535][567]LogSavePackage: Display: Finished SavePackage ../../../../../../csc404/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto6.umap
+[2017.10.07-20.04.31:537][567]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.136
+[2017.10.07-20.04.31:537][567]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.136
