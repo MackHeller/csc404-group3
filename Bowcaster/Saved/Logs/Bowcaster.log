@@ -1,15 +1,17 @@
-﻿Log file open, 10/08/17 15:20:59
+﻿Log file open, 10/08/17 17:10:20
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Bowcaster
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-810459747) SRandInit(-810459747).
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.153661
+LogInit: Display: RandInit(-1636634983) SRandInit(-1636634983).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.138665
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -106,183 +108,352 @@ LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line: -EpicPortal
+LogInit: Command line: -EpicPortal 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.08-19.21.05:425][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.08-19.21.05:425][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.08-19.21.05:591][  0]LogInit: Computer: GLADOS
-[2017.10.08-19.21.05:591][  0]LogInit: User: MackHeller
-[2017.10.08-19.21.05:591][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.08-19.21.05:591][  0]LogInit: High frequency timer resolution =3.320332 MHz
-[2017.10.08-19.21.05:591][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.10.08-19.21.05:591][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.08-19.21.05:591][  0]LogMemory: Process Physical Memory: 279.15 MB used, 279.15 MB peak
-[2017.10.08-19.21.05:591][  0]LogMemory: Process Virtual Memory: 276.16 MB used, 276.16 MB peak
-[2017.10.08-19.21.05:591][  0]LogMemory: Physical Memory: 4221.88 MB used,  3909.00 MB free, 8130.88 MB total
-[2017.10.08-19.21.05:591][  0]LogMemory: Virtual Memory: 652.09 MB used,  3909.00 MB free, 8388608.00 MB total
-[2017.10.08-19.21.07:101][  0]LogInit: Using OS detected language (en-CA).
-[2017.10.08-19.21.07:101][  0]LogInit: Using OS detected locale (en-CA).
-[2017.10.08-19.21.07:103][  0]LogTextLocalizationManager: No specific localization for 'en-CA' exists, so the 'en' localization will be used.
-[2017.10.08-19.21.21:877][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.08-19.21.22:058][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660  ' (Feature Level 11_0)
-[2017.10.08-19.21.22:058][  0]LogD3D11RHI:       1989/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.10.08-19.21.22:058][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.08-19.21.22:062][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.08-19.21.22:062][  0]LogD3D11RHI:     GPU DeviceId: 0x11c0 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.08-19.21.22:062][  0]LogWindows: EnumDisplayDevices:
-[2017.10.08-19.21.22:158][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660  ' (P:1 D:1)
-[2017.10.08-19.21.22:158][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660  ' (P:0 D:0)
-[2017.10.08-19.21.22:158][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660  ' (P:0 D:0)
-[2017.10.08-19.21.22:159][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660  ' (P:0 D:0)
-[2017.10.08-19.21.22:159][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2017.10.08-19.21.22:159][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.10.08-19.21.22:159][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.10.08-19.21.22:159][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.10.08-19.21.22:159][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660  
-[2017.10.08-19.21.22:159][  0]LogD3D11RHI:   Driver Version: 359.00 (internal:10.18.13.5900, unified:359.00)
-[2017.10.08-19.21.22:159][  0]LogD3D11RHI:      Driver Date: 11-13-2015
-[2017.10.08-19.21.22:159][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.08-19.21.22:168][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
-[2017.10.08-19.21.22:168][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.08-19.21.22:182][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.10.08-19.21.22:302][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../../../csc404/csc404-group3/Bowcaster/Intermediate/Shaders/WorkingDirectory/5284/).
-[2017.10.08-19.21.22:302][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mack Heller/AppData/Local/Temp/UnrealShaderWorkingDir/3952E0B64F050ADBDD0C0E9ED3432B25/'.
-[2017.10.08-19.21.22:302][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.10.08-19.21.31:957][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.08-19.21.32:003][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.10.08-19.21.32:049][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.08-19.21.32:094][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.10.08-19.21.32:172][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.10.08-19.21.32:227][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.08-19.21.32:282][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.08-19.21.32:349][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.08-19.21.32:428][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.10.08-19.21.32:520][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.10.08-19.21.32:577][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.08-19.21.32:642][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.08-19.21.32:696][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.08-19.21.32:757][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.08-19.21.32:816][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.08-19.21.32:919][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.08-19.21.32:919][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.08-19.21.32:991][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.10.08-19.21.33:177][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.10.08-19.21.33:201][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.10.08-19.21.33:259][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.08-19.21.33:301][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.08-19.21.33:346][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.08-19.21.33:405][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.10.08-19.21.33:405][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.10.08-19.21.34:337][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.10.08-19.21.38:534][  0]LogDerivedDataCache: Loaded boot cache 4.20s 93MB C:/Users/Mack Heller/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.08-19.21.38:534][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Mack Heller/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.10.08-19.21.38:534][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../csc404/csc404-group3/Bowcaster/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.08-19.21.38:534][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.08-19.21.38:534][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../csc404/csc404-group3/Bowcaster/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.08-19.21.38:534][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.08-19.21.38:654][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.08-19.21.38:665][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mack Heller/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.08-19.21.38:679][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.08-19.21.38:679][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.08-19.21.38:680][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.08-19.21.38:680][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.08-19.21.41:647][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
-[2017.10.08-19.21.43:011][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.08-19.21.43:016][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.08-19.21.43:694][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.08-19.21.43:728][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.08-19.21.43:728][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.08-19.21.43:728][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.10.08-19.21.43:728][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.10.08-19.21.43:728][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.10.08-19.21.45:609][  0]LogNetVersion: Bowcaster , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4119434037)
-[2017.10.08-19.21.46:828][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.038987 seconds
-[2017.10.08-19.21.46:834][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.10.08-19.21.46:834][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.10.08-19.21.46:834][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.08-19.21.46:906][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.08-19.22.02:321][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.08-19.22.02:367][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.08-19.22.03:557][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.08-19.22.04:184][  0]SourceControl: Source control is disabled
-[2017.10.08-19.22.06:580][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.08-19.22.06:768][  0]LogOcInput: OculusInput pre-init called
-[2017.10.08-19.22.06:965][  0]LogEngine: Initializing Engine...
-[2017.10.08-19.22.07:421][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2017.10.08-19.22.08:471][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.08-19.22.08:471][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.08-19.22.08:628][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.08-19.22.08:664][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.08-19.22.08:936][  0]LogInit: FAudioDevice initialized.
-[2017.10.08-19.22.08:992][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/Mack Heller/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.08-19.22.09:002][  0]LogInit: Texture streaming: Enabled
-[2017.10.08-19.22.09:203][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.08-19.22.09:203][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={2F386259-497C-3B12-71CB-FDB87CA8088E}
-[2017.10.08-19.22.09:775][  0]LogInit: Transaction tracking system initialized
-[2017.10.08-19.22.10:189][  0]BlueprintLog: New page: Editor Load
-[2017.10.08-19.22.11:416][  0]LocalizationService: Localization service is disabled
-[2017.10.08-19.22.12:392][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2017.10.08-19.22.12:393][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2017.10.08-19.22.12:393][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
-[2017.10.08-19.22.12:687][  0]LogConsoleResponse: Display: 
-[2017.10.08-19.22.15:342][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.08-19.22.15:342][  0]LogCook: Display: Mobile HDR setting 1
-[2017.10.08-19.22.15:342][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.10.08-19.22.15:533][  0]LogFileCache: Scanning file cache for directory 'C:/csc404/csc404-group3/Bowcaster/Content/' took 0.01s
-[2017.10.08-19.22.17:164][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.08-19.23.29:299][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.08-19.23.29:299][  0]LightingResults: New page: Lighting Build
-[2017.10.08-19.23.29:335][  0]MapCheck: New page: Map Check
-[2017.10.08-19.23.29:335][  0]LightingResults: New page: Lighting Build
-[2017.10.08-19.23.29:521][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.10.08-19.23.29:532][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.08-19.23.29:545][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.08-19.23.29:588][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.68ms to complete.
-[2017.10.08-19.23.29:588][  0]LogFileHelpers: Loading map 'Template_Default' took 0.289
-[2017.10.08-19.23.29:777][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1e3c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_2090_0///####STATCAT_Advanced####
-[2017.10.08-19.23.29:777][  0]LogCollectionManager: Loaded 0 collections in 0.002512 seconds
-[2017.10.08-19.23.29:946][  0]LogFileCache: Scanning file cache for directory 'C:/csc404/csc404-group3/Bowcaster/Saved/Collections/' took 0.01s
-[2017.10.08-19.23.29:946][  0]LogFileCache: Scanning file cache for directory 'C:/csc404/csc404-group3/Bowcaster/Content/Developers/MackHeller/Collections/' took 0.01s
-[2017.10.08-19.23.29:946][  0]LogFileCache: Scanning file cache for directory 'C:/csc404/csc404-group3/Bowcaster/Content/Collections/' took 0.01s
-[2017.10.08-19.23.29:946][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.10.08-19.23.29:956][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2386 classes and 500 folders.
-[2017.10.08-19.23.30:016][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.10.08-19.23.31:510][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.10.08-19.23.31:628][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.10.08-19.23.31:650][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.08-19.23.31:695][  0]LogSlate: Took 0.041593 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.08-19.23.32:175][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2017.10.08-19.23.32:378][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.10.08-19.23.32:378][  0]LogLoad: (Engine Initialization) Total time: 166.72 seconds
-[2017.10.08-19.23.32:378][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.10.08-19.23.32:379][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.10.08-19.23.32:379][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.10.08-19.23.32:406][  0]SourceControl: On branch bowcaster
-[2017.10.08-19.23.32:406][  0]SourceControl: Your branch is ahead of 'master' by 10 commits.
-[2017.10.08-19.23.32:406][  0]SourceControl:   (use "git push" to publish your local commits)
-[2017.10.08-19.23.32:406][  0]SourceControl: Changes not staged for commit:
-[2017.10.08-19.23.32:406][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.10.08-19.23.32:406][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.10.08-19.23.32:407][  0]SourceControl: 	modified:   Bowcaster/Content/Blueprints/Player.uasset
-[2017.10.08-19.23.32:407][  0]SourceControl: 	modified:   Bowcaster/Content/Levels/BowCaster.umap
-[2017.10.08-19.23.32:407][  0]SourceControl: 	modified:   Bowcaster/Intermediate/CachedAssetRegistry.bin
-[2017.10.08-19.23.32:407][  0]SourceControl: 	modified:   Bowcaster/Saved/Autosaves/PackageRestoreData.json
-[2017.10.08-19.23.32:407][  0]SourceControl: 	modified:   Bowcaster/Saved/Config/Windows/Editor.ini
-[2017.10.08-19.23.32:407][  0]SourceControl: 	modified:   Bowcaster/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.10.08-19.23.32:407][  0]SourceControl: 	modified:   Bowcaster/Saved/Logs/Bowcaster.log
-[2017.10.08-19.23.32:407][  0]SourceControl: Untracked files:
-[2017.10.08-19.23.32:407][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.10.08-19.23.32:407][  0]SourceControl: 	Bowcaster/Saved/Backup/Player_2017-10-08-15-19-46.uasset
-[2017.10.08-19.23.32:407][  0]SourceControl: 	Bowcaster/Saved/Config/CrashReportClient/UE4CC-Windows-36920A8341722D2ED53503994979A5FB/
-[2017.10.08-19.23.32:407][  0]SourceControl: 	Bowcaster/Saved/Config/CrashReportClient/UE4CC-Windows-D5EC5DB44140DDB142F15F9544D0CCA0/
-[2017.10.08-19.23.32:407][  0]SourceControl: 	Bowcaster/Saved/Crashes/UE4CC-Windows-E66E5BD1458A7C61EA30C1A9A79B8102_0000/
-[2017.10.08-19.23.32:407][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.10.08-19.23.32:407][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.10.08-19.23.32:554][  0]LogSlate: Took 0.121841 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.08-19.23.32:652][  1]LogAssetRegistry: Asset discovery search completed in 111.0249 seconds
-[2017.10.08-19.23.32:653][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.10.08-19.23.32:653][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
-[2017.10.08-19.23.33:417][ 79]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.08-21.10.21:436][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.08-21.10.21:436][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.08-21.10.21:450][  0]LogInit: Computer: DESKTOP-EL85BC8
+[2017.10.08-21.10.21:450][  0]LogInit: User: EL
+[2017.10.08-21.10.21:450][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.10.08-21.10.21:450][  0]LogInit: High frequency timer resolution =2.437501 MHz
+[2017.10.08-21.10.21:450][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.08-21.10.21:450][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.08-21.10.21:450][  0]LogMemory: Process Physical Memory: 277.75 MB used, 277.75 MB peak
+[2017.10.08-21.10.21:450][  0]LogMemory: Process Virtual Memory: 273.75 MB used, 273.75 MB peak
+[2017.10.08-21.10.21:450][  0]LogMemory: Physical Memory: 6322.30 MB used,  1794.79 MB free, 8117.09 MB total
+[2017.10.08-21.10.21:450][  0]LogMemory: Virtual Memory: 664.67 MB used,  1794.79 MB free, 134217728.00 MB total
+[2017.10.08-21.10.21:660][  0]LogInit: Using OS detected language (en-US).
+[2017.10.08-21.10.21:660][  0]LogInit: Using OS detected locale (en-CA).
+[2017.10.08-21.10.21:662][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.08-21.10.22:565][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.08-21.10.22:573][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.10.08-21.10.22:573][  0]LogD3D11RHI:       128/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.10.08-21.10.22:574][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.08-21.10.22:574][  0]LogD3D11RHI:       0/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.08-21.10.22:574][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.08-21.10.22:581][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.08-21.10.22:581][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.08-21.10.22:581][  0]LogWindows: EnumDisplayDevices:
+[2017.10.08-21.10.22:581][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.10.08-21.10.22:582][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.10.08-21.10.22:582][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.10.08-21.10.22:582][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.10.08-21.10.22:582][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2017.10.08-21.10.22:582][  0]LogD3D11RHI:   Driver Version: 21.20.16.4627 (internal:21.20.16.4627, unified:21.20.16.4627)
+[2017.10.08-21.10.22:582][  0]LogD3D11RHI:      Driver Date: 3-9-2017
+[2017.10.08-21.10.22:582][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.08-21.10.22:588][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.08-21.10.22:594][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.10.08-21.10.22:595][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Intermediate/Shaders/WorkingDirectory/13428/).
+[2017.10.08-21.10.22:595][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/E L/AppData/Local/Temp/UnrealShaderWorkingDir/E3D8D7BD40AACCD875AC75BD53D3FC7E/'.
+[2017.10.08-21.10.22:595][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.08-21.10.23:746][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.08-21.10.23:811][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.08-21.10.23:871][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.08-21.10.23:931][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.08-21.10.23:996][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.08-21.10.24:062][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.08-21.10.24:135][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.08-21.10.24:209][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.08-21.10.24:288][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.08-21.10.24:355][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.08-21.10.24:420][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.08-21.10.24:493][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.08-21.10.24:550][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.08-21.10.24:605][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.08-21.10.24:661][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.08-21.10.24:773][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.08-21.10.24:773][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.08-21.10.24:818][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.08-21.10.24:923][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.08-21.10.24:963][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.08-21.10.25:030][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.08-21.10.25:095][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.08-21.10.25:161][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.08-21.10.25:216][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.08-21.10.25:216][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.08-21.10.25:798][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.08-21.10.25:911][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/E L/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.08-21.10.25:912][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/E L/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.08-21.10.25:912][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.08-21.10.25:912][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.08-21.10.25:912][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.08-21.10.25:912][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.08-21.10.25:932][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.08-21.10.25:945][  0]LogDerivedDataCache: Using Local data cache path C:/Users/E L/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.08-21.10.25:960][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.08-21.10.25:960][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.08-21.10.25:961][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.08-21.10.25:961][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.08-21.10.26:253][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2017.10.08-21.10.26:410][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.08-21.10.26:589][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.08-21.10.26:991][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.08-21.10.27:048][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.08-21.10.27:048][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.08-21.10.27:048][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.08-21.10.27:048][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.08-21.10.27:048][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.08-21.10.27:492][  0]LogNetVersion: Bowcaster , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4119434037)
+[2017.10.08-21.10.27:777][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.062295 seconds
+[2017.10.08-21.10.27:785][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.08-21.10.27:785][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.08-21.10.27:785][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.08-21.10.27:877][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.08-21.10.31:244][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.08-21.10.31:291][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.08-21.10.32:102][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.08-21.10.32:606][  0]SourceControl: Source control is disabled
+[2017.10.08-21.10.34:043][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.08-21.10.34:339][  0]LogOcInput: OculusInput pre-init called
+[2017.10.08-21.10.34:627][  0]LogEngine: Initializing Engine...
+[2017.10.08-21.10.34:629][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.08-21.10.34:884][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.08-21.10.34:884][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.08-21.10.35:030][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.08-21.10.35:037][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-21.10.35:220][  0]LogInit: FAudioDevice initialized.
+[2017.10.08-21.10.35:333][  0]LogDerivedDataCache: Saved boot cache 0.11s 93MB C:/Users/E L/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.08-21.10.35:348][  0]LogInit: Texture streaming: Enabled
+[2017.10.08-21.10.35:482][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.08-21.10.35:757][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.08-21.10.35:757][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.08-21.10.35:788][  0]LogInit: Transaction tracking system initialized
+[2017.10.08-21.10.36:196][  0]BlueprintLog: New page: Editor Load
+[2017.10.08-21.10.37:349][  0]LocalizationService: Localization service is disabled
+[2017.10.08-21.10.38:279][  0]LogConsoleResponse: Display: 
+[2017.10.08-21.10.38:548][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.08-21.10.38:549][  0]LogFileCache: Scanning file cache for directory 'C:/Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/' took 0.01s
+[2017.10.08-21.10.38:549][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.08-21.10.38:549][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.08-21.10.40:079][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.08-21.10.40:080][  0]LightingResults: New page: Lighting Build
+[2017.10.08-21.10.40:161][  0]MapCheck: New page: Map Check
+[2017.10.08-21.10.40:161][  0]LightingResults: New page: Lighting Build
+[2017.10.08-21.10.40:426][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.08-21.10.40:433][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.08-21.10.40:463][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.08-21.10.40:526][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.555ms to complete.
+[2017.10.08-21.10.40:527][  0]LogFileHelpers: Loading map 'Template_Default' took 0.448
+[2017.10.08-21.10.40:799][  0]LogCollectionManager: Loaded 0 collections in 0.004120 seconds
+[2017.10.08-21.10.40:931][  0]LogFileCache: Scanning file cache for directory 'C:/Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Collections/' took 0.01s
+[2017.10.08-21.10.40:931][  0]LogFileCache: Scanning file cache for directory 'C:/Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Developers/EL/Collections/' took 0.01s
+[2017.10.08-21.10.40:931][  0]LogFileCache: Scanning file cache for directory 'C:/Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Collections/' took 0.01s
+[2017.10.08-21.10.40:931][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.08-21.10.40:948][  0]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 2386 classes and 500 folders.
+[2017.10.08-21.10.41:053][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.08-21.10.41:545][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.08-21.10.41:614][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.08-21.10.41:724][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.08-21.10.41:727][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.08-21.10.41:742][  0]LogSlate: Took 0.007469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.08-21.10.41:916][  0]LogRenderer: Reallocating scene render targets to support 596x412 Format 10 NumSamples 1 (Frame:1).
+[2017.10.08-21.10.42:973][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.10.08-21.10.42:973][  0]LogLoad: (Engine Initialization) Total time: 23.75 seconds
+[2017.10.08-21.10.42:973][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.08-21.10.42:974][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.08-21.10.43:008][  0]SourceControl: On branch playerMovement
+[2017.10.08-21.10.43:008][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.10.08-21.10.43:008][  0]SourceControl: Changes not staged for commit:
+[2017.10.08-21.10.43:008][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.10.08-21.10.43:008][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.10.08-21.10.43:008][  0]SourceControl: 	modified:   Bowcaster/Intermediate/CachedAssetRegistry.bin
+[2017.10.08-21.10.43:008][  0]SourceControl: 	modified:   Bowcaster/Saved/Config/Windows/Editor.ini
+[2017.10.08-21.10.43:008][  0]SourceControl: 	modified:   Bowcaster/Saved/Logs/Bowcaster.log
+[2017.10.08-21.10.43:008][  0]SourceControl: Untracked files:
+[2017.10.08-21.10.43:008][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.10.08-21.10.43:008][  0]SourceControl: 	Bowcaster/Saved/Config/CrashReportClient/UE4CC-Windows-777D30CA42CFF3C29BD724A82D0908A0/
+[2017.10.08-21.10.43:008][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.10.08-21.10.43:008][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.08-21.10.43:070][  1]LogAssetRegistry: Asset discovery search completed in 16.8387 seconds
+[2017.10.08-21.10.43:073][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.08-21.10.43:073][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000082 seconds (updated 0 objects)
+[2017.10.08-21.10.44:045][ 42]LogSlate: Took 0.012010 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.08-21.10.47:078][183]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.08-21.10.51:296][395]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2017.10.08-21.10.51:296][395]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Art/Geometry/Shape_NarrowCapsule.uasset.
+[2017.10.08-21.10.51:296][395]LoadErrors: Error: /Game/Art/Geometry/Shape_NarrowCapsule : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2017.10.08-21.10.51:297][395]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2017.10.08-21.10.51:297][395]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Art/Geometry/Shape_NarrowCapsule.uasset.
+[2017.10.08-21.10.51:322][395]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2017.10.08-21.10.51:322][395]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Art/Geometry/Shape_Pipe.uasset.
+[2017.10.08-21.10.51:322][395]LoadErrors: Error: /Game/Art/Geometry/Shape_Pipe : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2017.10.08-21.10.51:322][395]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2017.10.08-21.10.51:322][395]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Art/Geometry/Shape_Pipe.uasset.
+[2017.10.08-21.10.51:378][395]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2017.10.08-21.10.51:379][395]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_NarrowCapsule
+[2017.10.08-21.10.51:379][395]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2017.10.08-21.10.51:384][395]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2017.10.08-21.10.51:384][395]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Pipe
+[2017.10.08-21.10.51:384][395]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2017.10.08-21.10.51:401][395]LogMaterial: Missing cached shader map for material Lazar_Bolt, compiling. 
+[2017.10.08-21.10.52:684][395]LogTexture: Display: Building textures: Stars_Alpha (BGRA8, 3564X2005)
+[2017.10.08-21.10.52:684][395]LogTexture: Display: Building textures: Stars (BGRA8, 3564X2005)
+[2017.10.08-21.10.52:685][395]LogTexture: Display: Building textures: Stars_Mask (BGRA8, 3564X2005)
+[2017.10.08-21.10.52:889][395]LogMaterial: Missing cached shader map for material Sky, compiling. 
+[2017.10.08-21.10.53:072][395]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.08-21.10.53:685][395]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.08-21.10.53:893][395]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 113 classes and 0 folders.
+[2017.10.08-21.10.55:234][395]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.10.55:283][395]LogSlate: Took 0.008189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.08-21.10.55:604][396]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.10.55:618][396]LogSlate: Took 0.006343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.08-21.11.09:654][874]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2017.10.08-21.11.09:654][874]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.10.08-21.11.09:654][874]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.10.08-21.11.09:654][874]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2017.10.08-21.11.09:654][874]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 512X64)
+[2017.10.08-21.11.09:654][874]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 256X8)
+[2017.10.08-21.11.09:654][874]LogStaticMesh: Building static mesh Forcefield_01...
+[2017.10.08-21.11.09:682][874]LogTexture: Display: Building textures: Forcefield_Middle_Stutter (AutoDXT, 1024X1024)
+[2017.10.08-21.11.09:682][874]LogTexture: Display: Building textures: Forcefield_Stutter (AutoDXT, 1024X1024)
+[2017.10.08-21.11.09:682][874]LogStaticMesh: Built static mesh [0.03s] /Game/Art/Geometry/Forcefield_01.Forcefield_01
+[2017.10.08-21.11.10:352][874]LogMaterial: Missing cached shader map for material Forcefield, compiling. 
+[2017.10.08-21.11.10:434][874]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-21.11.10:444][874]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.11.10:446][874]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.11.10:494][874]Cmd: MAP LOAD FILE="../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.08-21.11.10:494][874]LightingResults: New page: Lighting Build
+[2017.10.08-21.11.10:496][874]LoadErrors: New page: Loading map: BowCaster.umap
+[2017.10.08-21.11.10:497][874]MapCheck: New page: Map Check
+[2017.10.08-21.11.10:497][874]LightingResults: New page: Lighting Build
+[2017.10.08-21.11.10:538][874]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.11.10:541][874]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.11.10:672][874]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.08-21.11.13:101][874]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.08-21.11.13:194][874]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92.396ms to complete.
+[2017.10.08-21.11.13:194][874]LogFileHelpers: Loading map 'BowCaster' took 2.702
+[2017.10.08-21.11.16:484][ 28]LogRenderer: Reallocating scene render targets to support 596x424 Format 10 NumSamples 1 (Frame:146).
+[2017.10.08-21.11.16:572][ 29]LogRenderer: Reallocating scene render targets to support 596x480 Format 10 NumSamples 1 (Frame:148).
+[2017.10.08-21.11.16:660][ 30]LogRenderer: Reallocating scene render targets to support 596x500 Format 10 NumSamples 1 (Frame:150).
+[2017.10.08-21.11.16:744][ 31]LogRenderer: Reallocating scene render targets to support 596x516 Format 10 NumSamples 1 (Frame:152).
+[2017.10.08-21.11.16:830][ 32]LogRenderer: Reallocating scene render targets to support 596x520 Format 10 NumSamples 1 (Frame:154).
+[2017.10.08-21.11.28:386][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.08-21.11.29:306][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.08-21.11.32:168][582]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player2)
+[2017.10.08-21.11.35:120][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.08-21.11.36:296][672]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player2)
+[2017.10.08-21.12.24:989][362]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-21.12.25:174][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-21.12.25:181][362]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 1:12:25 PM)
+[2017.10.08-21.12.25:182][362]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-21.12.25:190][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007762s)
+[2017.10.08-21.12.25:191][362]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-21.12.25:191][362]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2017.10.08-21.12.25:193][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.010875s)
+[2017.10.08-21.12.25:252][362]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-21.12.25:264][362]LogInit: FAudioDevice initialized.
+[2017.10.08-21.12.25:341][362]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-21.12.25:357][362]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.08-17.12.25
+[2017.10.08-21.12.25:390][362]LogWorld: Bringing up level for play took: 0.035250
+[2017.10.08-21.12.25:471][362]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.10.08-21.12.25:473][362]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.12.25:533][362]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.458
+[2017.10.08-21.12.25:599][362]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.10.08-21.12.50:917][977]PIE: Warning: AttachTo: '/Engine/Transient.World_4:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.15.34:287][611]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.08-21.15.34:287][611]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.08-21.15.34:287][611]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.08-21.15.34:287][611]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.08-21.15.34:297][611]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.08-21.15.34:421][613]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.08-21.19.33:455][522]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.08-21.19.33:455][522]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.08-21.19.33:455][522]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.08-21.19.33:455][522]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.08-21.19.33:465][522]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.08-21.19.33:528][522]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.08-21.21.18:669][851]PIE: Warning: AttachTo: '/Engine/Transient.World_6:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.22.18:320][418]LogEditorTransaction: Undo Move Node
+[2017.10.08-21.22.18:348][418]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.22.18:375][418]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.22.18:383][418]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.22.18:391][418]PIE: Warning: AttachTo: '/Engine/Transient.World_6:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.22.21:588][475]LogEditorTransaction: Undo Move Node
+[2017.10.08-21.22.21:615][475]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.22.21:620][475]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.22.21:632][475]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.22.21:642][475]PIE: Warning: AttachTo: '/Engine/Transient.World_6:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.22.24:792][537]LogEditorTransaction: Undo Move Node
+[2017.10.08-21.22.24:814][537]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.22.24:822][537]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.22.24:832][537]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.22.24:840][537]PIE: Warning: AttachTo: '/Engine/Transient.World_6:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.22.43:915][838]LogEditorTransaction: Undo Add Node
+[2017.10.08-21.24.59:181][718]LogSavePackage: Save=119.44ms
+[2017.10.08-21.24.59:181][718]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCaster_Auto1FAA762B64AB92748E352E1BEE0D33445.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto1.umap'
+[2017.10.08-21.24.59:184][718]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto1.umap
+[2017.10.08-21.24.59:193][718]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.243
+[2017.10.08-21.24.59:193][718]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.243
+[2017.10.08-21.24.59:197][718]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.08-21.24.59:241][718]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.08-21.24.59:241][718]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.08-21.24.59:372][718]LogSavePackage: Save=110.00ms
+[2017.10.08-21.24.59:372][718]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto1F347254E4CCAD7EFAE1991BF47C010C8.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto1.uasset'
+[2017.10.08-21.24.59:375][718]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto1.uasset
+[2017.10.08-21.24.59:375][718]LogFileHelpers: Auto-saving content packages took 0.180
+[2017.10.08-21.27.05:260][618]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.27.05:289][618]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.27.05:291][618]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.27.05:294][618]PIE: Warning: AttachTo: '/Engine/Transient.World_6:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.30.10:124][628]LogSavePackage: Save=93.48ms
+[2017.10.08-21.30.10:124][628]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCasterC6E1E1274DCAB80955F975A7A6B84103.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap'
+[2017.10.08-21.30.10:134][628]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap
+[2017.10.08-21.30.10:341][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BowCaster_BuiltData" FILE="../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset" SILENT=true
+[2017.10.08-21.30.10:409][628]LogSavePackage: Save=46.81ms
+[2017.10.08-21.30.10:409][628]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCaster_BuiltDataE1D839504918F04E9DD39CB155374CFB.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset'
+[2017.10.08-21.30.10:410][628]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset
+[2017.10.08-21.30.14:351][739]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-21.30.14:394][739]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.08-21.30.14:417][739]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.08-21.30.14:723][739]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.30.14:829][739]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.30.14:990][739]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.30.15:118][739]LogPlayLevel: PlayLevel: Blueprint regeneration took 724 ms (1 blueprints)
+[2017.10.08-21.30.15:118][739]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 1:30:15 PM)
+[2017.10.08-21.30.15:118][739]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-21.30.15:124][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005263s)
+[2017.10.08-21.30.15:124][739]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-21.30.15:125][739]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2017.10.08-21.30.15:125][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.006510s)
+[2017.10.08-21.30.15:181][739]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-21.30.15:193][739]LogInit: FAudioDevice initialized.
+[2017.10.08-21.30.15:251][739]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-21.30.15:253][739]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.08-17.30.15
+[2017.10.08-21.30.15:255][739]LogWorld: Bringing up level for play took: 0.003155
+[2017.10.08-21.30.15:257][739]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.30.15:267][739]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.192
+[2017.10.08-21.30.37:513][192]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.30.57:138][305]PIE: Warning: AttachTo: '/Engine/Transient.World_7:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.32.20:897][ 12]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.32.20:900][ 12]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.32.20:902][ 12]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.32.20:905][ 12]PIE: Warning: AttachTo: '/Engine/Transient.World_7:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.32.33:375][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Blueprints/Player.uasset" SILENT=true
+[2017.10.08-21.32.33:535][404]LogSavePackage: Save=132.00ms
+[2017.10.08-21.32.33:536][404]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/PlayerE1B9E13D4FF10C9939D330B1F0CF6499.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Blueprints/Player.uasset'
+[2017.10.08-21.32.33:545][404]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Blueprints/Player.uasset
+[2017.10.08-21.32.37:905][545]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-21.32.37:958][545]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.08-21.32.37:985][545]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.08-21.32.38:269][545]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.32.38:452][545]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.32.38:567][545]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.32.38:706][545]LogPlayLevel: PlayLevel: Blueprint regeneration took 747 ms (1 blueprints)
+[2017.10.08-21.32.38:706][545]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 1:32:38 PM)
+[2017.10.08-21.32.38:706][545]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-21.32.38:711][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005346s)
+[2017.10.08-21.32.38:712][545]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-21.32.38:713][545]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2017.10.08-21.32.38:713][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.006661s)
+[2017.10.08-21.32.38:766][545]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-21.32.38:779][545]LogInit: FAudioDevice initialized.
+[2017.10.08-21.32.38:838][545]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-21.32.38:841][545]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.08-17.32.38
+[2017.10.08-21.32.38:842][545]LogWorld: Bringing up level for play took: 0.002880
+[2017.10.08-21.32.38:844][545]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.32.38:853][545]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.778
+[2017.10.08-21.33.06:872][ 64]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
