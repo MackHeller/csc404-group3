@@ -457,3 +457,1099 @@ LogInit: Object subsystem initialized
 [2017.10.08-21.32.38:844][545]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
 [2017.10.08-21.32.38:853][545]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.778
 [2017.10.08-21.33.06:872][ 64]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.36.14:915][ 40]LogSavePackage: Save=71.91ms
+[2017.10.08-21.36.14:915][ 40]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCasterD14F36FE4F01575DB82D4D9803A7273B.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap'
+[2017.10.08-21.36.14:920][ 40]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap
+[2017.10.08-21.36.15:077][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BowCaster_BuiltData" FILE="../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset" SILENT=true
+[2017.10.08-21.36.15:131][ 40]LogSavePackage: Save=34.61ms
+[2017.10.08-21.36.15:131][ 40]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCaster_BuiltData28533B57467B3617322458BA6980C563.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset'
+[2017.10.08-21.36.15:133][ 40]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset
+[2017.10.08-21.49.20:262][628]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-21.49.20:294][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-21.49.20:294][628]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 1:49:20 PM)
+[2017.10.08-21.49.20:295][628]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-21.49.20:301][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006619s)
+[2017.10.08-21.49.20:302][628]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-21.49.20:303][628]LogPlayLevel: PIE: World Init took: (0.001377s)
+[2017.10.08-21.49.20:303][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.008325s)
+[2017.10.08-21.49.20:365][628]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-21.49.20:380][628]LogInit: FAudioDevice initialized.
+[2017.10.08-21.49.20:427][628]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-21.49.20:431][628]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.08-17.49.20
+[2017.10.08-21.49.20:432][628]LogWorld: Bringing up level for play took: 0.004016
+[2017.10.08-21.49.20:433][628]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.49.20:440][628]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.635
+[2017.10.08-21.49.35:308][966]LogCharacterMovement: Player_C_0 is stuck and failed to move! Velocity: X=-84.61 Y=0.00 Z=0.00 Location: X=1238.62 Y=-1616.55 Z=-1355.25 Normal: X=-0.00 Y=-1.00 Z=-0.00 PenetrationDepth:4.000 Actor:BowCaster_GEN_VARIABLE_BowCaster_C_CAT_0 Component:StaticMesh BoneName:None (0 other events since notify)
+[2017.10.08-21.49.36:321][991]LogCharacterMovement: Player_C_0 is stuck and failed to move! Velocity: X=-4.65 Y=9.86 Z=0.00 Location: X=1150.00 Y=-1616.61 Z=-1355.25 Normal: X=-0.00 Y=-1.00 Z=-0.00 PenetrationDepth:4.000 Actor:BowCaster_GEN_VARIABLE_BowCaster_C_CAT_0 Component:StaticMesh BoneName:None (19 other events since notify)
+[2017.10.08-21.49.37:358][ 15]LogCharacterMovement: Player_C_0 is stuck and failed to move! Velocity: X=-88.61 Y=0.00 Z=0.00 Location: X=1150.00 Y=-1616.81 Z=-1355.25 Normal: X=-0.00 Y=-1.00 Z=-0.00 PenetrationDepth:4.000 Actor:BowCaster_GEN_VARIABLE_BowCaster_C_CAT_0 Component:StaticMesh BoneName:None (1 other events since notify)
+[2017.10.08-21.49.38:387][ 39]LogCharacterMovement: Player_C_0 is stuck and failed to move! Velocity: X=600.00 Y=-0.00 Z=0.00 Location: X=1150.00 Y=-1616.81 Z=-1355.25 Normal: X=-0.00 Y=-1.00 Z=-0.00 PenetrationDepth:4.000 Actor:BowCaster_GEN_VARIABLE_BowCaster_C_CAT_0 Component:StaticMesh BoneName:None (22 other events since notify)
+[2017.10.08-21.49.39:425][ 63]LogCharacterMovement: Player_C_0 is stuck and failed to move! Velocity: X=-87.83 Y=0.00 Z=0.00 Location: X=1150.00 Y=-1616.81 Z=-1355.25 Normal: X=-0.00 Y=-1.00 Z=-0.00 PenetrationDepth:4.000 Actor:BowCaster_GEN_VARIABLE_BowCaster_C_CAT_0 Component:StaticMesh BoneName:None (17 other events since notify)
+[2017.10.08-21.49.40:456][ 87]LogCharacterMovement: Player_C_0 is stuck and failed to move! Velocity: X=-357.56 Y=0.00 Z=0.00 Location: X=1150.00 Y=-1616.81 Z=-1355.25 Normal: X=-0.00 Y=-1.00 Z=-0.00 PenetrationDepth:4.000 Actor:BowCaster_GEN_VARIABLE_BowCaster_C_CAT_0 Component:StaticMesh BoneName:None (22 other events since notify)
+[2017.10.08-21.49.54:385][458]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.10.08-21.49.56:068][512]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2017.10.08-21.49.56:978][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.08-21.49.58:204][580]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player2)
+[2017.10.08-21.58.14:785][395]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-21.58.14:823][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-21.58.14:823][395]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 1:58:14 PM)
+[2017.10.08-21.58.14:824][395]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-21.58.14:830][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006750s)
+[2017.10.08-21.58.14:831][395]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-21.58.14:832][395]LogPlayLevel: PIE: World Init took: (0.001398s)
+[2017.10.08-21.58.14:832][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.008592s)
+[2017.10.08-21.58.14:890][395]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-21.58.14:901][395]LogInit: FAudioDevice initialized.
+[2017.10.08-21.58.14:955][395]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-21.58.14:959][395]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.08-17.58.14
+[2017.10.08-21.58.14:960][395]LogWorld: Bringing up level for play took: 0.002513
+[2017.10.08-21.58.14:961][395]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.58.14:968][395]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.107
+[2017.10.08-21.58.33:049][815]PIE: Warning: AttachTo: '/Engine/Transient.World_8:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.58.50:033][465]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.08-21.58.50:033][465]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.08-21.58.50:033][465]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.08-21.58.50:033][465]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.08-21.58.50:042][465]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.08-21.58.50:110][466]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.08-21.59.17:170][203]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-21.59.17:201][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-21.59.17:201][203]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 1:59:17 PM)
+[2017.10.08-21.59.17:201][203]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-21.59.17:207][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005935s)
+[2017.10.08-21.59.17:208][203]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-21.59.17:208][203]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2017.10.08-21.59.17:209][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.007575s)
+[2017.10.08-21.59.17:266][203]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-21.59.17:277][203]LogInit: FAudioDevice initialized.
+[2017.10.08-21.59.17:324][203]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-21.59.17:327][203]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.08-17.59.17
+[2017.10.08-21.59.17:327][203]LogWorld: Bringing up level for play took: 0.002167
+[2017.10.08-21.59.17:329][203]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-21.59.17:337][203]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.261
+[2017.10.08-22.08.34:814][707]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.08.51:489][125]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.02:100][298]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.02:159][299]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.02:286][301]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.02:348][302]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.02:470][304]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.02:957][312]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.03:263][317]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.03:324][318]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.03:569][322]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.03:997][329]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.04:057][330]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.04:118][331]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.04:179][332]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.04:240][333]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.04:300][334]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.04:367][335]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.04:423][336]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.04:484][337]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.04:912][344]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.05:035][346]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.05:156][348]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.05:216][349]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.05:282][350]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.05:345][351]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.05:462][353]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.07:224][381]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.07:284][382]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.07:345][383]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.07:408][384]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.07:896][392]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:015][394]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:076][395]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:143][396]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:207][397]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:269][398]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:329][399]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:452][401]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:513][402]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:577][403]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:635][404]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:695][405]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:756][406]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:818][407]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:879][408]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.08:940][409]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.09:001][410]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.09:184][413]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.09:244][414]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.09:309][415]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.09:427][417]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.09:489][418]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.09:549][419]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.09:610][420]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.09:857][424]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.21:444][612]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.21:503][613]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.21:627][615]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.22:118][623]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.22:178][624]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.22:239][625]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.22:299][626]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.22:360][627]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.22:420][628]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.22:481][629]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.22:543][630]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.22:791][634]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.22:849][635]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.22:910][636]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.22:971][637]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.23:092][639]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.23:213][641]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.23:520][646]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.23:580][647]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.23:642][648]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.23:703][649]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.23:765][650]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.23:826][651]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.24:006][654]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.24:067][655]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.24:128][656]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.24:249][658]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.24:797][667]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.35:872][857]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.35:937][858]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.36:180][862]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.36:239][863]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.36:791][872]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.36:856][873]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.36:912][874]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.36:975][875]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.37:040][876]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.37:157][878]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.37:220][879]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.37:362][881]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.37:527][884]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.37:709][887]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.38:135][894]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.38:255][896]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.42:144][959]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.42:267][961]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.43:489][981]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.43:549][982]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.43:609][983]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.43:910][988]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.44:459][997]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.44:520][998]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.44:645][  0]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.44:711][  1]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.44:767][  2]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.44:829][  3]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.44:951][  5]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.52:212][278]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-22.09.52:248][278]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.08-22.09.52:266][278]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.08-22.09.52:473][278]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.52:601][278]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.52:686][278]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.52:818][278]LogPlayLevel: PlayLevel: Blueprint regeneration took 570 ms (1 blueprints)
+[2017.10.08-22.09.52:819][278]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 2:09:52 PM)
+[2017.10.08-22.09.52:819][278]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-22.09.52:823][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004480s)
+[2017.10.08-22.09.52:824][278]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-22.09.52:825][278]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2017.10.08-22.09.52:825][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.005899s)
+[2017.10.08-22.09.52:881][278]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-22.09.52:891][278]LogInit: FAudioDevice initialized.
+[2017.10.08-22.09.52:947][278]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-22.09.52:950][278]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-18.09.52
+[2017.10.08-22.09.52:950][278]LogWorld: Bringing up level for play took: 0.002151
+[2017.10.08-22.09.52:952][278]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.09.52:959][278]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.116
+[2017.10.08-22.10.07:318][628]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.10.19:377][751]PIE: Warning: AttachTo: '/Engine/Transient.World_11:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.13.18:881][266]LogSavePackage: Save=132.02ms
+[2017.10.08-22.13.18:882][266]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCaster_Auto279433EF5467B4C5377E948A7E6EB0C26.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto2.umap'
+[2017.10.08-22.13.18:886][266]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto2.umap
+[2017.10.08-22.13.18:897][266]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.207
+[2017.10.08-22.13.18:897][266]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.207
+[2017.10.08-22.13.18:899][266]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.08-22.13.18:938][266]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.08-22.13.18:938][266]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.08-22.13.19:109][266]LogSavePackage: Save=137.02ms
+[2017.10.08-22.13.19:109][266]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto2294D7F39415B688C9D2ECC9B92A7A386.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto2.uasset'
+[2017.10.08-22.13.19:112][266]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto2.uasset
+[2017.10.08-22.13.19:112][266]LogFileHelpers: Auto-saving content packages took 0.214
+[2017.10.08-22.15.06:343][272]PIE: Warning: AttachTo: '/Engine/Transient.World_11:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.15.12:200][399]BlueprintLog: New page: Compile Player
+[2017.10.08-22.15.12:408][399]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.15.12:539][399]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.15.12:622][399]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.15.12:705][399]PIE: Warning: AttachTo: '/Engine/Transient.World_11:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.15.12:809][399]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.15.12:811][399]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.15.12:813][399]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.15.12:815][399]PIE: Warning: AttachTo: '/Engine/Transient.World_11:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.15.12:817][399]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.15.32:341][952]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-22.15.32:374][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-22.15.32:374][952]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 2:15:32 PM)
+[2017.10.08-22.15.32:374][952]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-22.15.32:380][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005780s)
+[2017.10.08-22.15.32:381][952]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-22.15.32:381][952]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2017.10.08-22.15.32:382][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.007311s)
+[2017.10.08-22.15.32:438][952]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-22.15.32:449][952]LogInit: FAudioDevice initialized.
+[2017.10.08-22.15.32:501][952]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-22.15.32:505][952]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-18.15.32
+[2017.10.08-22.15.32:506][952]LogWorld: Bringing up level for play took: 0.003516
+[2017.10.08-22.15.32:507][952]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.15.32:514][952]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.561
+[2017.10.08-22.15.54:437][459]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.08-22.15.55:928][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.08-22.17.23:416][824]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.18.21:052][872]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.18.21:055][872]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.18.21:057][872]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.18.21:059][872]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.18.29:076][ 94]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.18.29:082][ 94]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.18.29:085][ 94]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.18.29:087][ 94]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.18.35:855][277]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.18.42:412][395]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.18.42:470][396]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.18.42:546][397]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.18.42:636][399]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.18.42:693][400]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.00:431][633]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.00:434][633]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.00:436][633]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.00:439][633]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.00:518][633]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.16:611][389]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.16:613][389]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.16:615][389]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.16:618][389]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.16:718][389]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.29:999][555]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.30:001][555]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.30:005][555]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.30:009][555]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.36:630][665]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-22.19.36:696][665]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.08-22.19.36:720][665]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.08-22.19.36:910][665]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.37:040][665]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.37:163][665]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.37:306][665]LogPlayLevel: PlayLevel: Blueprint regeneration took 610 ms (1 blueprints)
+[2017.10.08-22.19.37:306][665]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 2:19:37 PM)
+[2017.10.08-22.19.37:306][665]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-22.19.37:312][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005498s)
+[2017.10.08-22.19.37:312][665]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-22.19.37:313][665]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2017.10.08-22.19.37:313][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.006773s)
+[2017.10.08-22.19.37:347][665]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-22.19.37:360][665]LogInit: FAudioDevice initialized.
+[2017.10.08-22.19.37:415][665]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-22.19.37:417][665]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-18.19.37
+[2017.10.08-22.19.37:419][665]LogWorld: Bringing up level for play took: 0.003414
+[2017.10.08-22.19.37:421][665]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.19.37:430][665]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.355
+[2017.10.08-22.22.16:823][939]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.22.40:563][ 48]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.22.48:062][245]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.23.46:757][948]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.23.46:759][948]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.23.46:762][948]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.23.46:764][948]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.23.46:859][948]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.23.51:529][ 34]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.23.51:533][ 34]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.23.51:538][ 34]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.23.51:542][ 34]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.23.51:649][ 34]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.24.24:041][360]LogSavePackage: Save=71.08ms
+[2017.10.08-22.24.24:041][360]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCaster_Auto3CD91BCA94F4A9EC1E32F75AA7EB06FB3.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto3.umap'
+[2017.10.08-22.24.24:044][360]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto3.umap
+[2017.10.08-22.24.24:052][360]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.134
+[2017.10.08-22.24.24:052][360]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.134
+[2017.10.08-22.24.24:054][360]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.08-22.24.24:091][360]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.08-22.24.24:091][360]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.08-22.24.24:191][360]LogSavePackage: Save=80.91ms
+[2017.10.08-22.24.24:191][360]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto3D04B6A9645BDC81109232D89020E8DC8.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto3.uasset'
+[2017.10.08-22.24.24:193][360]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto3.uasset
+[2017.10.08-22.24.24:193][360]LogFileHelpers: Auto-saving content packages took 0.141
+[2017.10.08-22.24.36:832][622]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.24.36:838][622]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.24.36:841][622]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.24.36:843][622]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.24.36:939][622]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.16:510][579]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.16:512][579]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.16:514][579]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.16:516][579]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.16:518][579]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.16:521][579]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.16:523][579]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.16:526][579]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.16:558][579]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.20:528][663]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.20:530][663]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.20:534][663]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.20:537][663]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.20:539][663]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.20:541][663]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.20:544][663]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.20:546][663]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.26.20:581][663]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.31.14:092][658]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-22.31.14:125][658]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.08-22.31.14:138][658]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.08-22.31.14:251][658]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.31.14:335][658]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.31.14:420][658]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.31.14:526][658]LogPlayLevel: PlayLevel: Blueprint regeneration took 401 ms (1 blueprints)
+[2017.10.08-22.31.14:527][658]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 2:31:14 PM)
+[2017.10.08-22.31.14:527][658]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-22.31.14:532][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004566s)
+[2017.10.08-22.31.14:533][658]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-22.31.14:533][658]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2017.10.08-22.31.14:533][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.005787s)
+[2017.10.08-22.31.14:556][658]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-22.31.14:568][658]LogInit: FAudioDevice initialized.
+[2017.10.08-22.31.14:619][658]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-22.31.14:621][658]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-18.31.14
+[2017.10.08-22.31.14:621][658]LogWorld: Bringing up level for play took: 0.002336
+[2017.10.08-22.31.14:623][658]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.31.14:633][658]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.442
+[2017.10.08-22.31.36:276][147]LogCharacterMovement: Player_C_0 is stuck and failed to move! Velocity: X=0.00 Y=89.89 Z=0.00 Location: X=-1064.53 Y=-1616.73 Z=-1355.25 Normal: X=-0.00 Y=-1.00 Z=0.00 PenetrationDepth:3.821 Actor:BowCaster_GEN_VARIABLE_BowCaster_C_CAT_0 Component:StaticMesh BoneName:None (0 other events since notify)
+[2017.10.08-22.31.38:348][194]LogCharacterMovement: Player_C_0 is stuck and failed to move! Velocity: X=-89.15 Y=0.00 Z=0.00 Location: X=-1064.53 Y=-1616.79 Z=-1355.25 Normal: X=-0.00 Y=-1.00 Z=-0.00 PenetrationDepth:4.000 Actor:BowCaster_GEN_VARIABLE_BowCaster_C_CAT_0 Component:StaticMesh BoneName:None (1 other events since notify)
+[2017.10.08-22.31.39:365][217]LogCharacterMovement: Player_C_0 is stuck and failed to move! Velocity: X=90.20 Y=-0.00 Z=0.00 Location: X=-1064.53 Y=-1616.79 Z=-1355.25 Normal: X=-0.00 Y=-1.00 Z=-0.00 PenetrationDepth:4.000 Actor:BowCaster_GEN_VARIABLE_BowCaster_C_CAT_0 Component:StaticMesh BoneName:None (8 other events since notify)
+[2017.10.08-22.31.40:368][240]LogCharacterMovement: Player_C_0 is stuck and failed to move! Velocity: X=-58.54 Y=445.08 Z=0.00 Location: X=-1064.53 Y=-1616.79 Z=-1355.25 Normal: X=-0.00 Y=-1.00 Z=-0.00 PenetrationDepth:4.000 Actor:BowCaster_GEN_VARIABLE_BowCaster_C_CAT_0 Component:StaticMesh BoneName:None (16 other events since notify)
+[2017.10.08-22.31.41:377][263]LogCharacterMovement: Player_C_0 is stuck and failed to move! Velocity: X=-126.76 Y=301.36 Z=0.00 Location: X=-1064.53 Y=-1616.79 Z=-1355.25 Normal: X=-0.00 Y=-1.00 Z=-0.00 PenetrationDepth:4.000 Actor:BowCaster_GEN_VARIABLE_BowCaster_C_CAT_0 Component:StaticMesh BoneName:None (12 other events since notify)
+[2017.10.08-22.31.45:597][392]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.34.53:681][973]LogSavePackage: Save=74.70ms
+[2017.10.08-22.34.53:681][973]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCaster_Auto46AA9FD1A426024C84640FC9CB37F3C64.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto4.umap'
+[2017.10.08-22.34.53:710][973]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto4.umap
+[2017.10.08-22.34.53:713][973]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.164
+[2017.10.08-22.34.53:713][973]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.164
+[2017.10.08-22.34.53:716][973]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.08-22.34.53:764][973]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.08-22.34.53:764][973]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.08-22.34.53:862][973]LogSavePackage: Save=80.13ms
+[2017.10.08-22.34.53:862][973]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto45D3C28354D04F2AEFEAAA7BC1D29CCFC.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto4.uasset'
+[2017.10.08-22.34.53:864][973]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto4.uasset
+[2017.10.08-22.34.53:864][973]LogFileHelpers: Auto-saving content packages took 0.150
+[2017.10.08-22.36.59:141][384]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-22.36.59:169][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-22.36.59:169][384]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 2:36:59 PM)
+[2017.10.08-22.36.59:169][384]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-22.36.59:175][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005330s)
+[2017.10.08-22.36.59:176][384]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-22.36.59:176][384]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2017.10.08-22.36.59:176][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.006980s)
+[2017.10.08-22.36.59:207][384]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-22.36.59:219][384]LogInit: FAudioDevice initialized.
+[2017.10.08-22.36.59:268][384]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-22.36.59:271][384]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-18.36.59
+[2017.10.08-22.36.59:272][384]LogWorld: Bringing up level for play took: 0.002741
+[2017.10.08-22.36.59:273][384]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.36.59:282][384]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.207
+[2017.10.08-22.46.52:172][275]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-22.46.52:204][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-22.46.52:205][275]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 2:46:52 PM)
+[2017.10.08-22.46.52:205][275]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-22.46.52:211][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005899s)
+[2017.10.08-22.46.52:212][275]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-22.46.52:212][275]LogPlayLevel: PIE: World Init took: (0.001433s)
+[2017.10.08-22.46.52:213][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.007778s)
+[2017.10.08-22.46.52:244][275]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-22.46.52:255][275]LogInit: FAudioDevice initialized.
+[2017.10.08-22.46.52:308][275]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-22.46.52:310][275]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-18.46.52
+[2017.10.08-22.46.52:311][275]LogWorld: Bringing up level for play took: 0.002255
+[2017.10.08-22.46.52:313][275]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.46.52:323][275]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.753
+[2017.10.08-22.47.13:501][858]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-22.47.13:529][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-22.47.13:529][858]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 2:47:13 PM)
+[2017.10.08-22.47.13:529][858]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-22.47.13:535][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005714s)
+[2017.10.08-22.47.13:535][858]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-22.47.13:536][858]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2017.10.08-22.47.13:536][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.006952s)
+[2017.10.08-22.47.13:562][858]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-22.47.13:573][858]LogInit: FAudioDevice initialized.
+[2017.10.08-22.47.13:627][858]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-22.47.13:629][858]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-18.47.13
+[2017.10.08-22.47.13:630][858]LogWorld: Bringing up level for play took: 0.002328
+[2017.10.08-22.47.13:633][858]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.47.13:642][858]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.566
+[2017.10.08-22.47.55:409][392]LogSavePackage: Save=83.22ms
+[2017.10.08-22.47.55:409][392]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCaster_Auto5AE2B47B44967897BBCEB6DA27FD72AE5.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto5.umap'
+[2017.10.08-22.47.55:413][392]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto5.umap
+[2017.10.08-22.47.55:416][392]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.138
+[2017.10.08-22.47.55:416][392]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.138
+[2017.10.08-22.51.12:672][ 62]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.08-22.51.12:672][ 62]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.08-22.51.12:672][ 62]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.08-22.51.12:672][ 62]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.08-22.51.12:686][ 62]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.08-22.51.12:780][ 65]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.08-22.51.51:306][157]PIE: Warning: AttachTo: '/Engine/Transient.World_14:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-22.57.56:192][724]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.027
+[2017.10.08-22.57.56:195][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.08-22.57.56:240][724]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.08-22.57.56:240][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.08-22.57.56:362][724]LogSavePackage: Save=92.58ms
+[2017.10.08-22.57.56:362][724]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto6C4C77C4D43D8C2056E1FA6AE24A44ACD.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto6.uasset'
+[2017.10.08-22.57.56:366][724]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto6.uasset
+[2017.10.08-22.57.56:366][724]LogFileHelpers: Auto-saving content packages took 0.173
+[2017.10.08-22.58.45:831][151]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.08-22.58.45:831][151]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.08-22.58.45:831][151]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.08-22.58.45:831][151]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.08-22.58.45:845][151]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.08-22.58.45:906][153]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.08-23.01.08:047][149]PIE: Warning: AttachTo: '/Engine/Transient.World_15:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.01.34:343][ 64]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.01.34:345][ 64]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.01.34:347][ 64]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.01.34:349][ 64]PIE: Warning: AttachTo: '/Engine/Transient.World_15:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.02.27:595][908]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.02.27:629][908]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.08-23.02.27:645][908]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.08-23.02.27:765][908]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.02.27:855][908]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.02.27:943][908]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.02.28:056][908]LogPlayLevel: PlayLevel: Blueprint regeneration took 427 ms (1 blueprints)
+[2017.10.08-23.02.28:057][908]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:02:28 PM)
+[2017.10.08-23.02.28:057][908]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.02.28:061][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004668s)
+[2017.10.08-23.02.28:062][908]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.02.28:062][908]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2017.10.08-23.02.28:063][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.005889s)
+[2017.10.08-23.02.28:085][908]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.02.28:096][908]LogInit: FAudioDevice initialized.
+[2017.10.08-23.02.28:149][908]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.02.28:151][908]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.02.28
+[2017.10.08-23.02.28:151][908]LogWorld: Bringing up level for play took: 0.002168
+[2017.10.08-23.02.28:153][908]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.02.28:160][908]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.085
+[2017.10.08-23.02.35:123][ 84]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.03.16:160][247]PIE: Warning: AttachTo: '/Engine/Transient.World_16:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.03.30:113][912]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.03.30:116][912]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.03.30:118][912]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.03.30:121][912]PIE: Warning: AttachTo: '/Engine/Transient.World_16:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.03.56:538][819]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.03.56:566][819]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.08-23.03.56:582][819]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.08-23.03.56:697][819]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.03.56:785][819]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.03.56:872][819]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.03.56:982][819]LogPlayLevel: PlayLevel: Blueprint regeneration took 415 ms (1 blueprints)
+[2017.10.08-23.03.56:982][819]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:03:56 PM)
+[2017.10.08-23.03.56:982][819]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.03.56:987][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004727s)
+[2017.10.08-23.03.56:987][819]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.03.56:988][819]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2017.10.08-23.03.56:988][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.005815s)
+[2017.10.08-23.03.57:010][819]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.03.57:020][819]LogInit: FAudioDevice initialized.
+[2017.10.08-23.03.57:072][819]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.03.57:075][819]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.03.57
+[2017.10.08-23.03.57:075][819]LogWorld: Bringing up level for play took: 0.002512
+[2017.10.08-23.03.57:077][819]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.03.57:087][819]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.012
+[2017.10.08-23.04.02:138][953]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.04.41:770][193]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.08-23.04.41:770][193]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.08-23.04.41:770][193]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.08-23.04.41:770][193]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.08-23.04.41:782][193]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.08-23.04.41:872][196]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.08-23.04.58:794][651]PIE: Warning: AttachTo: '/Engine/Transient.World_17:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.05.15:940][278]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.05.15:943][278]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.05.15:945][278]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.05.15:947][278]PIE: Warning: AttachTo: '/Engine/Transient.World_17:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.06.01:927][366]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.06.01:993][366]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.08-23.06.02:021][366]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.08-23.06.02:230][366]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.06.02:383][366]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.06.02:517][366]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.06.02:675][366]LogPlayLevel: PlayLevel: Blueprint regeneration took 681 ms (1 blueprints)
+[2017.10.08-23.06.02:675][366]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:06:02 PM)
+[2017.10.08-23.06.02:675][366]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.06.02:682][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006456s)
+[2017.10.08-23.06.02:683][366]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.06.02:683][366]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2017.10.08-23.06.02:683][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.007844s)
+[2017.10.08-23.06.02:713][366]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.06.02:728][366]LogInit: FAudioDevice initialized.
+[2017.10.08-23.06.02:792][366]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.06.02:795][366]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.06.02
+[2017.10.08-23.06.02:796][366]LogWorld: Bringing up level for play took: 0.002591
+[2017.10.08-23.06.02:798][366]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.06.02:808][366]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.733
+[2017.10.08-23.06.21:487][791]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.06.42:885][281]PIE: Warning: AttachTo: '/Engine/Transient.World_18:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.06.58:990][864]PIE: Warning: AttachTo: '/Engine/Transient.World_18:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.06.58:994][864]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.06.58:998][864]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.06.59:000][864]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.06.59:003][864]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.06.59:006][864]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.06.59:009][864]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.06.59:012][864]PIE: Warning: AttachTo: '/Engine/Transient.World_18:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.07.06:654][ 78]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.07.06:705][ 78]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.08-23.07.06:727][ 78]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.08-23.07.06:968][ 78]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.07.07:078][ 78]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.07.07:233][ 78]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.07.07:357][ 78]LogPlayLevel: PlayLevel: Blueprint regeneration took 652 ms (1 blueprints)
+[2017.10.08-23.07.07:357][ 78]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:07:07 PM)
+[2017.10.08-23.07.07:357][ 78]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.07.07:362][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004968s)
+[2017.10.08-23.07.07:363][ 78]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.07.07:363][ 78]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2017.10.08-23.07.07:363][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.006155s)
+[2017.10.08-23.07.07:421][ 78]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.07.07:432][ 78]LogInit: FAudioDevice initialized.
+[2017.10.08-23.07.07:486][ 78]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.07.07:488][ 78]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.07.07
+[2017.10.08-23.07.07:489][ 78]LogWorld: Bringing up level for play took: 0.002366
+[2017.10.08-23.07.07:491][ 78]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.07.07:500][ 78]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.424
+[2017.10.08-23.07.14:376][250]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.07.16:377][264]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.07.24:245][446]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.07.24:247][446]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.07.24:250][446]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.07.24:253][446]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.07.24:258][446]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.07.24:261][446]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.07.24:265][446]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.07.24:268][446]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.11:712][216]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.11:718][216]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.11:723][216]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.11:727][216]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.23:664][470]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.23:671][470]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.23:674][470]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.23:678][470]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.35:352][697]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.46:166][853]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.46:237][854]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.46:308][855]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.46:373][856]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.46:451][857]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.46:946][864]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.47:017][865]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.47:160][867]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.47:234][868]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.49:098][894]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.49:168][895]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.49:240][896]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.49:315][897]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.49:382][898]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.49:454][899]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.49:521][900]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.49:671][902]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.49:744][903]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.49:824][904]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.49:906][905]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.49:991][906]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.50:054][907]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.50:138][908]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.08.50:211][909]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.17:105][324]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.17:109][324]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.17:112][324]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.17:116][324]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.17:243][324]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.24:007][424]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.24:073][425]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.24:144][426]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.24:217][427]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.24:289][428]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.24:358][429]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.24:428][430]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.24:919][437]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.24:985][438]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.25:328][443]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.25:544][446]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.27:614][475]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.28:354][486]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.28:500][488]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.28:569][489]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.28:641][490]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.28:717][491]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.28:785][492]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.30:420][515]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.30:725][519]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.31:257][527]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.31:470][530]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.31:539][531]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.33:188][554]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.33:257][555]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.33:320][556]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.33:390][557]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.33:457][558]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.33:531][559]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.33:955][565]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.34:029][566]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.34:175][568]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.34:244][569]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.34:317][570]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.34:385][571]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.34:529][573]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.34:668][575]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.35:084][581]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.35:151][582]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.35:363][585]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.35:858][592]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.35:924][593]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.35:994][594]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.36:276][598]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.36:415][600]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.37:876][620]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.38:019][622]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.38:162][624]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.38:233][625]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.43:974][750]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.09.44:036][750]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.08-23.09.44:064][750]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.08-23.09.44:376][750]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.44:506][750]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.44:696][750]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.44:844][750]LogPlayLevel: PlayLevel: Blueprint regeneration took 807 ms (1 blueprints)
+[2017.10.08-23.09.44:844][750]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:09:44 PM)
+[2017.10.08-23.09.44:844][750]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.09.44:849][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005287s)
+[2017.10.08-23.09.44:850][750]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.09.44:850][750]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2017.10.08-23.09.44:851][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.006656s)
+[2017.10.08-23.09.44:914][750]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.09.44:927][750]LogInit: FAudioDevice initialized.
+[2017.10.08-23.09.44:986][750]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.09.44:989][750]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.09.44
+[2017.10.08-23.09.44:989][750]LogWorld: Bringing up level for play took: 0.002817
+[2017.10.08-23.09.44:992][750]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.45:001][750]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.925
+[2017.10.08-23.09.52:779][910]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.54:507][919]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.57:324][971]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.09.59:885][  7]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.02:709][ 45]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.02:777][ 46]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.02:849][ 47]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.02:912][ 48]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.02:978][ 49]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.03:045][ 50]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.03:312][ 54]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.03:383][ 55]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.03:447][ 56]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.03:515][ 57]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.03:582][ 58]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.03:782][ 61]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.08:097][125]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.09:168][141]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.09:238][142]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.09:309][143]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.09:376][144]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.09:446][145]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.09:520][146]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.09:590][147]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.09:731][149]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.09:799][150]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.09:865][151]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.09:932][152]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.10:001][153]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.10:065][154]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.10:155][155]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.10:204][156]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.10:272][157]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.10:338][158]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.10:402][159]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.10:479][160]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.10:546][161]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.10:616][162]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.10:758][164]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.14:424][217]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.14:499][218]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.14:566][219]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.14:702][221]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.14:776][222]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.14:843][223]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.14:926][224]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.15:011][225]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.15:133][227]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.15:200][228]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.15:336][230]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.20:396][302]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.20:748][307]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.21:105][312]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.21:381][316]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.24:926][366]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.26:050][382]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.27:451][401]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.27:594][403]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.27:666][404]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.27:733][405]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.27:814][406]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.28:230][412]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.28:304][413]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.28:373][414]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.28:442][415]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.28:589][417]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.28:690][418]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.29:109][424]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.29:179][425]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.29:249][426]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.39:769][571]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.40:058][575]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.40:204][577]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.40:417][580]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.40:777][585]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.41:132][590]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.42:125][604]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.43:689][626]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.44:418][636]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.44:707][640]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.45:136][646]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.45:204][647]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.46:135][660]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.46:343][663]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.50:832][725]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.51:042][728]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.51:331][732]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.51:690][737]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.52:042][742]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.52:324][746]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.54:431][775]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.54:660][778]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.55:854][795]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.58:075][826]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.58:172][827]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.58:394][830]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.10.58:531][832]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.11.03:399][948]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.11.03:453][948]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.08-23.11.03:485][948]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.08-23.11.03:788][948]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.11.03:922][948]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.11.04:106][948]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.11.04:253][948]LogPlayLevel: PlayLevel: Blueprint regeneration took 799 ms (1 blueprints)
+[2017.10.08-23.11.04:253][948]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:11:04 PM)
+[2017.10.08-23.11.04:253][948]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.11.04:259][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005586s)
+[2017.10.08-23.11.04:260][948]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.11.04:260][948]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2017.10.08-23.11.04:260][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.006795s)
+[2017.10.08-23.11.04:317][948]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.11.04:329][948]LogInit: FAudioDevice initialized.
+[2017.10.08-23.11.04:389][948]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.11.04:392][948]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.11.04
+[2017.10.08-23.11.04:393][948]LogWorld: Bringing up level for play took: 0.003210
+[2017.10.08-23.11.04:395][948]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.11.04:404][948]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.328
+[2017.10.08-23.11.21:625][290]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.11.47:266][386]LogSavePackage: Save=102.41ms
+[2017.10.08-23.11.47:266][386]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCaster_Auto7465F657B44D6952A56E24D993C909BA7.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto7.umap'
+[2017.10.08-23.11.47:273][386]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto7.umap
+[2017.10.08-23.11.47:277][386]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.182
+[2017.10.08-23.11.47:277][386]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.182
+[2017.10.08-23.11.47:280][386]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.08-23.11.47:328][386]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.08-23.11.47:328][386]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.08-23.11.47:497][386]LogSavePackage: Save=144.51ms
+[2017.10.08-23.11.47:498][386]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto7CC451F68425112B72F202BB7AA36CBF9.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto7.uasset'
+[2017.10.08-23.11.47:500][386]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto7.uasset
+[2017.10.08-23.11.47:500][386]LogFileHelpers: Auto-saving content packages took 0.222
+[2017.10.08-23.22.50:308][375]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.10.08-23.23.14:282][447]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.10.08-23.24.03:283][594]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.10.08-23.25.12:284][801]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.10.08-23.30.15:470][729]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.30.47:338][233]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.30.49:831][275]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.30.49:892][276]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.30.49:953][277]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.30.50:137][280]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.30.50:197][281]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.30.56:170][376]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.30.56:206][377]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.30.56:391][380]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.30.56:555][383]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.30.56:679][385]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.30.56:797][387]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.30.57:223][394]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.31.24:006][506]LogSavePackage: Save=73.06ms
+[2017.10.08-23.31.24:006][506]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCaster_Auto82AA6FA3A4FE78E0D953BEB8557F512D8.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto8.umap'
+[2017.10.08-23.31.24:010][506]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto8.umap
+[2017.10.08-23.31.24:014][506]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.138
+[2017.10.08-23.31.24:014][506]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.138
+[2017.10.08-23.31.24:017][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.08-23.31.24:052][506]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.08-23.31.24:052][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.08-23.31.24:164][506]LogSavePackage: Save=92.17ms
+[2017.10.08-23.31.24:165][506]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto89BF88FC3414DA63BF861BB9D9FF6D933.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto8.uasset'
+[2017.10.08-23.31.24:166][506]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto8.uasset
+[2017.10.08-23.31.24:167][506]LogFileHelpers: Auto-saving content packages took 0.151
+[2017.10.08-23.32.27:792][851]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.32.27:826][851]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.08-23.32.27:841][851]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.08-23.32.28:044][851]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.32.28:135][851]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.32.28:267][851]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.32.28:377][851]LogPlayLevel: PlayLevel: Blueprint regeneration took 551 ms (1 blueprints)
+[2017.10.08-23.32.28:378][851]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:32:28 PM)
+[2017.10.08-23.32.28:378][851]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.32.28:382][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004482s)
+[2017.10.08-23.32.28:383][851]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.32.28:384][851]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2017.10.08-23.32.28:384][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.005984s)
+[2017.10.08-23.32.28:440][851]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.32.28:451][851]LogInit: FAudioDevice initialized.
+[2017.10.08-23.32.28:506][851]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.32.28:510][851]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.32.28
+[2017.10.08-23.32.28:511][851]LogWorld: Bringing up level for play took: 0.003136
+[2017.10.08-23.32.28:512][851]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.32.28:522][851]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.446
+[2017.10.08-23.32.44:261][226]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.32.56:337][420]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.08-23.32.56:337][420]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.08-23.32.56:337][420]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.08-23.32.56:337][420]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.08-23.32.56:348][420]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.08-23.32.56:406][422]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.08-23.33.27:734][427]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.33.27:764][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-23.33.27:764][427]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:33:27 PM)
+[2017.10.08-23.33.27:767][427]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.33.27:773][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006300s)
+[2017.10.08-23.33.27:774][427]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.33.27:774][427]LogPlayLevel: PIE: World Init took: (0.001150s)
+[2017.10.08-23.33.27:775][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.007970s)
+[2017.10.08-23.33.27:832][427]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.33.27:842][427]LogInit: FAudioDevice initialized.
+[2017.10.08-23.33.27:897][427]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.33.27:899][427]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.33.27
+[2017.10.08-23.33.27:900][427]LogWorld: Bringing up level for play took: 0.002440
+[2017.10.08-23.33.27:902][427]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.33.27:909][427]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.834
+[2017.10.08-23.33.35:854][602]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.34.48:235][184]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.27:655][797]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.27:719][798]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.27:850][800]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.27:980][802]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.28:245][806]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.28:377][808]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.31:692][855]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.31:782][856]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.31:921][858]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.31:985][859]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.32:119][861]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.32:323][864]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.34:549][896]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.34:963][902]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.35:310][907]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.36:322][921]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.41:995][  3]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.42:067][  4]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.42:133][  5]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.42:203][  6]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.42:270][  7]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.42:361][  8]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.42:937][ 17]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.43:006][ 18]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.43:073][ 19]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.43:146][ 20]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.35.43:280][ 22]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.36.38:345][154]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.36.38:350][154]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.36.38:354][154]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.36.38:359][154]PIE: Warning: AttachTo: '/Engine/Transient.World_22:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.36.52:035][368]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.36.52:098][368]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.08-23.36.52:124][368]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.08-23.36.52:426][368]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.36.52:554][368]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.36.52:732][368]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.36.52:871][368]LogPlayLevel: PlayLevel: Blueprint regeneration took 773 ms (1 blueprints)
+[2017.10.08-23.36.52:871][368]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:36:52 PM)
+[2017.10.08-23.36.52:873][368]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.36.52:878][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005327s)
+[2017.10.08-23.36.52:879][368]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.36.52:879][368]LogPlayLevel: PIE: World Init took: (0.001301s)
+[2017.10.08-23.36.52:880][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.006993s)
+[2017.10.08-23.36.52:935][368]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.36.52:948][368]LogInit: FAudioDevice initialized.
+[2017.10.08-23.36.53:002][368]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.36.53:006][368]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.36.53
+[2017.10.08-23.36.53:007][368]LogWorld: Bringing up level for play took: 0.004409
+[2017.10.08-23.36.53:009][368]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.36.53:018][368]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.058
+[2017.10.08-23.37.13:550][798]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.37.18:661][873]PIE: Warning: AttachTo: '/Engine/Transient.World_23:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.37.31:497][169]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.37.31:501][169]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.37.31:504][169]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.37.31:508][169]PIE: Warning: AttachTo: '/Engine/Transient.World_23:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.37.47:666][497]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.37.47:767][497]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.08-23.37.47:792][497]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.08-23.37.48:091][497]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.37.48:225][497]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.37.48:414][497]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.37.48:556][497]LogPlayLevel: PlayLevel: Blueprint regeneration took 788 ms (1 blueprints)
+[2017.10.08-23.37.48:557][497]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:37:48 PM)
+[2017.10.08-23.37.48:557][497]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.37.48:563][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005687s)
+[2017.10.08-23.37.48:564][497]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.37.48:564][497]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2017.10.08-23.37.48:564][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.006903s)
+[2017.10.08-23.37.48:622][497]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.37.48:634][497]LogInit: FAudioDevice initialized.
+[2017.10.08-23.37.48:696][497]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.37.48:699][497]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.37.48
+[2017.10.08-23.37.48:700][497]LogWorld: Bringing up level for play took: 0.003961
+[2017.10.08-23.37.48:702][497]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.37.48:712][497]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.637
+[2017.10.08-23.38.27:817][300]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.42.35:811][ 50]LogSavePackage: Save=73.05ms
+[2017.10.08-23.42.35:811][ 50]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCaster_Auto959253547423FDAEEEC7550A1BA5AFCA3.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto9.umap'
+[2017.10.08-23.42.35:815][ 50]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto9.umap
+[2017.10.08-23.42.35:817][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.137
+[2017.10.08-23.42.35:818][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.137
+[2017.10.08-23.42.35:821][ 50]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.08-23.42.35:863][ 50]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.08-23.42.35:863][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.08-23.42.35:971][ 50]LogSavePackage: Save=88.23ms
+[2017.10.08-23.42.35:971][ 50]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto9FE8799424F3F24AF92464295D6144E8B.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto9.uasset'
+[2017.10.08-23.42.35:973][ 50]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto9.uasset
+[2017.10.08-23.42.35:973][ 50]LogFileHelpers: Auto-saving content packages took 0.154
+[2017.10.08-23.43.55:101][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.10.08-23.44.00:613][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.10.08-23.44.00:710][510]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.10.08-23.45.50:670][ 30]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/Cube.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/Cube.uasset' is outside repository
+[2017.10.08-23.47.01:324][493]LogStaticMesh: Building static mesh Cube...
+[2017.10.08-23.47.01:324][493]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.08-23.47.01:325][493]LogStaticMesh: Built static mesh [0.00s] /Engine/BasicShapes/Cube.Cube
+[2017.10.08-23.47.15:671][880]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.47.15:725][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-23.47.15:725][880]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:47:15 PM)
+[2017.10.08-23.47.15:725][880]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.47.15:736][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009904s)
+[2017.10.08-23.47.15:737][880]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.47.15:738][880]LogPlayLevel: PIE: World Init took: (0.001814s)
+[2017.10.08-23.47.15:738][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.012305s)
+[2017.10.08-23.47.15:792][880]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.47.15:809][880]LogInit: FAudioDevice initialized.
+[2017.10.08-23.47.15:875][880]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.47.15:878][880]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.47.15
+[2017.10.08-23.47.15:879][880]LogWorld: Bringing up level for play took: 0.003218
+[2017.10.08-23.47.15:882][880]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.47.15:896][880]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.821
+[2017.10.08-23.47.38:607][441]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.47.38:653][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-23.47.38:653][441]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:47:38 PM)
+[2017.10.08-23.47.38:654][441]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.47.38:662][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008731s)
+[2017.10.08-23.47.38:664][441]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.47.38:664][441]LogPlayLevel: PIE: World Init took: (0.001496s)
+[2017.10.08-23.47.38:664][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.010802s)
+[2017.10.08-23.47.38:713][441]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.47.38:729][441]LogInit: FAudioDevice initialized.
+[2017.10.08-23.47.38:790][441]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.47.38:794][441]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.47.38
+[2017.10.08-23.47.38:795][441]LogWorld: Bringing up level for play took: 0.003616
+[2017.10.08-23.47.38:798][441]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.47.38:812][441]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.263
+[2017.10.08-23.48.12:543][242]LogActorFactory: Actor Factory created Cube
+[2017.10.08-23.48.17:173][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.08-23.48.34:452][801]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.48.34:514][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-23.48.34:514][801]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:48:34 PM)
+[2017.10.08-23.48.34:515][801]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.48.34:527][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011390s)
+[2017.10.08-23.48.34:528][801]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.48.34:529][801]LogPlayLevel: PIE: World Init took: (0.001817s)
+[2017.10.08-23.48.34:529][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.013768s)
+[2017.10.08-23.48.34:590][801]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.48.34:609][801]LogInit: FAudioDevice initialized.
+[2017.10.08-23.48.34:682][801]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.48.34:686][801]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.48.34
+[2017.10.08-23.48.34:687][801]LogWorld: Bringing up level for play took: 0.004271
+[2017.10.08-23.48.34:691][801]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.48.34:704][801]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.372
+[2017.10.08-23.48.40:903][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.08-23.48.48:611][128]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.48.48:674][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-23.48.48:675][128]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:48:48 PM)
+[2017.10.08-23.48.48:677][128]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.48.48:687][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009930s)
+[2017.10.08-23.48.48:688][128]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.48.48:688][128]LogPlayLevel: PIE: World Init took: (0.001739s)
+[2017.10.08-23.48.48:689][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.012350s)
+[2017.10.08-23.48.48:736][128]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.48.48:758][128]LogInit: FAudioDevice initialized.
+[2017.10.08-23.48.48:830][128]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.48.48:834][128]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.48.48
+[2017.10.08-23.48.48:835][128]LogWorld: Bringing up level for play took: 0.003699
+[2017.10.08-23.48.48:838][128]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.48.48:851][128]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.225
+[2017.10.08-23.48.58:519][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.08-23.49.18:047][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.08-23.49.19:911][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.08-23.49.34:579][224]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.49.34:642][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-23.49.34:642][224]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:49:34 PM)
+[2017.10.08-23.49.34:643][224]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.49.34:653][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010054s)
+[2017.10.08-23.49.34:655][224]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.49.34:655][224]LogPlayLevel: PIE: World Init took: (0.001709s)
+[2017.10.08-23.49.34:656][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.012486s)
+[2017.10.08-23.49.34:717][224]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.49.34:737][224]LogInit: FAudioDevice initialized.
+[2017.10.08-23.49.34:808][224]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.49.34:812][224]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.49.34
+[2017.10.08-23.49.34:813][224]LogWorld: Bringing up level for play took: 0.003639
+[2017.10.08-23.49.34:817][224]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.49.34:831][224]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.245
+[2017.10.08-23.49.58:155][714]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.08-23.49.58:216][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-23.49.58:216][714]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 3:49:58 PM)
+[2017.10.08-23.49.58:217][714]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.08-23.49.58:226][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009538s)
+[2017.10.08-23.49.58:227][714]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.08-23.49.58:228][714]LogPlayLevel: PIE: World Init took: (0.001361s)
+[2017.10.08-23.49.58:228][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.011492s)
+[2017.10.08-23.49.58:283][714]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-23.49.58:305][714]LogInit: FAudioDevice initialized.
+[2017.10.08-23.49.58:374][714]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.08-23.49.58:377][714]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-19.49.58
+[2017.10.08-23.49.58:379][714]LogWorld: Bringing up level for play took: 0.003817
+[2017.10.08-23.49.58:384][714]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.08-23.49.58:400][714]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.675
+[2017.10.08-23.50.26:055][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.08-23.52.31:446][205]LogActorFactory: Actor Factory created Cube
+[2017.10.08-23.52.32:553][231]LogActorFactory: Actor Factory created Cube
+[2017.10.08-23.52.35:979][311]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube6)
+[2017.10.08-23.52.51:300][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.08-23.52.52:686][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2017.10.08-23.55.27:373][929]Cmd: DELETE
+[2017.10.08-23.55.27:373][929]Cmd: ACTOR DELETE
+[2017.10.08-23.55.27:409][929]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.08-23.55.27:444][929]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2017.10.08-23.55.32:222][ 75]Cmd: EDIT COPY
+[2017.10.08-23.55.43:321][588]Cmd: EDIT COPY
+[2017.10.08-23.55.44:904][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.08-23.55.50:687][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_01)
+[2017.10.08-23.55.51:372][843]Cmd: EDIT PASTE
+[2017.10.08-23.55.53:828][906]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube6)
+[2017.10.08-23.56.17:290][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2017.10.08-23.56.25:054][730]Cmd: EDIT COPY
+[2017.10.08-23.56.25:705][747]Cmd: EDIT PASTE
