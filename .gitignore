@@ -109,3 +109,4 @@ Bowcaster.Intermediate/*
 
 # Cache files for the editor to use
 Bowcaster/DerivedDataCache/*
+*.log
