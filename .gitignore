@@ -105,7 +105,7 @@ Build/*/**
 Bowcaster/Saved/*
 
 # Compiled source files for the engine to use
-Bowcaster.Intermediate/*
+Bowcaster/Intermediate/*
 
 # Cache files for the editor to use
 Bowcaster/DerivedDataCache/*
