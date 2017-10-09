@@ -110,3 +110,7 @@ Bowcaster.Intermediate/*
 # Cache files for the editor to use
 Bowcaster/DerivedDataCache/*
 *.log
+Bowcaster/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Bowcaster/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Bowcaster/Saved/Config/Windows/Engine.ini
+Bowcaster/Saved/Logs/Bowcaster.log
