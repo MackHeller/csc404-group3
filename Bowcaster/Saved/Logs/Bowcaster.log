@@ -1760,3 +1760,574 @@ LogInit: Object subsystem initialized
 [2017.10.09-00.43.43:988][900]LogWorld: Bringing up level for play took: 0.002270
 [2017.10.09-00.43.43:990][900]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
 [2017.10.09-00.43.43:997][900]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.921
+[2017.10.09-00.45.16:469][848]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-00.45.19:452][876]LogSavePackage: Save=129.42ms
+[2017.10.09-00.45.19:452][876]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCasterBFEBAA9F4AC90FCA373CB186D7F43723.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap'
+[2017.10.09-00.45.19:465][876]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap
+[2017.10.09-00.45.19:758][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BowCaster_BuiltData" FILE="../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset" SILENT=true
+[2017.10.09-00.45.19:845][876]LogSavePackage: Save=55.04ms
+[2017.10.09-00.45.19:845][876]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCaster_BuiltDataD042F1674237C7291C8677A3A591E420.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset'
+[2017.10.09-00.45.19:847][876]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset
+[2017.10.09-00.47.34:430][162]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2017.10.09-00.47.36:889][217]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.10.09-00.47.40:962][346]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.09-00.47.40:962][346]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-00.47.40:962][346]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.09-00.47.40:962][346]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-00.47.40:979][346]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.09-00.47.41:020][346]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.09-00.48.17:468][211]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.09-00.48.17:500][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-00.48.17:501][211]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 4:48:17 PM)
+[2017.10.09-00.48.17:501][211]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.09-00.48.17:508][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006376s)
+[2017.10.09-00.48.17:509][211]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.09-00.48.17:510][211]LogPlayLevel: PIE: World Init took: (0.001408s)
+[2017.10.09-00.48.17:510][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.008446s)
+[2017.10.09-00.48.17:648][211]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-00.48.17:660][211]LogInit: FAudioDevice initialized.
+[2017.10.09-00.48.17:726][211]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.09-00.48.17:728][211]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-20.48.17
+[2017.10.09-00.48.17:729][211]LogWorld: Bringing up level for play took: 0.002512
+[2017.10.09-00.48.17:730][211]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-00.48.17:739][211]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.664
+[2017.10.09-00.48.34:848][646]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.09-00.48.34:888][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-00.48.34:889][646]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 4:48:34 PM)
+[2017.10.09-00.48.34:890][646]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.09-00.48.34:897][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007471s)
+[2017.10.09-00.48.34:899][646]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.09-00.48.34:900][646]LogPlayLevel: PIE: World Init took: (0.002154s)
+[2017.10.09-00.48.34:900][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.010093s)
+[2017.10.09-00.48.34:970][646]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-00.48.34:990][646]LogInit: FAudioDevice initialized.
+[2017.10.09-00.48.35:069][646]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.09-00.48.35:072][646]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-20.48.35
+[2017.10.09-00.48.35:073][646]LogWorld: Bringing up level for play took: 0.003165
+[2017.10.09-00.48.35:075][646]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-00.48.35:085][646]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.009
+[2017.10.09-00.51.32:094][454]PIE: Warning: AttachTo: '/Engine/Transient.World_33:PersistentLevel.Player_C_3.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-00.55.51:890][156]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.029
+[2017.10.09-00.55.51:892][156]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.09-00.55.51:931][156]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.09-00.55.51:931][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.09-00.55.52:039][156]LogSavePackage: Save=84.07ms
+[2017.10.09-00.55.52:039][156]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto41267A7D9443C7FD8B6D26E9F54A6DEB9.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto4.uasset'
+[2017.10.09-00.55.52:041][156]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto4.uasset
+[2017.10.09-00.55.52:041][156]LogFileHelpers: Auto-saving content packages took 0.150
+[2017.10.09-01.09.55:430][141]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.038
+[2017.10.09-01.09.55:432][141]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.09-01.09.55:468][141]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.09-01.09.55:468][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.09-01.09.55:687][141]LogSavePackage: Save=174.94ms
+[2017.10.09-01.09.55:687][141]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto5826CE9CA45D95F2C914F639C384E79F9.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto5.uasset'
+[2017.10.09-01.09.55:721][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto5.uasset
+[2017.10.09-01.09.55:721][141]LogFileHelpers: Auto-saving content packages took 0.290
+[2017.10.09-01.19.56:366][379]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.034
+[2017.10.09-01.19.56:369][379]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.09-01.19.56:542][379]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.09-01.19.56:542][379]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.09-01.19.56:700][379]LogSavePackage: Save=115.33ms
+[2017.10.09-01.19.56:700][379]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto6F0280A9A4974C2701D80B2938211240B.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto6.uasset'
+[2017.10.09-01.19.56:729][379]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto6.uasset
+[2017.10.09-01.19.56:730][379]LogFileHelpers: Auto-saving content packages took 0.362
+[2017.10.09-01.29.57:151][504]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.034
+[2017.10.09-01.29.57:154][504]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.09-01.29.57:190][504]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.09-01.29.57:190][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.09-01.29.57:322][504]LogSavePackage: Save=100.60ms
+[2017.10.09-01.29.57:322][504]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto779FD06A74B85FB453F7EDA8BB70C223D.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto7.uasset'
+[2017.10.09-01.29.57:325][504]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto7.uasset
+[2017.10.09-01.29.57:325][504]LogFileHelpers: Auto-saving content packages took 0.173
+[2017.10.09-01.32.14:185][920]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.09-01.32.14:187][920]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-01.32.14:187][920]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.09-01.32.14:187][920]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-01.32.14:197][920]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.09-01.32.14:261][921]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.09-01.32.42:070][784]PIE: Warning: AttachTo: '/Engine/Transient.World_34:PersistentLevel.Player_C_4.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-01.41.32:707][596]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.036
+[2017.10.09-01.41.32:709][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.09-01.41.32:743][596]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.09-01.41.32:743][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.09-01.41.32:869][596]LogSavePackage: Save=99.16ms
+[2017.10.09-01.41.32:869][596]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto8DB8ED5B147A0702D8363279D863980CD.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto8.uasset'
+[2017.10.09-01.41.32:872][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto8.uasset
+[2017.10.09-01.41.32:872][596]LogFileHelpers: Auto-saving content packages took 0.164
+[2017.10.09-01.51.33:540][859]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.030
+[2017.10.09-01.51.33:542][859]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.09-01.51.33:671][859]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.09-01.51.33:671][859]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.09-01.51.33:798][859]LogSavePackage: Save=97.12ms
+[2017.10.09-01.51.33:798][859]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto9F651F21B48C5190352A1B68E57A760A5.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto9.uasset'
+[2017.10.09-01.51.33:802][859]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto9.uasset
+[2017.10.09-01.51.33:802][859]LogFileHelpers: Auto-saving content packages took 0.261
+[2017.10.09-02.03.42:114][813]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.09-02.03.42:193][813]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.09-02.03.42:229][813]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.09-02.03.42:599][813]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.03.42:725][813]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.03.42:901][813]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.03.43:041][813]LogPlayLevel: PlayLevel: Blueprint regeneration took 847 ms (1 blueprints)
+[2017.10.09-02.03.43:041][813]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 6:03:43 PM)
+[2017.10.09-02.03.43:043][813]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.09-02.03.43:052][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008967s)
+[2017.10.09-02.03.43:053][813]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.09-02.03.43:054][813]LogPlayLevel: PIE: World Init took: (0.001461s)
+[2017.10.09-02.03.43:054][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.010803s)
+[2017.10.09-02.03.43:114][813]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-02.03.43:130][813]LogInit: FAudioDevice initialized.
+[2017.10.09-02.03.43:191][813]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.09-02.03.43:194][813]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-22.03.43
+[2017.10.09-02.03.43:195][813]LogWorld: Bringing up level for play took: 0.002889
+[2017.10.09-02.03.43:197][813]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.03.43:207][813]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.132
+[2017.10.09-02.03.48:458][915]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.03.48:458][915]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.03.50:461][955]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.03.50:461][955]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.03.51:305][971]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.03.51:305][971]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.03.51:777][980]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.03.51:777][980]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.03.53:761][ 19]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.03.53:761][ 19]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.03.53:960][ 23]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.03.53:960][ 23]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.03.54:150][ 26]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.03.54:150][ 26]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.03.55:665][ 57]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.03.55:665][ 57]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.03.56:111][ 66]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.03.56:111][ 66]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.03.56:309][ 70]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.03.56:309][ 70]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.03.59:776][139]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.03.59:776][139]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.01:017][163]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.04.01:017][163]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.02:164][184]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.04.02:164][184]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.02:836][196]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.04.02:836][196]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.03:857][213]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.04.03:857][213]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.04:799][231]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.04.04:799][231]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.05:633][247]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.04.05:634][247]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.06:090][255]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.04.06:090][255]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.08:477][302]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.04.08:477][302]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.11:218][356]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.04.11:218][356]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.13:396][399]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.04.13:396][399]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.14:532][420]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.04.14:532][420]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.15:977][446]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.04.15:977][446]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.17:435][474]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.04.17:436][474]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.20:013][517]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.04.20:013][517]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_19
+
+[2017.10.09-02.04.23:994][598]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.04.49:720][698]LogSavePackage: Save=75.08ms
+[2017.10.09-02.04.49:720][698]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCaster_Auto0ADA88652450EA015DE9D268DC7FDC54E.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto0.umap'
+[2017.10.09-02.04.49:722][698]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto0.umap
+[2017.10.09-02.04.49:725][698]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.129
+[2017.10.09-02.04.49:725][698]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.129
+[2017.10.09-02.04.49:728][698]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.09-02.04.49:767][698]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.09-02.04.49:767][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.09-02.04.49:987][698]LogSavePackage: Save=198.89ms
+[2017.10.09-02.04.49:987][698]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto00E60CB304EC65A3FB4D4AFAF76EF2F86.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto0.uasset'
+[2017.10.09-02.04.49:997][698]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto0.uasset
+[2017.10.09-02.04.49:997][698]LogFileHelpers: Auto-saving content packages took 0.270
+[2017.10.09-02.04.51:376][710]PIE: Warning: AttachTo: '/Engine/Transient.World_35:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.20.27:347][619]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.028
+[2017.10.09-02.20.27:349][619]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.09-02.20.27:382][619]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.09-02.20.27:382][619]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.09-02.20.27:529][619]LogSavePackage: Save=122.49ms
+[2017.10.09-02.20.27:529][619]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto1564D6C384E677021ED530189C08315CA.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto1.uasset'
+[2017.10.09-02.20.27:532][619]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto1.uasset
+[2017.10.09-02.20.27:533][619]LogFileHelpers: Auto-saving content packages took 0.185
+[2017.10.09-02.25.24:842][152]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.09-02.25.24:842][152]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-02.25.24:842][152]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.09-02.25.24:842][152]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-02.25.24:855][152]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.09-02.25.24:913][153]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.09-02.26.55:830][ 91]PIE: Warning: AttachTo: '/Engine/Transient.World_36:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.30.33:783][391]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.042
+[2017.10.09-02.30.33:787][391]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.09-02.30.33:831][391]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.09-02.30.33:831][391]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.09-02.30.34:005][391]LogSavePackage: Save=142.46ms
+[2017.10.09-02.30.34:008][391]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto2B94E69874B0FF09EDEFC40A20A5237B1.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto2.uasset'
+[2017.10.09-02.30.34:026][391]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto2.uasset
+[2017.10.09-02.30.34:026][391]LogFileHelpers: Auto-saving content packages took 0.242
+[2017.10.09-02.41.30:512][337]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.028
+[2017.10.09-02.41.30:514][337]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.09-02.41.30:564][337]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.09-02.41.30:564][337]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.09-02.41.30:680][337]LogSavePackage: Save=90.18ms
+[2017.10.09-02.41.30:680][337]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto372FC7137447A7F14C7EE91AE4C9FE0BC.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto3.uasset'
+[2017.10.09-02.41.30:686][337]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto3.uasset
+[2017.10.09-02.41.30:686][337]LogFileHelpers: Auto-saving content packages took 0.173
+[2017.10.09-02.45.42:797][544]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.09-02.45.42:836][544]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.09-02.45.42:858][544]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.09-02.45.43:097][544]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.45.43:185][544]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.45.43:318][544]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.45.43:430][544]LogPlayLevel: PlayLevel: Blueprint regeneration took 593 ms (1 blueprints)
+[2017.10.09-02.45.43:430][544]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 6:45:43 PM)
+[2017.10.09-02.45.43:431][544]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.09-02.45.43:439][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008190s)
+[2017.10.09-02.45.43:440][544]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.09-02.45.43:440][544]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2017.10.09-02.45.43:441][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.009659s)
+[2017.10.09-02.45.43:495][544]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-02.45.43:513][544]LogInit: FAudioDevice initialized.
+[2017.10.09-02.45.43:573][544]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.09-02.45.43:576][544]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-22.45.43
+[2017.10.09-02.45.43:577][544]LogWorld: Bringing up level for play took: 0.002475
+[2017.10.09-02.45.43:578][544]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.45.43:589][544]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 0.514
+[2017.10.09-02.45.47:818][632]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.45.47:818][632]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_21
+
+[2017.10.09-02.45.49:283][664]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.45.49:283][664]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_21
+
+[2017.10.09-02.45.50:056][681]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.45.50:056][681]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_21
+
+[2017.10.09-02.45.51:740][718]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.45.51:741][718]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_21
+
+[2017.10.09-02.45.52:382][731]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.45.52:382][731]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_21
+
+[2017.10.09-02.45.56:075][812]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.45.56:075][812]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_21
+
+[2017.10.09-02.45.56:907][830]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.45.56:907][830]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_21
+
+[2017.10.09-02.45.57:083][833]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.45.57:084][833]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_21
+
+[2017.10.09-02.45.58:373][862]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.45.58:373][862]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_21
+
+[2017.10.09-02.45.58:502][865]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.45.58:502][865]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_21
+
+[2017.10.09-02.45.58:683][869]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.10.09-02.45.58:683][869]LogScriptCore: Error: Script call stack:
+	Player_C.ExecuteUbergraph_Player
+	Player_C.InpActEvt_MovetoDirection_K2Node_InputActionEvent_21
+
+[2017.10.09-02.46.28:632][400]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.46.32:105][424]PIE: Warning: AttachTo: '/Engine/Transient.World_37:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.48.13:306][993]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.09-02.48.13:391][993]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.09-02.48.13:435][993]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.09-02.48.13:794][993]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.48.13:941][993]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.48.14:140][993]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.48.14:260][993]PIE: Warning: AttachTo: '/Engine/Transient.World_37:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.48.14:376][993]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.48.14:379][993]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.48.14:382][993]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.48.14:385][993]PIE: Warning: AttachTo: '/Engine/Transient.World_37:PersistentLevel.Player_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.48.14:387][993]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.48.14:421][993]LogPlayLevel: PlayLevel: Blueprint regeneration took 1030 ms (1 blueprints)
+[2017.10.09-02.48.14:421][993]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 6:48:14 PM)
+[2017.10.09-02.48.14:422][993]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.09-02.48.14:428][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005810s)
+[2017.10.09-02.48.14:431][993]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.09-02.48.14:431][993]LogPlayLevel: PIE: World Init took: (0.002386s)
+[2017.10.09-02.48.14:431][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.008608s)
+[2017.10.09-02.48.14:495][993]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-02.48.14:508][993]LogInit: FAudioDevice initialized.
+[2017.10.09-02.48.14:576][993]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.09-02.48.14:578][993]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-22.48.14
+[2017.10.09-02.48.14:579][993]LogWorld: Bringing up level for play took: 0.002412
+[2017.10.09-02.48.14:582][993]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.48.14:597][993]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.522
+[2017.10.09-02.49.02:088][ 56]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.09-02.49.02:088][ 56]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-02.49.02:088][ 56]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.09-02.49.02:088][ 56]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-02.49.02:100][ 56]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.09-02.49.02:142][ 56]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.09-02.49.31:806][807]PIE: Warning: AttachTo: '/Engine/Transient.World_38:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.49.39:830][956]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.09-02.49.39:910][956]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-02.49.39:911][956]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 6:49:39 PM)
+[2017.10.09-02.49.39:915][956]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.09-02.49.39:931][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015920s)
+[2017.10.09-02.49.39:933][956]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.09-02.49.39:935][956]LogPlayLevel: PIE: World Init took: (0.003588s)
+[2017.10.09-02.49.39:935][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.020384s)
+[2017.10.09-02.49.40:039][956]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-02.49.40:063][956]LogInit: FAudioDevice initialized.
+[2017.10.09-02.49.40:164][956]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.09-02.49.40:170][956]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-22.49.40
+[2017.10.09-02.49.40:172][956]LogWorld: Bringing up level for play took: 0.006103
+[2017.10.09-02.49.40:177][956]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.49.40:201][956]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.126
+[2017.10.09-02.50.26:855][767]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.09-02.50.26:938][767]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.09-02.50.26:980][767]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.09-02.50.27:416][767]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.50.27:569][767]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.50.27:776][767]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.50.27:901][767]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.50.28:020][767]PIE: Warning: AttachTo: '/Engine/Transient.World_38:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.50.28:139][767]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.50.28:142][767]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.50.28:145][767]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.50.28:147][767]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.50.28:149][767]PIE: Warning: AttachTo: '/Engine/Transient.World_38:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.50.28:151][767]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_15.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.50.28:181][767]LogPlayLevel: PlayLevel: Blueprint regeneration took 1244 ms (1 blueprints)
+[2017.10.09-02.50.28:182][767]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 6:50:28 PM)
+[2017.10.09-02.50.28:182][767]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.09-02.50.28:188][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005399s)
+[2017.10.09-02.50.28:189][767]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.09-02.50.28:189][767]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2017.10.09-02.50.28:189][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.006824s)
+[2017.10.09-02.50.28:244][767]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-02.50.28:256][767]LogInit: FAudioDevice initialized.
+[2017.10.09-02.50.28:334][767]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.09-02.50.28:337][767]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-22.50.28
+[2017.10.09-02.50.28:338][767]LogWorld: Bringing up level for play took: 0.002440
+[2017.10.09-02.50.28:340][767]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.50.28:355][767]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.28
+[2017.10.09-02.51.56:796][648]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.09-02.51.56:897][648]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.09-02.51.56:933][648]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.09-02.51.57:332][648]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.51.57:482][648]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.51.57:687][648]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.51.57:811][648]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.51.57:932][648]PIE: Warning: AttachTo: '/Engine/Transient.World_38:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.51.58:047][648]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_15.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.51.58:161][648]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.51.58:164][648]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.51.58:167][648]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.51.58:169][648]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.51.58:171][648]PIE: Warning: AttachTo: '/Engine/Transient.World_38:PersistentLevel.Player_C_11.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.51.58:172][648]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_15.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.51.58:174][648]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_20.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.51.58:204][648]LogPlayLevel: PlayLevel: Blueprint regeneration took 1307 ms (1 blueprints)
+[2017.10.09-02.51.58:205][648]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 6:51:58 PM)
+[2017.10.09-02.51.58:205][648]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.09-02.51.58:210][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005497s)
+[2017.10.09-02.51.58:211][648]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.09-02.51.58:212][648]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2017.10.09-02.51.58:212][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.006890s)
+[2017.10.09-02.51.58:271][648]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-02.51.58:285][648]LogInit: FAudioDevice initialized.
+[2017.10.09-02.51.58:342][648]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.09-02.51.58:345][648]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-22.51.58
+[2017.10.09-02.51.58:346][648]LogWorld: Bringing up level for play took: 0.002463
+[2017.10.09-02.51.58:347][648]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.51.58:361][648]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.286
+[2017.10.09-02.52.49:949][646]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.09-02.52.49:949][646]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-02.52.49:949][646]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.09-02.52.49:949][646]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-02.52.50:012][646]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.09-02.52.50:050][646]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.09-02.53.35:955][528]PIE: Warning: AttachTo: '/Engine/Transient.World_39:PersistentLevel.Player_C_21.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.54.05:144][466]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.09-02.54.05:144][466]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-02.54.05:144][466]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.09-02.54.05:144][466]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-02.54.05:157][466]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.09-02.54.05:241][467]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.09-02.54.24:457][826]PIE: Warning: AttachTo: '/Engine/Transient.World_40:PersistentLevel.Player_C_22.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.54.33:840][118]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.54.33:844][118]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.54.33:847][118]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.54.33:850][118]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.54.33:853][118]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_15.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.54.33:855][118]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_20.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.54.33:858][118]PIE: Warning: AttachTo: '/Engine/Transient.World_40:PersistentLevel.Player_C_22.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.55.03:617][765]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.09-02.55.03:617][765]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-02.55.03:617][765]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.09-02.55.03:617][765]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-02.55.03:617][765]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.09-02.55.03:668][766]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.09-02.55.42:887][897]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.09-02.55.42:950][897]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.09-02.55.42:982][897]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.10.09-02.55.43:039][897]LogBlueprint: Warning: [Compiler Player] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2017.10.09-02.55.43:051][897]LogBlueprint: Warning: [Compiler Player] [0723.83] Compile of Player successful, but with 1 Warning(s) [in 70 ms] (/Game/Blueprints/Player.Player)
+[2017.10.09-02.55.43:344][897]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.55.43:477][897]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.55.43:663][897]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.55.43:782][897]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_10.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.55.43:893][897]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_15.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.55.44:003][897]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_20.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.55.44:142][897]LogPlayLevel: PlayLevel: Blueprint regeneration took 1192 ms (1 blueprints)
+[2017.10.09-02.55.44:143][897]PIE: New page: PIE session: BowCaster (Oct 8, 2017, 6:55:44 PM)
+[2017.10.09-02.55.44:143][897]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.09-02.55.44:149][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005841s)
+[2017.10.09-02.55.44:150][897]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.09-02.55.44:150][897]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2017.10.09-02.55.44:150][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.007306s)
+[2017.10.09-02.55.44:207][897]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-02.55.44:219][897]LogInit: FAudioDevice initialized.
+[2017.10.09-02.55.44:281][897]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.09-02.55.44:284][897]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 60) at 2017.10.08-22.55.44
+[2017.10.09-02.55.44:285][897]LogWorld: Bringing up level for play took: 0.002597
+[2017.10.09-02.55.44:288][897]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.55.44:297][897]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster 1.222
+[2017.10.09-02.56.24:140][629]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.56.32:382][749]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
+[2017.10.09-02.56.32:382][749]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-02.56.32:382][749]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.09-02.56.32:382][749]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.09-02.56.32:382][749]LogTemp: BranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-EL85BC8/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.09-02.56.32:470][751]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\E L\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.09-02.57.11:464][852]PIE: Warning: AttachTo: '/Engine/Transient.World_41:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-02.57.37:249][ 20]LogSavePackage: Save=182.71ms
+[2017.10.09-02.57.37:249][ 20]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/BowCaster_Auto448312DB94C47EDB4747E27BEE8107303.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto4.umap'
+[2017.10.09-02.57.37:253][ 20]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto4.umap
+[2017.10.09-02.57.37:264][ 20]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.279
+[2017.10.09-02.57.37:264][ 20]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.279
+[2017.10.09-02.57.37:269][ 20]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.09-02.57.37:311][ 20]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2017.10.09-02.57.37:311][ 20]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.09-02.57.37:424][ 20]LogSavePackage: Save=93.71ms
+[2017.10.09-02.57.37:425][ 20]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto472ED2FE747271F5A647BF88B0F256ADC.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto4.uasset'
+[2017.10.09-02.57.37:429][ 20]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto4.uasset
+[2017.10.09-02.57.37:429][ 20]LogFileHelpers: Auto-saving content packages took 0.162
+[2017.10.09-03.00.02:679][137]LogHttp: Warning: 00000246C1963100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.09-03.00.02:679][137]LogHttp: Warning: 00000246C1963100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x246785abfb8 [can pipeline])
+[2017.10.09-03.00.02:679][137]LogHttp: Warning: 00000246C1963100: libcurl info message cache 1 (Re-using existing connection! (#133) with host datarouter.ol.epicgames.com)
+[2017.10.09-03.00.02:679][137]LogHttp: Warning: 00000246C1963100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.230.152.110) port 443 (#133))
+[2017.10.09-03.00.02:679][137]LogHttp: Warning: 00000246C1963100: libcurl info message cache 3 (upload completely sent off: 359 out of 359 bytes)
+[2017.10.09-03.00.02:679][137]LogHttp: Warning: 00000246C1963100: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.10.09-03.00.02:679][137]LogHttp: Warning: 00000246C1963100: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.10.09-03.00.02:679][137]LogHttp: Warning: 00000246C1963100: libcurl info message cache 6 (Closing connection 133)
+[2017.10.09-03.00.02:680][137]LogHttp: Warning: 00000246C1963100: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE5A5BE25-4226-82F4-6D55-FDAB29818485%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=a42ed7d340d538ad0c70729a4d2b418f%7C5f3e189bea864b98ba818015583e07fe%7Cb389167b-f618-4b1b-aa4e-af2c22b0cef7&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.10.09-03.00.02:680][137]LogHttp: Warning: 00000246C1963100: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.09-03.00.02:680][137]LogHttp: Warning: 00000246C1963100: libcurl info message cache 9 (Closing connection 134)
+[2017.10.09-03.02.03:321][499]LogHttp: Warning: 00000246C1960880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.09-03.02.03:321][499]LogHttp: Warning: 00000246C1960880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.09-03.02.03:321][499]LogHttp: Warning: 00000246C1960880: libcurl info message cache 1 (Closing connection 135)
+[2017.10.09-03.04.03:657][860]LogHttp: Warning: 00000246461F9180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.09-03.04.03:657][860]LogHttp: Warning: 00000246461F9180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.09-03.04.03:657][860]LogHttp: Warning: 00000246461F9180: libcurl info message cache 1 (Closing connection 136)
+[2017.10.09-03.07.56:489][232]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/BowCaster' took 0.036
+[2017.10.09-03.07.56:492][232]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2017.10.09-03.07.56:492][232]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2017.10.09-03.07.56:654][232]LogSavePackage: Save=117.97ms
+[2017.10.09-03.07.56:654][232]LogSavePackage: Moving '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Player_Auto55B8015DC495074A48980EBBAD271253A.tmp' to '../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto5.uasset'
+[2017.10.09-03.07.56:658][232]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/E L/Documents/CSC404/Unreal/csc404-group3/Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto5.uasset
+[2017.10.09-03.07.56:658][232]LogFileHelpers: Auto-saving content packages took 0.167
