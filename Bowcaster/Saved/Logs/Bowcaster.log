@@ -1,15 +1,17 @@
-﻿Log file open, 10/09/17 13:54:02
+﻿Log file open, 10/09/17 14:25:14
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Bowcaster
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1170970357) SRandInit(-1170970357).
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 3.107072
+LogInit: Display: RandInit(-377521410) SRandInit(-377521410).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.110990
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -106,575 +108,273 @@ LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line:  
-LogInit: Base directory: D:/Program Files/UE_4.17/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.09-17.54.03:996][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.09-17.54.03:996][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.09-17.54.04:130][  0]LogInit: Computer: MSI
-[2017.10.09-17.54.04:130][  0]LogInit: User: aidan
-[2017.10.09-17.54.04:130][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.09-17.54.04:130][  0]LogInit: High frequency timer resolution =2.531249 MHz
-[2017.10.09-17.54.04:131][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.10.09-17.54.04:131][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.09-17.54.04:131][  0]LogMemory: Process Physical Memory: 280.49 MB used, 280.49 MB peak
-[2017.10.09-17.54.04:131][  0]LogMemory: Process Virtual Memory: 286.57 MB used, 286.57 MB peak
-[2017.10.09-17.54.04:131][  0]LogMemory: Physical Memory: 8119.32 MB used,  8140.50 MB free, 16259.82 MB total
-[2017.10.09-17.54.04:131][  0]LogMemory: Virtual Memory: 681.22 MB used,  8140.50 MB free, 134217728.00 MB total
-[2017.10.09-17.54.05:631][  0]LogInit: Using OS detected language (en-US).
-[2017.10.09-17.54.05:631][  0]LogInit: Using OS detected locale (en-CA).
-[2017.10.09-17.54.05:934][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.10.09-17.54.10:412][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.09-17.54.11:156][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2017.10.09-17.54.11:156][  0]LogD3D11RHI:       2019/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.10.09-17.54.11:163][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2017.10.09-17.54.11:163][  0]LogD3D11RHI:       128/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.10.09-17.54.11:165][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.10.09-17.54.11:165][  0]LogD3D11RHI:       0/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.10.09-17.54.11:165][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.09-17.54.11:192][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.09-17.54.11:192][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2017.10.09-17.54.11:192][  0]LogWindows: EnumDisplayDevices:
-[2017.10.09-17.54.11:192][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2017.10.09-17.54.11:192][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.10.09-17.54.11:192][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.10.09-17.54.11:193][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.10.09-17.54.11:193][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2017.10.09-17.54.11:193][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.10.09-17.54.11:193][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.10.09-17.54.11:193][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.09-17.54.11:837][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.09-17.54.12:232][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.10.09-17.54.12:284][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Intermediate/Shaders/WorkingDirectory/20132/).
-[2017.10.09-17.54.12:284][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aidan/AppData/Local/Temp/UnrealShaderWorkingDir/B50E7DE544BC13E2BFE6D292619ECD16/'.
-[2017.10.09-17.54.12:291][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.10.09-17.54.16:104][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.09-17.54.16:152][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.10.09-17.54.16:196][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.09-17.54.16:241][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.10.09-17.54.16:299][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.10.09-17.54.16:341][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.09-17.54.16:386][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.09-17.54.16:427][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.09-17.54.16:460][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.10.09-17.54.16:520][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.10.09-17.54.16:561][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.09-17.54.16:601][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.09-17.54.16:640][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.09-17.54.16:683][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.09-17.54.16:743][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.09-17.54.16:832][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.09-17.54.16:832][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.09-17.54.16:871][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.10.09-17.54.17:027][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.10.09-17.54.17:064][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.10.09-17.54.17:104][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.09-17.54.17:148][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.09-17.54.17:192][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.09-17.54.17:253][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.10.09-17.54.17:253][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.10.09-17.54.18:609][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.10.09-17.54.19:051][  0]LogDerivedDataCache: Loaded boot cache 0.44s 93MB C:/Users/aidan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.09-17.54.19:051][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/aidan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.10.09-17.54.19:051][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.09-17.54.19:051][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.09-17.54.19:051][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.09-17.54.19:051][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.09-17.54.19:124][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.09-17.54.19:137][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aidan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.09-17.54.19:191][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.09-17.54.19:254][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.09-17.54.19:350][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.09-17.54.19:358][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.09-17.54.27:644][  0]LogAssetRegistry: FAssetRegistry took 0.0439 seconds to start up
-[2017.10.09-17.54.28:457][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.09-17.54.31:365][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.09-17.54.32:393][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.09-17.54.32:450][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.09-17.54.32:482][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.09-17.54.32:490][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.10.09-17.54.32:490][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.10.09-17.54.32:490][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.10.09-17.54.35:485][  0]LogNetVersion: Bowcaster , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4119434037)
-[2017.10.09-17.54.36:903][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.189638 seconds
-[2017.10.09-17.54.36:921][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.10.09-17.54.36:921][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.10.09-17.54.36:921][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.09-17.54.36:977][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.09-17.55.03:069][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.09-17.55.03:168][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.09-17.55.04:301][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.09-17.55.04:903][  0]SourceControl: Source control is disabled
-[2017.10.09-17.55.05:963][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.09-17.55.06:186][  0]LogOcInput: OculusInput pre-init called
-[2017.10.09-17.55.06:732][  0]LogEngine: Initializing Engine...
-[2017.10.09-17.55.06:770][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.09-17.55.07:125][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.09-17.55.07:125][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.09-17.55.07:507][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.09-17.55.07:714][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2017.10.09-17.55.07:787][  0]LogInit: FAudioDevice initialized.
-[2017.10.09-17.55.07:883][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/aidan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.09-17.55.07:900][  0]LogInit: Texture streaming: Enabled
-[2017.10.09-17.55.08:088][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.09-17.55.09:201][  0]LogInit: Transaction tracking system initialized
-[2017.10.09-17.55.09:954][  0]BlueprintLog: New page: Editor Load
-[2017.10.09-17.55.12:273][  0]LocalizationService: Localization service is disabled
-[2017.10.09-17.55.13:991][  0]LogConsoleResponse: Display: 
-[2017.10.09-17.55.15:541][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/' took 0.05s
-[2017.10.09-17.55.15:541][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.09-17.55.15:541][  0]LogCook: Display: Mobile HDR setting 1
-[2017.10.09-17.55.15:599][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.10.09-17.55.18:786][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.09-17.55.18:802][  0]LightingResults: New page: Lighting Build
-[2017.10.09-17.55.18:924][  0]MapCheck: New page: Map Check
-[2017.10.09-17.55.18:924][  0]LightingResults: New page: Lighting Build
-[2017.10.09-17.55.19:892][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.10.09-17.55.20:424][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.09-17.55.20:594][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.09-17.55.20:650][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.259ms to complete.
-[2017.10.09-17.55.20:650][  0]LogFileHelpers: Loading map 'Template_Default' took 1.933
-[2017.10.09-17.55.24:064][  0]LogCollectionManager: Loaded 0 collections in 0.001082 seconds
-[2017.10.09-17.55.24:642][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Collections/' took 0.01s
-[2017.10.09-17.55.24:642][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Developers/aidan/Collections/' took 0.01s
-[2017.10.09-17.55.24:642][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Collections/' took 0.01s
-[2017.10.09-17.55.24:642][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.10.09-17.55.24:771][  0]LogContentBrowser: Native class hierarchy populated in 0.1226 seconds. Added 2386 classes and 500 folders.
-[2017.10.09-17.55.25:563][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0226 seconds. Added 0 classes and 0 folders.
-[2017.10.09-17.55.29:104][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.10.09-17.55.29:205][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.10.09-17.55.29:741][  0]LogSlate: Took 0.067091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.09-17.55.29:754][  0]LogSlate: Took 0.005514 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.09-17.55.29:861][  0]LogSlate: Took 0.029641 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.09-17.55.30:512][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
-[2017.10.09-17.55.31:533][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.10.09-17.55.31:533][  0]LogLoad: (Engine Initialization) Total time: 100.10 seconds
-[2017.10.09-17.55.31:533][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.10.09-17.55.31:534][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.10.09-17.55.31:534][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.10.09-17.55.31:974][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.10.09-17.55.32:276][  1]LogAssetRegistry: Asset discovery search completed in 64.6537 seconds
-[2017.10.09-17.55.32:277][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.10.09-17.55.32:277][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
-[2017.10.09-17.55.36:464][ 13]LogSlate: Took 0.119462 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.09-18.03.46:008][700]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.09-18.03.46:050][700]LogLinker: Warning: Asset 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.10.09-18.03.46:058][700]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
-[2017.10.09-18.03.46:058][700]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Shape_NarrowCapsule.uasset.
-[2017.10.09-18.03.46:058][700]LoadErrors: Error: /Game/Art/Geometry/Shape_NarrowCapsule : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
-[2017.10.09-18.03.46:058][700]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
-[2017.10.09-18.03.46:058][700]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Shape_NarrowCapsule.uasset.
-[2017.10.09-18.03.46:105][700]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
-[2017.10.09-18.03.46:105][700]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Shape_Pipe.uasset.
-[2017.10.09-18.03.46:105][700]LoadErrors: Error: /Game/Art/Geometry/Shape_Pipe : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
-[2017.10.09-18.03.46:105][700]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
-[2017.10.09-18.03.46:105][700]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Shape_Pipe.uasset.
-[2017.10.09-18.03.46:318][700]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
-[2017.10.09-18.03.46:319][700]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Pipe
-[2017.10.09-18.03.46:319][700]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
-[2017.10.09-18.03.46:320][700]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
-[2017.10.09-18.03.46:320][700]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_NarrowCapsule
-[2017.10.09-18.03.46:320][700]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
-[2017.10.09-18.03.46:474][700]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
-[2017.10.09-18.03.46:474][700]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
-[2017.10.09-18.03.46:474][700]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
-[2017.10.09-18.03.46:474][700]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
-[2017.10.09-18.03.46:474][700]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 512X64)
-[2017.10.09-18.03.46:474][700]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 256X8)
-[2017.10.09-18.03.46:666][700]LogMaterial: Missing cached shader map for material Lazar_Bolt, compiling. 
-[2017.10.09-18.03.46:969][700]LogAIModule: Creating AISystem for world BowCaster
-[2017.10.09-18.03.47:120][700]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.03.47:121][700]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.03.47:123][700]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.09-18.03.47:275][700]Cmd: MAP LOAD FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.09-18.03.47:275][700]LightingResults: New page: Lighting Build
-[2017.10.09-18.03.47:277][700]LoadErrors: New page: Loading map: BowCaster.umap
-[2017.10.09-18.03.47:277][700]MapCheck: New page: Map Check
-[2017.10.09-18.03.47:277][700]LightingResults: New page: Lighting Build
-[2017.10.09-18.03.47:339][700]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.03.47:342][700]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.03.47:477][700]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.09-18.03.47:546][700]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.09-18.03.47:595][700]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.558ms to complete.
-[2017.10.09-18.03.47:595][700]LogFileHelpers: Loading map 'BowCaster' took 0.335
-[2017.10.09-18.04.01:350][200]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Export/Forcefield_01.FBX]
-[2017.10.09-18.04.01:438][200]LogFbx: Loading FBX Scene from D:/OneDrive/UofT Projects/Export/Forcefield_01.FBX
-[2017.10.09-18.04.01:472][200]LogFbx: FBX Scene Loaded Succesfully
-[2017.10.09-18.04.01:525][200]LogFbx: Warning: Triangulating static mesh ForceField001
-[2017.10.09-18.04.01:661][200]LogStaticMesh: Building static mesh Forcefield_01...
-[2017.10.09-18.04.01:687][200]LogStaticMesh: Built static mesh [0.03s] /Game/Art/Geometry/Forcefield_01.Forcefield_01
-[2017.10.09-18.04.01:734][200]LogEditorFactories: -- imported successfully
-[2017.10.09-18.04.01:753][200]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2017.10.09-18.04.01:806][200]LogSlate: Took 0.000368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.09-18.05.12:371][178]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\OneDrive\UofT Projects\Export\Satellite_Middle_01.FBX)
-[2017.10.09-18.05.12:416][178]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.10.09-18.05.12:416][178]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2017.10.09-18.05.12:416][178]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2017.10.09-18.05.12:416][178]LogFbx: ItemName: Model, ItemCount : 51
-[2017.10.09-18.05.12:416][178]LogFbx: ItemName: NodeAttribute, ItemCount : 1
-[2017.10.09-18.05.12:416][178]LogFbx: ItemName: Geometry, ItemCount : 50
-[2017.10.09-18.05.12:416][178]LogFbx: ItemName: Material, ItemCount : 2
-[2017.10.09-18.05.12:425][178]LogFbx: Loading FBX Scene from D:\OneDrive\UofT Projects\Export\Satellite_Middle_01.FBX
-[2017.10.09-18.05.12:689][178]LogFbx: FBX Scene Loaded Succesfully
-[2017.10.09-18.05.47:058][178]LogFbx: Loading FBX Scene from D:\OneDrive\UofT Projects\Export\Satellite_Middle_01.FBX
-[2017.10.09-18.05.47:243][178]LogFbx: FBX Scene Loaded Succesfully
-[2017.10.09-18.05.47:244][178]LogFbx: Warning: Triangulating static mesh Box014
-[2017.10.09-18.05.47:248][178]LogFbx: Warning: Triangulating static mesh Cylinder008
-[2017.10.09-18.05.47:255][178]LogFbx: Warning: Triangulating static mesh Object035
-[2017.10.09-18.05.47:294][178]LogFbx: Warning: Triangulating static mesh Box031
-[2017.10.09-18.05.47:297][178]LogFbx: Warning: Triangulating static mesh Object016
-[2017.10.09-18.05.47:338][178]LogFbx: Warning: Triangulating static mesh Box015
-[2017.10.09-18.05.47:347][178]LogFbx: Warning: Triangulating static mesh Cylinder009
-[2017.10.09-18.05.47:361][178]LogFbx: Warning: Triangulating static mesh Cylinder010
-[2017.10.09-18.05.47:376][178]LogFbx: Warning: Triangulating static mesh Box037
-[2017.10.09-18.05.47:385][178]LogFbx: Warning: Triangulating static mesh Box024
-[2017.10.09-18.05.47:395][178]LogFbx: Warning: Triangulating static mesh Cylinder005
-[2017.10.09-18.05.47:403][178]LogFbx: Warning: Triangulating static mesh Box028
-[2017.10.09-18.05.47:412][178]LogFbx: Warning: Triangulating static mesh Box013
-[2017.10.09-18.05.47:415][178]LogFbx: Warning: Triangulating static mesh Box041
-[2017.10.09-18.05.47:418][178]LogFbx: Warning: Triangulating static mesh Object052
-[2017.10.09-18.05.47:454][178]LogFbx: Warning: Triangulating static mesh Box042
-[2017.10.09-18.05.47:458][178]LogFbx: Warning: Triangulating static mesh Object044
-[2017.10.09-18.05.47:497][178]LogFbx: Warning: Triangulating static mesh Box038
-[2017.10.09-18.05.47:499][178]LogFbx: Warning: Triangulating static mesh Cylinder004
-[2017.10.09-18.05.47:507][178]LogFbx: Warning: Triangulating static mesh Box026
-[2017.10.09-18.05.47:510][178]LogFbx: Warning: Triangulating static mesh Cylinder007
-[2017.10.09-18.05.47:516][178]LogFbx: Warning: Triangulating static mesh Box040
-[2017.10.09-18.05.47:527][178]LogFbx: Warning: Triangulating static mesh Box032
-[2017.10.09-18.05.47:935][178]LogStaticMesh: Building static mesh Satellite_Middle_01...
-[2017.10.09-18.05.50:629][178]LogStaticMesh: Built static mesh [2.69s] /Game/Art/Geometry/Satellite_Middle_01.Satellite_Middle_01
-[2017.10.09-18.05.51:544][178]LogStaticMesh: Warning: Satellite_Middle_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.10.09-18.05.51:881][178]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2017.10.09-18.05.51:881][178]FBXImport: Warning: Satellite_Middle_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2017.10.09-18.05.52:970][178]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\OneDrive\UofT Projects\Export\Satellite_Sides_01.FBX)
-[2017.10.09-18.05.55:663][178]LogFbx: Loading FBX Scene from D:\OneDrive\UofT Projects\Export\Satellite_Sides_01.FBX
-[2017.10.09-18.05.55:899][178]LogFbx: FBX Scene Loaded Succesfully
-[2017.10.09-18.05.55:902][178]LogFbx: Warning: Triangulating static mesh ForceField
-[2017.10.09-18.05.55:990][178]LogFbx: Warning: Triangulating static mesh Box006
-[2017.10.09-18.05.55:991][178]LogFbx: Warning: Triangulating static mesh Box006
-[2017.10.09-18.05.55:992][178]LogFbx: Warning: Triangulating static mesh ForceField001
-[2017.10.09-18.05.56:048][178]LogFbx: Warning: Triangulating static mesh Box014
-[2017.10.09-18.05.56:051][178]LogFbx: Warning: Triangulating static mesh Cylinder008
-[2017.10.09-18.05.56:058][178]LogFbx: Warning: Triangulating static mesh Object035
-[2017.10.09-18.05.56:097][178]LogFbx: Warning: Triangulating static mesh Box031
-[2017.10.09-18.05.56:100][178]LogFbx: Warning: Triangulating static mesh Object016
-[2017.10.09-18.05.56:141][178]LogFbx: Warning: Triangulating static mesh Box015
-[2017.10.09-18.05.56:150][178]LogFbx: Warning: Triangulating static mesh Cylinder009
-[2017.10.09-18.05.56:165][178]LogFbx: Warning: Triangulating static mesh Cylinder010
-[2017.10.09-18.05.56:179][178]LogFbx: Warning: Triangulating static mesh Box037
-[2017.10.09-18.05.56:190][178]LogFbx: Warning: Triangulating static mesh Box024
-[2017.10.09-18.05.56:200][178]LogFbx: Warning: Triangulating static mesh Cylinder005
-[2017.10.09-18.05.56:208][178]LogFbx: Warning: Triangulating static mesh Box028
-[2017.10.09-18.05.56:217][178]LogFbx: Warning: Triangulating static mesh Box013
-[2017.10.09-18.05.56:221][178]LogFbx: Warning: Triangulating static mesh Box041
-[2017.10.09-18.05.56:224][178]LogFbx: Warning: Triangulating static mesh Object052
-[2017.10.09-18.05.56:262][178]LogFbx: Warning: Triangulating static mesh Box042
-[2017.10.09-18.05.56:265][178]LogFbx: Warning: Triangulating static mesh Object044
-[2017.10.09-18.05.56:303][178]LogFbx: Warning: Triangulating static mesh Box038
-[2017.10.09-18.05.56:305][178]LogFbx: Warning: Triangulating static mesh Cylinder004
-[2017.10.09-18.05.56:311][178]LogFbx: Warning: Triangulating static mesh Box026
-[2017.10.09-18.05.56:315][178]LogFbx: Warning: Triangulating static mesh Cylinder007
-[2017.10.09-18.05.56:321][178]LogFbx: Warning: Triangulating static mesh Box040
-[2017.10.09-18.05.56:329][178]LogFbx: Warning: Triangulating static mesh Box032
-[2017.10.09-18.05.56:461][178]LogFbx: Warning: Triangulating static mesh Object011
-[2017.10.09-18.05.56:530][178]LogFbx: Warning: Triangulating static mesh Box007
-[2017.10.09-18.05.56:538][178]LogFbx: Warning: Triangulating static mesh Object008
-[2017.10.09-18.05.56:608][178]LogFbx: Warning: Triangulating static mesh Box008
-[2017.10.09-18.05.56:609][178]LogFbx: Warning: Triangulating static mesh Box029
-[2017.10.09-18.05.56:611][178]LogFbx: Warning: Triangulating static mesh Box034
-[2017.10.09-18.05.56:620][178]LogFbx: Warning: Triangulating static mesh Box009
-[2017.10.09-18.05.56:622][178]LogFbx: Warning: Triangulating static mesh Object041
-[2017.10.09-18.05.56:697][178]LogFbx: Warning: Triangulating static mesh Object040
-[2017.10.09-18.05.56:775][178]LogFbx: Warning: Triangulating static mesh Box045
-[2017.10.09-18.05.56:778][178]LogFbx: Warning: Triangulating static mesh Box043
-[2017.10.09-18.05.56:783][178]LogFbx: Warning: Triangulating static mesh Box044
-[2017.10.09-18.05.56:786][178]LogFbx: Warning: Triangulating static mesh Box052
-[2017.10.09-18.05.57:074][178]LogFbx: Warning: Triangulating static mesh Box053
-[2017.10.09-18.05.57:082][178]LogFbx: Warning: Triangulating static mesh Box054
-[2017.10.09-18.05.57:087][178]LogFbx: Warning: Triangulating static mesh Box046
-[2017.10.09-18.05.57:091][178]LogFbx: Warning: Triangulating static mesh Box047
-[2017.10.09-18.05.57:095][178]LogFbx: Warning: Triangulating static mesh Box048
-[2017.10.09-18.05.57:098][178]LogFbx: Warning: Triangulating static mesh Box049
-[2017.10.09-18.05.57:100][178]LogFbx: Warning: Triangulating static mesh Box050
-[2017.10.09-18.05.57:104][178]LogFbx: Warning: Triangulating static mesh Box051
-[2017.10.09-18.05.57:425][178]LogStaticMesh: Building static mesh Satellite_Sides_01...
-[2017.10.09-18.05.59:979][178]LogStaticMesh: Built static mesh [2.55s] /Game/Art/Geometry/Satellite_Sides_01.Satellite_Sides_01
-[2017.10.09-18.06.00:989][178]LogStaticMesh: Warning: Satellite_Sides_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.10.09-18.06.01:055][178]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2017.10.09-18.06.01:055][178]FBXImport: Warning: Satellite_Sides_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2017.10.09-18.06.14:564][458]LogActorFactory: Actor Factory created Satellite_Middle_01
-[2017.10.09-18.06.14:566][458]LogActorFactory: Actor Factory created Satellite_Sides_01
-[2017.10.09-18.06.19:092][726]LogActorFactory: Actor Factory created Satellite_Middle_01
-[2017.10.09-18.06.19:779][726]LogActorFactory: Actor Factory created Satellite_Sides_01
-[2017.10.09-18.06.20:609][738]Cmd: TRANSACTION UNDO
-[2017.10.09-18.06.20:609][738]LogEditorTransaction: Undo Create Actors
-[2017.10.09-18.06.23:733][785]LogActorFactory: Actor Factory created Satellite_Middle_01
-[2017.10.09-18.06.25:038][861]LogActorFactory: Actor Factory created Satellite_Middle_01
-[2017.10.09-18.06.42:311][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
-[2017.10.09-18.07.08:107][102]LogEditorFactories: Performing atomic reimport of [D:/OneDrive/UofT Projects/Export/Satellite_Sides_01.FBX]
-[2017.10.09-18.07.08:157][102]LogFbx: Loading FBX Scene from D:/OneDrive/UofT Projects/Export/Satellite_Sides_01.FBX
-[2017.10.09-18.07.08:185][102]LogFbx: FBX Scene Loaded Succesfully
-[2017.10.09-18.07.08:284][102]LogFbx: Warning: Triangulating static mesh Object011
-[2017.10.09-18.07.08:353][102]LogFbx: Warning: Triangulating static mesh Box007
-[2017.10.09-18.07.08:361][102]LogFbx: Warning: Triangulating static mesh Object008
-[2017.10.09-18.07.08:432][102]LogFbx: Warning: Triangulating static mesh Box008
-[2017.10.09-18.07.08:433][102]LogFbx: Warning: Triangulating static mesh Box029
-[2017.10.09-18.07.08:434][102]LogFbx: Warning: Triangulating static mesh Box034
-[2017.10.09-18.07.08:443][102]LogFbx: Warning: Triangulating static mesh Box009
-[2017.10.09-18.07.08:444][102]LogFbx: Warning: Triangulating static mesh Object041
-[2017.10.09-18.07.08:512][102]LogFbx: Warning: Triangulating static mesh Object040
-[2017.10.09-18.07.08:581][102]LogFbx: Warning: Triangulating static mesh Box045
-[2017.10.09-18.07.08:584][102]LogFbx: Warning: Triangulating static mesh Box043
-[2017.10.09-18.07.08:588][102]LogFbx: Warning: Triangulating static mesh Box044
-[2017.10.09-18.07.08:590][102]LogFbx: Warning: Triangulating static mesh Box052
-[2017.10.09-18.07.08:593][102]LogFbx: Warning: Triangulating static mesh Box053
-[2017.10.09-18.07.08:597][102]LogFbx: Warning: Triangulating static mesh Box054
-[2017.10.09-18.07.08:600][102]LogFbx: Warning: Triangulating static mesh Box046
-[2017.10.09-18.07.08:603][102]LogFbx: Warning: Triangulating static mesh Box047
-[2017.10.09-18.07.08:608][102]LogFbx: Warning: Triangulating static mesh Box048
-[2017.10.09-18.07.08:610][102]LogFbx: Warning: Triangulating static mesh Box049
-[2017.10.09-18.07.08:613][102]LogFbx: Warning: Triangulating static mesh Box050
-[2017.10.09-18.07.08:617][102]LogFbx: Warning: Triangulating static mesh Box051
-[2017.10.09-18.07.08:660][102]LogStaticMesh: Building static mesh Satellite_Sides_01...
-[2017.10.09-18.07.08:752][102]LogStaticMesh: Built static mesh [0.09s] /Game/Art/Geometry/Satellite_Sides_01.Satellite_Sides_01
-[2017.10.09-18.07.08:773][102]LogStaticMesh: Warning: Satellite_Sides_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.10.09-18.07.08:783][102]LogEditorFactories: -- imported successfully
-[2017.10.09-18.07.08:788][102]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2017.10.09-18.07.08:788][102]FBXImport: Warning: Satellite_Sides_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2017.10.09-18.07.09:822][123]LogActorFactory: Actor Factory created Satellite_Sides_01
-[2017.10.09-18.07.10:608][138]LogActorFactory: Actor Factory created Satellite_Sides_01
-[2017.10.09-18.07.41:671][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BowCaster" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.09-18.07.41:805][636]LogSavePackage: Save=93.71ms
-[2017.10.09-18.07.41:805][636]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/BowCasterCB9371474ED69505151D3B9A0FC0EE8F.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap'
-[2017.10.09-18.07.41:817][636]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap
-[2017.10.09-18.07.41:865][636]LogFileHelpers: Saving map 'BowCaster' took 0.240
-[2017.10.09-18.07.41:893][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Geometry/Satellite_Middle_01" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Satellite_Middle_01.uasset" SILENT=true
-[2017.10.09-18.07.41:936][636]LogSavePackage: Save=40.30ms
-[2017.10.09-18.07.41:936][636]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Satellite_Middle_019C5FD2354AFB06814BCAAB992255FC1D.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Satellite_Middle_01.uasset'
-[2017.10.09-18.07.41:939][636]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Satellite_Middle_01.uasset
-[2017.10.09-18.07.41:957][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Geometry/Satellite_Sides_01" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Satellite_Sides_01.uasset" SILENT=true
-[2017.10.09-18.07.41:975][636]LogSavePackage: Save=15.34ms
-[2017.10.09-18.07.41:975][636]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Satellite_Sides_016CCAD18B4B8D8855D42F4F92E3C5F41E.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Satellite_Sides_01.uasset'
-[2017.10.09-18.07.41:979][636]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Satellite_Sides_01.uasset
-[2017.10.09-18.07.41:997][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Geometry/Forcefield_01" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset" SILENT=true
-[2017.10.09-18.07.42:041][636]LogSavePackage: Save=20.17ms
-[2017.10.09-18.07.42:041][636]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/Forcefield_014EF5E35E4FAFF60F77116CA95CB61890.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset'
-[2017.10.09-18.07.42:045][636]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Forcefield_01.uasset
-[2017.10.09-18.07.52:597][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Satellite_Middle_01)
-[2017.10.09-18.08.00:945][756]Cmd: TRANSACTION UNDO
-[2017.10.09-18.08.00:945][756]LogEditorTransaction: Undo Rotate Actors
-[2017.10.09-18.08.14:458][284]MapCheck: New page: Map Check
-[2017.10.09-18.08.14:847][284]Cmd: MAP REBUILD ALLVISIBLE
-[2017.10.09-18.08.14:847][284]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.10.09-18.08.14:943][284]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.08.14:946][284]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.08.14:965][284]LightingResults: New page: Lighting Build - Oct 9, 2017, 10:08:14 AM
-[2017.10.09-18.08.15:156][284]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.10.09-18.08.15:286][284]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.10.09-18.08.15:301][284]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.10.09-18.08.16:330][284]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.10.09-18.08.16:330][284]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20132
-[2017.10.09-18.08.18:738][284]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.10.09-18.08.18:738][284]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.10.09-18.08.18:738][284]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.10.09-18.08.18:738][284]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.10.09-18.08.18:738][284]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.10.09-18.08.18:738][284]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.10.09-18.08.20:052][284]LogEditorBuildUtils: Build time 0:05
-[2017.10.09-18.08.20:061][284]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Forcefield, compiling. 
-[2017.10.09-18.08.20:068][284]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Forcefield, compiling. 
-[2017.10.09-18.08.20:153][285]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Sky, compiling. 
-[2017.10.09-18.08.20:160][285]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Sky, compiling. 
-[2017.10.09-18.08.23:215][325]LightingResults: Warning: Forcefield_01 Object has overlapping UVs.
-[2017.10.09-18.08.23:215][325]LightingResults: Forcefield_01 Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.09-18.08.23:266][326]LightingResults: Warning: Forcefield_01 Object has overlapping UVs.
-[2017.10.09-18.08.23:266][326]LightingResults: Forcefield_01 Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.09-18.08.23:518][331]LightingResults: Warning: Satellite_Sides_01 Object has overlapping UVs.
-[2017.10.09-18.08.23:518][331]LightingResults: Satellite_Sides_01 Lightmap UV are overlapping by 34.6%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.09-18.08.26:085][390]LightingResults: Warning: Satellite_Middle_01 Object has overlapping UVs.
-[2017.10.09-18.08.26:085][390]LightingResults: Satellite_Middle_01 Lightmap UV are overlapping by 82.6%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.09-18.08.26:136][392]Job is a success!
-[2017.10.09-18.08.26:618][393]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
-[2017.10.09-18.08.26:618][393]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
-[2017.10.09-18.08.26:618][393]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
-[2017.10.09-18.08.26:618][393]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
-[2017.10.09-18.08.26:618][393]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 256X8)
-[2017.10.09-18.08.26:618][393]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X64)
-[2017.10.09-18.08.26:759][393]Lightmass on MSI: 4.83 sec total, 410 ms importing, 204 ms setup, 470 ms photons, 3.69 sec processing, 0 ms extra exporting [29/29 mappings]. Threads: 25.7 sec total, 3.99 sec processing.
-[2017.10.09-18.08.26:910][393]LogStaticLightingSystem: Illumination: 11.8 sec (82 ms encoding lightmaps, 22 ms encoding shadowmaps)
-[2017.10.09-18.08.26:910][393]LogStaticLightingSystem: Lightmap texture memory:  0.6 MB (0.5 MB streaming, 0.1 MB non-streaming), 4 textures
-[2017.10.09-18.08.26:910][393]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.10.09-18.08.27:790][393]DumpUnbuiltLightIteractions
-[2017.10.09-18.08.27:790][393]Lights with unbuilt interactions: 0
-[2017.10.09-18.08.27:790][393]
-[2017.10.09-18.08.27:791][393]Primitives with unbuilt interactions: 0
-[2017.10.09-18.08.27:822][394]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.10.09-18.08.27:823][394]MapCheck: New page: BowCaster - Oct 9, 2017, 10:08:27 AM
-[2017.10.09-18.08.28:018][394]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 195.806ms to complete.
-[2017.10.09-18.08.33:350][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Forcefield_2)
-[2017.10.09-18.08.47:121][365]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Satellite_Middle_01)
-[2017.10.09-18.08.59:443][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Satellite_Sides_01)
-[2017.10.09-18.09.08:799][338]MapCheck: New page: Map Check
-[2017.10.09-18.09.08:836][338]Cmd: MAP REBUILD ALLVISIBLE
-[2017.10.09-18.09.08:836][338]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.10.09-18.09.08:853][338]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.09.08:855][338]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.09.08:856][338]LightingResults: New page: Lighting Build - Oct 9, 2017, 10:09:08 AM
-[2017.10.09-18.09.08:864][338]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.10.09-18.09.08:867][338]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.10.09-18.09.08:867][338]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.10.09-18.09.08:868][338]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.10.09-18.09.08:868][338]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20132
-[2017.10.09-18.09.13:400][338]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.10.09-18.09.13:400][338]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.10.09-18.09.13:400][338]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.10.09-18.09.13:400][338]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.10.09-18.09.13:400][338]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.10.09-18.09.13:400][338]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.10.09-18.09.13:583][338]LogEditorBuildUtils: Build time 0:04
-[2017.10.09-18.09.19:655][467]LightingResults: Warning: Forcefield_01 Object has overlapping UVs.
-[2017.10.09-18.09.19:655][467]LightingResults: Forcefield_01 Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.09-18.09.19:726][468]LightingResults: Warning: Forcefield_01 Object has overlapping UVs.
-[2017.10.09-18.09.19:726][468]LightingResults: Forcefield_01 Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.09-18.09.29:851][691]LightingResults: Warning: Satellite_Middle_01 Object has overlapping UVs.
-[2017.10.09-18.09.29:851][691]LightingResults: Satellite_Middle_01 Lightmap UV are overlapping by 35.2%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.09-18.09.38:352][854]LightingResults: Warning: Satellite_Sides_01 Object has overlapping UVs.
-[2017.10.09-18.09.38:352][854]LightingResults: Satellite_Sides_01 Lightmap UV are overlapping by 32.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.09-18.09.39:642][880]Job is a success!
-[2017.10.09-18.09.41:826][881]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
-[2017.10.09-18.09.41:826][881]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
-[2017.10.09-18.09.41:826][881]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
-[2017.10.09-18.09.41:826][881]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
-[2017.10.09-18.09.41:826][881]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
-[2017.10.09-18.09.41:826][881]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
-[2017.10.09-18.09.42:026][881]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X64)
-[2017.10.09-18.09.42:026][881]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 256X8)
-[2017.10.09-18.09.42:177][881]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
-[2017.10.09-18.09.42:177][881]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
-[2017.10.09-18.09.42:266][881]Lightmass on MSI: 28.0 sec total, 376 ms importing, 189 ms setup, 4.50 sec photons, 22.9 sec processing, 0 ms extra exporting [29/29 mappings]. Threads: 2:40 min total, 31.4 sec processing.
-[2017.10.09-18.09.42:438][881]LogStaticLightingSystem: Illumination: 33.4 sec (1.63 sec encoding lightmaps, 348 ms encoding shadowmaps)
-[2017.10.09-18.09.42:438][881]LogStaticLightingSystem: Lightmap texture memory:  8.6 MB (8.5 MB streaming, 0.1 MB non-streaming), 6 textures
-[2017.10.09-18.09.42:438][881]LogStaticLightingSystem: Shadowmap texture memory: 2.8 MB (2.8 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.10.09-18.09.43:418][881]DumpUnbuiltLightIteractions
-[2017.10.09-18.09.43:418][881]Lights with unbuilt interactions: 0
-[2017.10.09-18.09.43:418][881]
-[2017.10.09-18.09.43:418][881]Primitives with unbuilt interactions: 0
-[2017.10.09-18.09.43:444][882]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.10.09-18.09.43:445][882]MapCheck: New page: BowCaster - Oct 9, 2017, 10:09:43 AM
-[2017.10.09-18.09.43:575][882]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 130.353ms to complete.
-[2017.10.09-18.09.50:202][151]Cmd: SELECT NONE
-[2017.10.09-18.10.12:198][400]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.10.09-18.11.16:792][429]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bowcaster
-[2017.10.09-18.11.16:793][429]LogTemp: CWD: D:\Program Files\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.10.09-18.11.16:793][429]LogTemp: Initial Dir: D:\Program Files\UE_4.17
-[2017.10.09-18.11.16:793][429]LogTemp: Env CWD: D:\Program Files\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.10.09-18.11.16:793][429]LogTemp: BranchPath = MSI/D/Program Files/UE_4.17/Engine/Binaries --- GameBranchPath = MSI/D/Program Files/UE_4.17/Engine/Binaries
-[2017.10.09-18.11.16:793][429]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\aidan\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2017.10.09-18.11.54:789][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.10.09-18.12.14:588][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
-[2017.10.09-18.12.17:598][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.10.09-18.12.24:282][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
-[2017.10.09-18.12.28:162][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2017.10.09-18.12.30:637][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
-[2017.10.09-18.12.33:024][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
-[2017.10.09-18.12.39:342][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
-[2017.10.09-18.12.53:789][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Satellite_Sides_01)
-[2017.10.09-18.12.55:289][542]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
-[2017.10.09-18.12.58:687][706]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.58:703][707]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.58:720][708]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.58:753][710]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.58:837][715]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.58:854][716]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.58:871][717]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.58:888][718]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.58:904][719]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.58:921][720]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.58:937][721]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:004][725]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:020][726]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:037][727]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:054][728]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:070][729]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:253][740]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:270][741]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:287][742]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:304][743]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:320][744]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:337][745]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:353][746]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:388][748]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:403][749]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:421][750]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:653][764]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:670][765]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:687][766]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:704][767]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.12.59:903][779]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.13.00:607][820]Cmd: TRANSACTION UNDO
-[2017.10.09-18.13.00:607][820]LogEditorTransaction: Undo Move Actors
-[2017.10.09-18.13.00:610][820]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.13.00:611][820]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.13.04:182][917]Cmd: SELECT NONE
-[2017.10.09-18.13.15:154][451]MapCheck: New page: Map Check
-[2017.10.09-18.13.15:186][451]Cmd: MAP REBUILD ALLVISIBLE
-[2017.10.09-18.13.15:186][451]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.10.09-18.13.15:201][451]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.13.15:202][451]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
-[2017.10.09-18.13.15:203][451]LightingResults: New page: Lighting Build - Oct 9, 2017, 10:13:15 AM
-[2017.10.09-18.13.15:210][451]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.10.09-18.13.15:213][451]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.10.09-18.13.15:213][451]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.10.09-18.13.15:214][451]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.10.09-18.13.15:214][451]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20132
-[2017.10.09-18.13.19:729][451]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.10.09-18.13.19:729][451]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.10.09-18.13.19:729][451]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.10.09-18.13.19:729][451]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.10.09-18.13.19:729][451]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.10.09-18.13.19:729][451]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.10.09-18.13.20:040][451]LogEditorBuildUtils: Build time 0:04
-[2017.10.09-18.13.26:022][585]LightingResults: Warning: Forcefield_01 Object has overlapping UVs.
-[2017.10.09-18.13.26:022][585]LightingResults: Forcefield_01 Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.09-18.13.26:093][587]LightingResults: Warning: Forcefield_01 Object has overlapping UVs.
-[2017.10.09-18.13.26:093][587]LightingResults: Forcefield_01 Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.09-18.13.36:022][777]LightingResults: Warning: Satellite_Middle_01 Object has overlapping UVs.
-[2017.10.09-18.13.36:022][777]LightingResults: Satellite_Middle_01 Lightmap UV are overlapping by 35.2%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.09-18.13.44:962][919]LightingResults: Warning: Satellite_Sides_01 Object has overlapping UVs.
-[2017.10.09-18.13.44:962][919]LightingResults: Satellite_Sides_01 Lightmap UV are overlapping by 32.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.10.09-18.13.46:061][941]Job is a success!
-[2017.10.09-18.13.48:408][942]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
-[2017.10.09-18.13.48:408][942]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048)
-[2017.10.09-18.13.48:408][942]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048)
-[2017.10.09-18.13.48:408][942]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
-[2017.10.09-18.13.48:408][942]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
-[2017.10.09-18.13.48:408][942]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
-[2017.10.09-18.13.48:408][942]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 256X128)
-[2017.10.09-18.13.48:408][942]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
-[2017.10.09-18.13.48:408][942]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
-[2017.10.09-18.13.48:608][942]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X64)
-[2017.10.09-18.13.48:608][942]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 256X8)
-[2017.10.09-18.13.48:726][942]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 1024X1024)
-[2017.10.09-18.13.48:726][942]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X1024)
-[2017.10.09-18.13.48:820][942]Lightmass on MSI: 28.1 sec total, 363 ms importing, 203 ms setup, 4.51 sec photons, 23.0 sec processing, 0 ms extra exporting [29/29 mappings]. Threads: 2:41 min total, 31.0 sec processing.
-[2017.10.09-18.13.49:015][942]LogStaticLightingSystem: Illumination: 33.6 sec (1.83 sec encoding lightmaps, 316 ms encoding shadowmaps)
-[2017.10.09-18.13.49:015][942]LogStaticLightingSystem: Lightmap texture memory:  11.5 MB (11.3 MB streaming, 0.2 MB non-streaming), 6 textures
-[2017.10.09-18.13.49:016][942]LogStaticLightingSystem: Shadowmap texture memory: 2.8 MB (2.8 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.10.09-18.13.53:743][942]DumpUnbuiltLightIteractions
-[2017.10.09-18.13.53:743][942]Lights with unbuilt interactions: 0
-[2017.10.09-18.13.53:743][942]
-[2017.10.09-18.13.53:743][942]Primitives with unbuilt interactions: 0
-[2017.10.09-18.13.53:764][943]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.10.09-18.13.53:764][943]MapCheck: New page: BowCaster - Oct 9, 2017, 10:13:53 AM
-[2017.10.09-18.13.53:921][943]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 156.58ms to complete.
-[2017.10.09-18.14.07:154][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BowCaster" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.09-18.14.07:271][499]LogSavePackage: Save=87.02ms
-[2017.10.09-18.14.07:271][499]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/BowCaster584DD1C644D7C09E9274F89842C0DCC8.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap'
-[2017.10.09-18.14.07:276][499]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap
-[2017.10.09-18.14.07:320][499]LogFileHelpers: Saving map 'BowCaster' took 0.208
-[2017.10.09-18.14.07:323][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BowCaster_BuiltData" FILE="C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset" SILENT=true
-[2017.10.09-18.14.07:746][499]LogSavePackage: Save=403.39ms
-[2017.10.09-18.14.07:746][499]LogSavePackage: Moving 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Saved/BowCaster_BuiltDataE5F82F564CCC052512A12B888FD994DF.tmp' to 'C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset'
-[2017.10.09-18.14.07:750][499]LogSavePackage: Display: Finished SavePackage C:/Users/aidan/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster_BuiltData.uasset
+[2017.10.09-18.25.15:018][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.09-18.25.15:018][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.09-18.25.15:037][  0]LogInit: Computer: DESKTOP-JT6PUOV
+[2017.10.09-18.25.15:037][  0]LogInit: User: Timothy
+[2017.10.09-18.25.15:037][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.10.09-18.25.15:037][  0]LogInit: High frequency timer resolution =2.533208 MHz
+[2017.10.09-18.25.15:037][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2017.10.09-18.25.15:037][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.09-18.25.15:037][  0]LogMemory: Process Physical Memory: 277.68 MB used, 277.68 MB peak
+[2017.10.09-18.25.15:037][  0]LogMemory: Process Virtual Memory: 273.82 MB used, 273.82 MB peak
+[2017.10.09-18.25.15:037][  0]LogMemory: Physical Memory: 5756.72 MB used,  2122.05 MB free, 7878.77 MB total
+[2017.10.09-18.25.15:037][  0]LogMemory: Virtual Memory: 664.86 MB used,  2122.05 MB free, 134217728.00 MB total
+[2017.10.09-18.25.15:289][  0]LogInit: Using OS detected language (en-US).
+[2017.10.09-18.25.15:289][  0]LogInit: Using OS detected locale (en-CA).
+[2017.10.09-18.25.15:293][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.09-18.25.16:138][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.09-18.25.16:144][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.10.09-18.25.16:144][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.10.09-18.25.16:145][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.09-18.25.16:145][  0]LogD3D11RHI:       0/0/3939 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.09-18.25.16:145][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.09-18.25.16:150][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.09-18.25.16:150][  0]LogD3D11RHI:     GPU DeviceId: 0x416 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.09-18.25.16:150][  0]LogWindows: EnumDisplayDevices:
+[2017.10.09-18.25.16:150][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.10.09-18.25.16:150][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.09-18.25.16:150][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.09-18.25.16:151][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.10.09-18.25.16:151][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4600
+[2017.10.09-18.25.16:151][  0]LogD3D11RHI:   Driver Version: 20.19.15.4531 (internal:20.19.15.4531, unified:20.19.15.4531)
+[2017.10.09-18.25.16:151][  0]LogD3D11RHI:      Driver Date: 9-29-2016
+[2017.10.09-18.25.16:151][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
+[2017.10.09-18.25.16:157][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.09-18.25.16:161][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.10.09-18.25.16:162][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Intermediate/Shaders/WorkingDirectory/5400/).
+[2017.10.09-18.25.16:162][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Timothy/AppData/Local/Temp/UnrealShaderWorkingDir/76F1C7F84159C71E58E65FA008BD3224/'.
+[2017.10.09-18.25.16:162][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.09-18.25.17:175][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.09-18.25.17:228][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.09-18.25.17:281][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.09-18.25.17:333][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.09-18.25.17:388][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.09-18.25.17:444][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.09-18.25.17:500][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.09-18.25.17:553][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.09-18.25.17:597][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.09-18.25.17:646][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.09-18.25.17:698][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.09-18.25.17:751][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.09-18.25.17:800][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.09-18.25.17:851][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.09-18.25.17:901][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.09-18.25.18:000][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.09-18.25.18:000][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.09-18.25.18:038][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.09-18.25.18:133][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.09-18.25.18:163][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.09-18.25.18:211][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.09-18.25.18:263][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.09-18.25.18:313][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.09-18.25.18:367][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.09-18.25.18:367][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.09-18.25.18:854][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.09-18.25.18:961][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/Timothy/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.09-18.25.18:961][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Timothy/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.09-18.25.18:961][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.09-18.25.18:961][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.09-18.25.18:961][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.09-18.25.18:961][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.09-18.25.18:980][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.09-18.25.18:992][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Timothy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.09-18.25.19:003][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.09-18.25.19:004][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.09-18.25.19:004][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.09-18.25.19:004][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.09-18.25.19:290][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2017.10.09-18.25.19:452][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.09-18.25.19:894][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.09-18.25.19:945][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.09-18.25.19:945][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.09-18.25.19:945][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.09-18.25.19:945][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.09-18.25.19:945][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.09-18.25.19:947][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.09-18.25.20:484][  0]LogNetVersion: Bowcaster , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4119434037)
+[2017.10.09-18.25.20:750][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.057164 seconds
+[2017.10.09-18.25.20:758][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.09-18.25.20:758][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.09-18.25.20:758][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.09-18.25.20:835][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.09-18.25.23:823][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.09-18.25.23:868][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.09-18.25.24:600][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.09-18.25.25:086][  0]SourceControl: Source control is disabled
+[2017.10.09-18.25.26:225][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.09-18.25.26:539][  0]LogOcInput: OculusInput pre-init called
+[2017.10.09-18.25.26:802][  0]LogEngine: Initializing Engine...
+[2017.10.09-18.25.26:804][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.09-18.25.27:062][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.09-18.25.27:062][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.09-18.25.27:191][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.09-18.25.27:197][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-18.25.27:212][  0]LogInit: FAudioDevice initialized.
+[2017.10.09-18.25.27:307][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/Timothy/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.09-18.25.27:324][  0]LogInit: Texture streaming: Enabled
+[2017.10.09-18.25.27:440][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.09-18.25.27:659][  0]LogInit: Transaction tracking system initialized
+[2017.10.09-18.25.27:970][  0]BlueprintLog: New page: Editor Load
+[2017.10.09-18.25.28:855][  0]LocalizationService: Localization service is disabled
+[2017.10.09-18.25.29:558][  0]LogConsoleResponse: Display: 
+[2017.10.09-18.25.29:783][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.09-18.25.29:784][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.09-18.25.29:784][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.09-18.25.30:029][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/' took 0.01s
+[2017.10.09-18.25.30:865][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.09-18.25.30:865][  0]LightingResults: New page: Lighting Build
+[2017.10.09-18.25.30:907][  0]MapCheck: New page: Map Check
+[2017.10.09-18.25.30:907][  0]LightingResults: New page: Lighting Build
+[2017.10.09-18.25.31:115][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.09-18.25.31:121][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.09-18.25.31:141][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.09-18.25.31:192][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.551ms to complete.
+[2017.10.09-18.25.31:192][  0]LogFileHelpers: Loading map 'Template_Default' took 0.327
+[2017.10.09-18.25.31:457][  0]LogCollectionManager: Loaded 0 collections in 0.003114 seconds
+[2017.10.09-18.25.31:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Saved/Collections/' took 0.01s
+[2017.10.09-18.25.31:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Developers/Timothy/Collections/' took 0.01s
+[2017.10.09-18.25.31:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Collections/' took 0.01s
+[2017.10.09-18.25.31:567][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.09-18.25.31:584][  0]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 2386 classes and 500 folders.
+[2017.10.09-18.25.31:700][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.10.09-18.25.31:781][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.10.09-18.25.31:853][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.10.09-18.25.31:883][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.09-18.25.31:885][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.09-18.25.31:895][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.09-18.25.32:023][  0]LogRenderer: Reallocating scene render targets to support 1004x464 Format 10 NumSamples 1 (Frame:1).
+[2017.10.09-18.25.32:484][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.09-18.25.32:484][  0]LogLoad: (Engine Initialization) Total time: 19.28 seconds
+[2017.10.09-18.25.32:484][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.09-18.25.32:484][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.09-18.25.32:504][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.09-18.25.32:521][  0]SourceControl: On branch Level-Update
+[2017.10.09-18.25.32:521][  0]SourceControl: Your branch is up-to-date with 'origin/Level-Update'.
+[2017.10.09-18.25.32:521][  0]SourceControl: You have unmerged paths.
+[2017.10.09-18.25.32:521][  0]SourceControl:   (fix conflicts and run "git commit")
+[2017.10.09-18.25.32:521][  0]SourceControl:   (use "git merge --abort" to abort the merge)
+[2017.10.09-18.25.32:521][  0]SourceControl: Changes to be committed:
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   .gitignore
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Content/Blueprints/Player.uasset
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Content/HUD/InGameHUD.uasset
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/Compat.ini
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/DeviceProfiles.ini
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/Editor.ini
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/EditorKeyBindings.ini
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/EditorPerProjectUserSettings.ini
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/EditorSettings.ini
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/Hardware.ini
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/Lightmass.ini
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/OculusVR.ini
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/Paper2D.ini
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/PhysXVehicles.ini
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/Scalability.ini
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Saved/AutoScreenshot.png
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto3.uasset
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Saved/Autosaves/Game/Blueprints/Player_Auto5.uasset
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Saved/Autosaves/Game/HUD/InGameHUD_Auto2.uasset
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto1.umap
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto3.umap
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto4.umap
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_Auto5.umap
+[2017.10.09-18.25.32:521][  0]SourceControl: 	modified:   Bowcaster/Saved/Autosaves/Game/Levels/BowCaster_BuiltData_Auto1.uasset
+[2017.10.09-18.25.32:521][  0]SourceControl: Unmerged paths:
+[2017.10.09-18.25.32:521][  0]SourceControl:   (use "git add <file>..." to mark resolution)
+[2017.10.09-18.25.32:521][  0]SourceControl: 	both modified:   Bowcaster/Content/Levels/BowCaster.umap
+[2017.10.09-18.25.32:521][  0]SourceControl: 	both modified:   Bowcaster/Content/Levels/BowCaster_BuiltData.uasset
+[2017.10.09-18.25.32:521][  0]SourceControl: 	both modified:   Bowcaster/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.10.09-18.25.32:522][  0]SourceControl: 	both modified:   Bowcaster/Saved/Config/Windows/Editor.ini
+[2017.10.09-18.25.32:522][  0]SourceControl: 	both modified:   Bowcaster/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.10.09-18.25.32:522][  0]SourceControl: Changes not staged for commit:
+[2017.10.09-18.25.32:522][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.10.09-18.25.32:522][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.10.09-18.25.32:522][  0]SourceControl: 	modified:   Bowcaster/Intermediate/CachedAssetRegistry.bin
+[2017.10.09-18.25.32:522][  0]SourceControl: 	modified:   Bowcaster/Saved/Config/Windows/Engine.ini
+[2017.10.09-18.25.32:522][  0]SourceControl: 	modified:   Bowcaster/Saved/Logs/Bowcaster.log
+[2017.10.09-18.25.32:522][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.09-18.25.32:566][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.09-18.25.32:607][  1]LogAssetRegistry: Asset discovery search completed in 13.3383 seconds
+[2017.10.09-18.25.32:609][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.09-18.25.32:609][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2017.10.09-18.25.38:175][146]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.09-18.25.38:229][146]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2017.10.09-18.25.38:229][146]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Shape_NarrowCapsule.uasset.
+[2017.10.09-18.25.38:229][146]LoadErrors: Error: /Game/Art/Geometry/Shape_NarrowCapsule : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2017.10.09-18.25.38:229][146]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2017.10.09-18.25.38:229][146]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Shape_NarrowCapsule.uasset.
+[2017.10.09-18.25.38:246][146]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2017.10.09-18.25.38:246][146]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Shape_Pipe.uasset.
+[2017.10.09-18.25.38:246][146]LoadErrors: Error: /Game/Art/Geometry/Shape_Pipe : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2017.10.09-18.25.38:247][146]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2017.10.09-18.25.38:247][146]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Art/Geometry/Shape_Pipe.uasset.
+[2017.10.09-18.25.38:343][146]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2017.10.09-18.25.38:343][146]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2017.10.09-18.25.38:344][146]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Pipe
+[2017.10.09-18.25.38:344][146]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2017.10.09-18.25.38:347][146]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2017.10.09-18.25.38:347][146]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_NarrowCapsule
+[2017.10.09-18.25.38:347][146]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2017.10.09-18.25.41:936][146]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048)
+[2017.10.09-18.25.41:936][146]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2017.10.09-18.25.41:936][146]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048)
+[2017.10.09-18.25.41:936][146]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2017.10.09-18.25.41:936][146]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2017.10.09-18.25.41:936][146]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2017.10.09-18.25.41:936][146]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2017.10.09-18.25.41:936][146]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 256X128)
+[2017.10.09-18.25.41:936][146]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X1024)
+[2017.10.09-18.25.41:936][146]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 1024X1024)
+[2017.10.09-18.25.41:936][146]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X64)
+[2017.10.09-18.25.41:936][146]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 256X8)
+[2017.10.09-18.25.41:939][146]LogStaticMesh: Building static mesh Satellite_Sides_01...
+[2017.10.09-18.25.42:050][146]LogStaticMesh: Built static mesh [0.11s] /Game/Art/Geometry/Satellite_Sides_01.Satellite_Sides_01
+[2017.10.09-18.25.42:068][146]LogStaticMesh: Building static mesh Satellite_Middle_01...
+[2017.10.09-18.25.44:915][146]LogStaticMesh: Built static mesh [2.85s] /Game/Art/Geometry/Satellite_Middle_01.Satellite_Middle_01
+[2017.10.09-18.25.45:840][146]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.09-18.25.45:859][146]LogStaticMesh: Building static mesh Forcefield_01...
+[2017.10.09-18.25.45:866][146]LogStaticMesh: Built static mesh [0.01s] /Game/Art/Geometry/Forcefield_01.Forcefield_01
+[2017.10.09-18.25.45:991][146]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.09-18.25.46:009][146]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-18.25.46:011][146]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-18.25.46:050][146]Cmd: MAP LOAD FILE="../../../../../../Users/Timothy/Documents/GitHub/csc404-group3/Bowcaster/Content/Levels/BowCaster.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.09-18.25.46:051][146]LightingResults: New page: Lighting Build
+[2017.10.09-18.25.46:051][146]LoadErrors: New page: Loading map: BowCaster.umap
+[2017.10.09-18.25.46:052][146]MapCheck: New page: Map Check
+[2017.10.09-18.25.46:052][146]LightingResults: New page: Lighting Build
+[2017.10.09-18.25.46:072][146]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player2_457.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-18.25.46:073][146]PIE: Warning: AttachTo: '/Game/Levels/BowCaster.BowCaster:PersistentLevel.Player_587.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-18.25.46:074][146]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.09-18.25.46:146][146]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.09-18.25.46:203][146]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.713ms to complete.
+[2017.10.09-18.25.46:204][146]LogFileHelpers: Loading map 'BowCaster' took 0.155
+[2017.10.09-18.26.37:703][684]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.09-18.26.37:754][684]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BowCaster.BowCaster:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BowCaster.BowCaster:PersistentLevel.BowCaster' with GeneratedClass '/Game/Levels/BowCaster.BowCaster_C' with ClassGeneratedBy '/Game/Levels/BowCaster.BowCaster:PersistentLevel.BowCaster'
+[2017.10.09-18.26.37:754][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-18.26.37:754][684]PIE: New page: PIE session: BowCaster (Oct 9, 2017, 10:26:37 AM)
+[2017.10.09-18.26.37:754][684]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BowCaster
+[2017.10.09-18.26.37:759][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005195s)
+[2017.10.09-18.26.37:760][684]LogAIModule: Creating AISystem for world BowCaster
+[2017.10.09-18.26.37:760][684]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2017.10.09-18.26.37:760][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BowCaster.BowCaster to /Game/Levels/UEDPIE_0_BowCaster.BowCaster (0.006251s)
+[2017.10.09-18.26.37:777][684]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.09-18.26.37:793][684]LogInit: FAudioDevice initialized.
+[2017.10.09-18.26.37:848][684]LogLoad: Game class is 'BowCasterGameMode_C'
+[2017.10.09-18.26.37:852][684]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BowCaster.BowCaster up for play (max tick rate 0) at 2017.10.09-14.26.37
+[2017.10.09-18.26.37:854][684]LogWorld: Bringing up level for play took: 0.004092
+[2017.10.09-18.26.37:902][684]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.10.09-18.26.37:905][684]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_0.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-18.26.37:910][684]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_BowCaster.BowCaster:PersistentLevel.Player_C_1.CollisionCylinder' cannot be attached to itself. Aborting.
+[2017.10.09-18.26.37:915][684]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BowCaster -0.36
+[2017.10.09-18.26.37:916][684]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BowCaster.BowCaster:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BowCaster.BowCaster:PersistentLevel.BowCaster' with GeneratedClass '/Game/Levels/BowCaster.BowCaster_C' with ClassGeneratedBy '/Game/Levels/BowCaster.BowCaster:PersistentLevel.BowCaster'
+[2017.10.09-18.26.38:018][684]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.10.09-18.27.29:753][635]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BowCaster.BowCaster:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BowCaster.BowCaster:PersistentLevel.BowCaster' with GeneratedClass '/Game/Levels/BowCaster.BowCaster_C' with ClassGeneratedBy '/Game/Levels/BowCaster.BowCaster:PersistentLevel.BowCaster'
+[2017.10.09-18.27.29:800][635]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BowCaster.BowCaster:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BowCaster.BowCaster:PersistentLevel.BowCaster' with GeneratedClass '/Game/Levels/BowCaster.BowCaster_C' with ClassGeneratedBy '/Game/Levels/BowCaster.BowCaster:PersistentLevel.BowCaster'
